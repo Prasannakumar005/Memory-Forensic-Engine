@@ -1,3 +1,5 @@
+*.raw
+*.E01
 uploads/
-*.pdf
-*.pem
+.venv/
+__pycache__/
