@@ -1,0 +1,30 @@
+{
+  "job_id": "66cc8cf29c64405f992aca225e48911a",
+  "analysis_id": "26d0db62efbe96bfd884168ab2520aba9808693f27206f476c9b7f2ac996cd96",
+  "state": "complete",
+  "stage": "Finalizing Results...",
+  "percent": 100,
+  "eta_seconds": 0,
+  "logs": [
+    "File uploaded: nb6-startup_1602384431514_1_1.pcap",
+    "[2026-06-19T12:32:56.206645+00:00] Starting analysis pipeline.",
+    "[2026-06-19T12:32:56.272030+00:00] Loaded 924f70be99e9e471_nb6-startup_1602384431514_1_1.pcap for inspection.",
+    "[2026-06-19T12:32:56.292834+00:00] Computed MD5, SHA1, and SHA256 values from the uploaded file.",
+    "[2026-06-19T12:32:56.310775+00:00] Detected file type as Unknown binary/text artifact.",
+    "[2026-06-19T12:32:56.334334+00:00] Scanning extracted content for suspicious signatures and entropy anomalies.",
+    "[2026-06-19T12:32:56.395741+00:00] Evaluating YARA rules against the uploaded file.",
+    "[2026-06-19T12:32:56.441559+00:00] Extracted 191 potential indicator(s) from the artifact.",
+    "[2026-06-19T12:32:56.479573+00:00] Memory analysis skipped because the artifact is not a memory dump.",
+    "[2026-06-19T12:32:56.503057+00:00] Correlating timestamps, process activity, and indicators into a timeline.",
+    "[2026-06-19T12:32:56.524144+00:00] Formatting evidence into report-ready sections.",
+    "[2026-06-19T12:32:56.546941+00:00] Analysis complete and ready for dashboard presentation.",
+    "[2026-06-19T12:32:56.574126+00:00] Analysis saved and ready for dashboard access."
+  ],
+  "error": null,
+  "filename": "nb6-startup_1602384431514_1_1.pcap",
+  "original_filename": "nb6-startup_1602384431514_1_1.pcap",
+  "stored_path": "uploads\\924f70be99e9e471_nb6-startup_1602384431514_1_1.pcap",
+  "started_at": "2026-06-19T12:32:56.177281+00:00",
+  "updated_at": "2026-06-19T12:32:56.574086+00:00",
+  "completed_at": "2026-06-19T12:32:56.574115+00:00"
+}

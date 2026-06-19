@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🛸 Advanced 3D Cyber Forensics Lab</title>
+    <style>
+        body {
+            background: #020408;
+            color: #38bdf8;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0; padding: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            perspective: 1000px;
+        }
+
+        /* 💾 CANVAS BACKDROP */
+        canvas {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            z-index: 1;
+            opacity: 0.25;
+        }
+
+        /* 🌌 INTERACTIVE 3D GLOW PORTAL CARD */
+        .portal-container {
+            background: rgba(8, 12, 24, 0.85);
+            border: 2px solid #0ea5e9;
+            padding: 50px 60px;
+            border-radius: 20px;
+            text-align: center;
+            backdrop-filter: blur(25px);
+            box-shadow: 0 0 60px rgba(14, 165, 233, 0.25), inset 0 0 40px rgba(14, 165, 233, 0.1);
+            transform: rotateX(10deg) rotateY(-5deg);
+            transition: transform 0.1s ease-out;
+            z-index: 5;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 28px; color: #fff;
+            text-shadow: 0 0 15px #0ea5e9;
+            margin: 0 0 10px 0; letter-spacing: 2px;
+        }
+
+        .status-alert {
+            font-size: 11px; color: #64748b; margin-bottom: 35px; font-weight: bold;
+        }
+        .pulse-dot { color: #ef4444; animation: pulse 1s infinite alternate; }
+
+        .upload-box {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px dashed #38bdf8;
+            padding: 30px; border-radius: 12px; margin-bottom: 25px;
+        }
+
+        input[type="file"] {
+            color: #38bdf8; background: #070a13;
+            padding: 10px; border: 1px solid #1e293b;
+            border-radius: 6px; width: 100%; box-sizing: border-box;
+            cursor: pointer; font-size: 12px;
+        }
+
+        .cyber-btn {
+            background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
+            color: white; padding: 15px; border: none; border-radius: 8px;
+            font-size: 14px; font-weight: bold; cursor: pointer;
+            box-shadow: 0 0 20px rgba(14, 165, 233, 0.4); width: 100%;
+            transition: all 0.3s ease; letter-spacing: 1px;
+        }
+        .cyber-btn:hover { box-shadow: 0 0 35px #38bdf8; transform: translateY(-2px); }
+
+        @keyframes pulse { from { opacity: 0.3; } to { opacity: 1; } }
+    </style>
+</head>
+<body>
+
+    <canvas id="matrixCanvas"></canvas>
+
+    <div class="portal-container" id="portal">
+        <h1>🛸 FORENSIC ENGINE PORTAL</h1>
+        <div class="status-alert">CORE SYSTEM READY FOR SNAPSHOT STREAM <span class="pulse-dot">●</span></div>
+        
+        <div class="upload-box">
+            <form action="/upload_dump" method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" required style="margin-bottom: 20px;"><br>
+                <button type="submit" class="cyber-btn">🚀 INITIALIZE VOLATILITY SCANNERS</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const portal = document.getElementById('portal');
+        document.addEventListener('mousemove', (e) => {
+            let xAxis = (window.innerWidth / 2 - e.pageX) / 25;
+            let yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+            portal.style.transform = `rotateY(${-xAxis}deg) rotateX(${yAxis}deg)`;
+        });
+
+        // Matrix Background Logic
+        const canvas = document.getElementById('matrixCanvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const chars = "010101010101ABCDEF01XØ§☣️👾⚡";
+        const columns = canvas.width / 20;
+        const drops = Array(Math.floor(columns)).fill(1);
+
+        function drawMatrix() {
+            ctx.fillStyle = "rgba(2, 4, 8, 0.08)";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = "#0ea5e9";
+            ctx.font = "14px monospace";
+
+            drops.forEach((y, i) => {
+                const text = chars[Math.floor(Math.random() * chars.length)];
+                ctx.fillText(text, i * 20, y * 20);
+                if (y * 20 > canvas.height && Math.random() > 0.975) drops[i] = 0;
+                drops[i]++;
+            });
+        }
+        setInterval(drawMatrix, 40);
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "job_id": "5e5bd0d629e04cc7a84a261ad3590e41",
+  "analysis_id": "2a0d2062da4a56d9302a0dcdb78d197aed961a11fcb3cdc898a0e0c161af6e2a",
+  "state": "complete",
+  "stage": "Finalizing Results...",
+  "percent": 100,
+  "eta_seconds": 0,
+  "logs": [
+    "File uploaded: app.py",
+    "[2026-06-19T09:16:40.072158+00:00] Starting analysis pipeline.",
+    "[2026-06-19T09:16:40.104426+00:00] Loaded 20274df0fb115a06_app.py for inspection.",
+    "[2026-06-19T09:16:40.134129+00:00] Computed MD5, SHA1, and SHA256 values from the uploaded file.",
+    "[2026-06-19T09:16:40.240570+00:00] Detected file type as text/x-python.",
+    "[2026-06-19T09:16:40.259701+00:00] Scanning extracted content for suspicious signatures and entropy anomalies.",
+    "[2026-06-19T09:16:40.290472+00:00] Evaluating YARA rules against the uploaded file.",
+    "[2026-06-19T09:16:40.324096+00:00] Extracted 68 potential indicator(s) from the artifact.",
+    "[2026-06-19T09:16:40.345197+00:00] Memory analysis skipped because the artifact is not a memory dump.",
+    "[2026-06-19T09:16:40.360583+00:00] Correlating timestamps, process activity, and indicators into a timeline.",
+    "[2026-06-19T09:16:40.373434+00:00] Formatting evidence into report-ready sections.",
+    "[2026-06-19T09:16:40.382830+00:00] Analysis complete and ready for dashboard presentation.",
+    "[2026-06-19T09:16:40.396796+00:00] Analysis saved and ready for dashboard access."
+  ],
+  "error": null,
+  "filename": "app.py",
+  "stored_path": "uploads\\20274df0fb115a06_app.py",
+  "started_at": "2026-06-19T09:16:40.048614+00:00",
+  "updated_at": "2026-06-19T09:16:40.396769+00:00",
+  "completed_at": "2026-06-19T09:16:40.396785+00:00"
+}

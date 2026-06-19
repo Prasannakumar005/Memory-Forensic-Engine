@@ -1,0 +1,91 @@
+{
+    "report_generated_at": "2026-06-18 11:26:28.753513",
+    "status": "COMPLETED",
+    "engine_layer": "VIRUSTOTAL MULTI-ENGINE LAYER",
+    "memory_snapshot_summary": [
+        {
+            "pid": 104,
+            "name": "System",
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        },
+        {
+            "pid": 444,
+            "name": "smss.exe",
+            "vt_status": "Suspicious",
+            "vt_malicious_count": 5
+        },
+        {
+            "pid": 712,
+            "name": "csrss.exe",
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        },
+        {
+            "pid": 820,
+            "name": "wininit.exe",
+            "vt_status": "Suspicious",
+            "vt_malicious_count": 1
+        },
+        {
+            "pid": 888,
+            "name": "services.exe",
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        },
+        {
+            "pid": 912,
+            "name": "lsass.exe",
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        },
+        {
+            "pid": 1204,
+            "name": "svchost.exe",
+            "vt_status": "Suspicious",
+            "vt_malicious_count": 4
+        },
+        {
+            "pid": 2048,
+            "name": "explorer.exe",
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        },
+        {
+            "pid": 3120,
+            "name": "chrome.exe",
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        },
+        {
+            "pid": 4512,
+            "name": "cmd.exe",
+            "vt_status": "Malicious",
+            "vt_malicious_count": 23
+        },
+        {
+            "pid": 5096,
+            "name": "powershell.exe",
+            "vt_status": "Malicious",
+            "vt_malicious_count": 46
+        },
+        {
+            "pid": 6112,
+            "name": "spoolsv.exe",
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        },
+        {
+            "pid": 7744,
+            "name": "mimikatz.exe",
+            "vt_status": "Malicious",
+            "vt_malicious_count": 17
+        },
+        {
+            "pid": 8912,
+            "name": "svchost_rogue.exe",
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        }
+    ]
+}

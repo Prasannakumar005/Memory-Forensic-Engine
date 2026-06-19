@@ -1,0 +1,30 @@
+{
+  "job_id": "d36499f836574ec3be6913e9dca77b06",
+  "analysis_id": "7d1a5e78e0f6bf2566b4d70abc03b013632987984d438f1503b825dcecee2ae5",
+  "state": "complete",
+  "stage": "Finalizing Results...",
+  "percent": 100,
+  "eta_seconds": 0,
+  "logs": [
+    "File uploaded: CODING_STYLE.md",
+    "[2026-06-19T09:52:36.026260+00:00] Starting analysis pipeline.",
+    "[2026-06-19T09:52:36.080364+00:00] Loaded d7d5d5d8e1c11f28_CODING_STYLE.md for inspection.",
+    "[2026-06-19T09:52:36.099871+00:00] Computed MD5, SHA1, and SHA256 values from the uploaded file.",
+    "[2026-06-19T09:52:36.112355+00:00] Detected file type as text/markdown.",
+    "[2026-06-19T09:52:36.130435+00:00] Scanning extracted content for suspicious signatures and entropy anomalies.",
+    "[2026-06-19T09:52:36.151178+00:00] Evaluating YARA rules against the uploaded file.",
+    "[2026-06-19T09:52:36.176310+00:00] Extracted 5 potential indicator(s) from the artifact.",
+    "[2026-06-19T09:52:36.196409+00:00] Memory analysis skipped because the artifact is not a memory dump.",
+    "[2026-06-19T09:52:36.210118+00:00] Correlating timestamps, process activity, and indicators into a timeline.",
+    "[2026-06-19T09:52:36.232413+00:00] Formatting evidence into report-ready sections.",
+    "[2026-06-19T09:52:36.250085+00:00] Analysis complete and ready for dashboard presentation.",
+    "[2026-06-19T09:52:36.268271+00:00] Analysis saved and ready for dashboard access."
+  ],
+  "error": null,
+  "filename": "CODING_STYLE.md",
+  "original_filename": "CODING_STYLE.md",
+  "stored_path": "uploads\\d7d5d5d8e1c11f28_CODING_STYLE.md",
+  "started_at": "2026-06-19T09:52:35.999167+00:00",
+  "updated_at": "2026-06-19T09:52:36.268240+00:00",
+  "completed_at": "2026-06-19T09:52:36.268261+00:00"
+}

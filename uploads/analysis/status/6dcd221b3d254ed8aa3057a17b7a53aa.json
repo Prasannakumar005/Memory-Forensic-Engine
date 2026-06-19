@@ -1,0 +1,30 @@
+{
+  "job_id": "6dcd221b3d254ed8aa3057a17b7a53aa",
+  "analysis_id": "7ad2003e07275bbd366cee6ea818addbf158fe963f323f0419947daef5e63aee",
+  "state": "complete",
+  "stage": "Finalizing Results...",
+  "percent": 100,
+  "eta_seconds": 0,
+  "logs": [
+    "File uploaded: Internal_Assessment_2.docx",
+    "[2026-06-19T12:31:28.535190+00:00] Starting analysis pipeline.",
+    "[2026-06-19T12:31:28.578741+00:00] Loaded 15ea5c4885f91338_Internal_Assessment_2.docx for inspection.",
+    "[2026-06-19T12:31:28.600317+00:00] Computed MD5, SHA1, and SHA256 values from the uploaded file.",
+    "[2026-06-19T12:31:28.614756+00:00] Detected file type as ZIP archive.",
+    "[2026-06-19T12:31:28.937929+00:00] Scanning extracted content for suspicious signatures and entropy anomalies.",
+    "[2026-06-19T12:31:29.886728+00:00] Evaluating YARA rules against the uploaded file.",
+    "[2026-06-19T12:31:30.458738+00:00] Extracted 795 potential indicator(s) from the artifact.",
+    "[2026-06-19T12:31:30.468473+00:00] Memory analysis skipped because the artifact is not a memory dump.",
+    "[2026-06-19T12:31:30.480295+00:00] Correlating timestamps, process activity, and indicators into a timeline.",
+    "[2026-06-19T12:31:30.493171+00:00] Formatting evidence into report-ready sections.",
+    "[2026-06-19T12:31:30.503394+00:00] Analysis complete and ready for dashboard presentation.",
+    "[2026-06-19T12:31:30.517967+00:00] Analysis saved and ready for dashboard access."
+  ],
+  "error": null,
+  "filename": "Internal_Assessment_2.docx",
+  "original_filename": "Internal_Assessment_2.docx",
+  "stored_path": "uploads\\15ea5c4885f91338_Internal_Assessment_2.docx",
+  "started_at": "2026-06-19T12:31:28.520609+00:00",
+  "updated_at": "2026-06-19T12:31:30.517940+00:00",
+  "completed_at": "2026-06-19T12:31:30.517959+00:00"
+}

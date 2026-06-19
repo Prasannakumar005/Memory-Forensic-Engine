@@ -1,0 +1,30 @@
+{
+  "job_id": "76ad17d06dba4421a609824a4b6c5e5c",
+  "analysis_id": "3226ed1dc7d17e5c55c54809db2c927bb54cb7dd620b32c2753cf9d7b6a53f5b",
+  "state": "complete",
+  "stage": "Finalizing Results...",
+  "percent": 100,
+  "eta_seconds": 0,
+  "logs": [
+    "File uploaded: TEAM_NAME_-_PROJECT_TITLE.docx",
+    "[2026-06-19T12:03:29.479348+00:00] Starting analysis pipeline.",
+    "[2026-06-19T12:03:29.515469+00:00] Loaded d1add100256bae9f_TEAM_NAME_-_PROJECT_TITLE.docx for inspection.",
+    "[2026-06-19T12:03:29.527982+00:00] Computed MD5, SHA1, and SHA256 values from the uploaded file.",
+    "[2026-06-19T12:03:29.537806+00:00] Detected file type as ZIP archive.",
+    "[2026-06-19T12:03:29.555113+00:00] Scanning extracted content for suspicious signatures and entropy anomalies.",
+    "[2026-06-19T12:03:29.586785+00:00] Evaluating YARA rules against the uploaded file.",
+    "[2026-06-19T12:03:29.615854+00:00] Extracted 50 potential indicator(s) from the artifact.",
+    "[2026-06-19T12:03:29.629286+00:00] Memory analysis skipped because the artifact is not a memory dump.",
+    "[2026-06-19T12:03:29.650542+00:00] Correlating timestamps, process activity, and indicators into a timeline.",
+    "[2026-06-19T12:03:29.665063+00:00] Formatting evidence into report-ready sections.",
+    "[2026-06-19T12:03:29.678167+00:00] Analysis complete and ready for dashboard presentation.",
+    "[2026-06-19T12:03:29.692831+00:00] Analysis saved and ready for dashboard access."
+  ],
+  "error": null,
+  "filename": "TEAM_NAME_-_PROJECT_TITLE.docx",
+  "original_filename": "TEAM_NAME_-_PROJECT_TITLE.docx",
+  "stored_path": "uploads\\d1add100256bae9f_TEAM_NAME_-_PROJECT_TITLE.docx",
+  "started_at": "2026-06-19T12:03:29.454335+00:00",
+  "updated_at": "2026-06-19T12:03:29.692798+00:00",
+  "completed_at": "2026-06-19T12:03:29.692820+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "job_id": "d2e63ba77e604965b54d2f0ad7421472",
+  "analysis_id": "a4d516b6fcaf3b5b1d4ee709ce86f8eabf1d8028b3a83101479b7568b933d21b",
+  "state": "complete",
+  "stage": "Finalizing Results...",
+  "percent": 100,
+  "eta_seconds": 0,
+  "logs": [
+    "File uploaded: winpmem_mini_x64_rc2.exe",
+    "[2026-06-19T12:32:35.268728+00:00] Starting analysis pipeline.",
+    "[2026-06-19T12:32:35.597570+00:00] Loaded be2a6da98f352432_winpmem_mini_x64_rc2.exe for inspection.",
+    "[2026-06-19T12:32:35.619105+00:00] Computed MD5, SHA1, and SHA256 values from the uploaded file.",
+    "[2026-06-19T12:32:35.633262+00:00] Detected file type as PE executable.",
+    "[2026-06-19T12:32:35.727576+00:00] Scanning extracted content for suspicious signatures and entropy anomalies.",
+    "[2026-06-19T12:32:35.928660+00:00] Evaluating YARA rules against the uploaded file.",
+    "[2026-06-19T12:32:36.047636+00:00] Extracted 70 potential indicator(s) from the artifact.",
+    "[2026-06-19T12:32:36.068255+00:00] Memory analysis skipped because the artifact is not a memory dump.",
+    "[2026-06-19T12:32:36.080822+00:00] Correlating timestamps, process activity, and indicators into a timeline.",
+    "[2026-06-19T12:32:36.092363+00:00] Formatting evidence into report-ready sections.",
+    "[2026-06-19T12:32:36.105707+00:00] Analysis complete and ready for dashboard presentation.",
+    "[2026-06-19T12:32:36.119406+00:00] Analysis saved and ready for dashboard access."
+  ],
+  "error": null,
+  "filename": "winpmem_mini_x64_rc2.exe",
+  "original_filename": "winpmem_mini_x64_rc2.exe",
+  "stored_path": "uploads\\be2a6da98f352432_winpmem_mini_x64_rc2.exe",
+  "started_at": "2026-06-19T12:32:35.240847+00:00",
+  "updated_at": "2026-06-19T12:32:36.119382+00:00",
+  "completed_at": "2026-06-19T12:32:36.119397+00:00"
+}

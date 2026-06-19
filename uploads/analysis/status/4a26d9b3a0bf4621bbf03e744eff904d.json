@@ -1,0 +1,30 @@
+{
+  "job_id": "4a26d9b3a0bf4621bbf03e744eff904d",
+  "analysis_id": "30e1f1d0c13690239232c7bdb3c681cc9cd9335d58ce808d9afd755fcecd3cd9",
+  "state": "complete",
+  "stage": "Finalizing Results...",
+  "percent": 100,
+  "eta_seconds": 0,
+  "logs": [
+    "File uploaded: Forensic_Report_8.pdf",
+    "[2026-06-19T12:18:57.969546+00:00] Starting analysis pipeline.",
+    "[2026-06-19T12:18:58.044570+00:00] Loaded 9e19cc1f7afc8175_Forensic_Report_8.pdf for inspection.",
+    "[2026-06-19T12:18:58.056768+00:00] Computed MD5, SHA1, and SHA256 values from the uploaded file.",
+    "[2026-06-19T12:18:58.067302+00:00] Detected file type as PDF document.",
+    "[2026-06-19T12:18:58.078840+00:00] Scanning extracted content for suspicious signatures and entropy anomalies.",
+    "[2026-06-19T12:18:58.095590+00:00] Evaluating YARA rules against the uploaded file.",
+    "[2026-06-19T12:18:58.112780+00:00] Extracted 7 potential indicator(s) from the artifact.",
+    "[2026-06-19T12:18:58.124824+00:00] Memory analysis skipped because the artifact is not a memory dump.",
+    "[2026-06-19T12:18:58.137945+00:00] Correlating timestamps, process activity, and indicators into a timeline.",
+    "[2026-06-19T12:18:58.151724+00:00] Formatting evidence into report-ready sections.",
+    "[2026-06-19T12:18:58.165997+00:00] Analysis complete and ready for dashboard presentation.",
+    "[2026-06-19T12:18:58.180158+00:00] Analysis saved and ready for dashboard access."
+  ],
+  "error": null,
+  "filename": "Forensic_Report_8.pdf",
+  "original_filename": "Forensic_Report_8.pdf",
+  "stored_path": "uploads\\9e19cc1f7afc8175_Forensic_Report_8.pdf",
+  "started_at": "2026-06-19T12:18:57.929820+00:00",
+  "updated_at": "2026-06-19T12:18:58.180120+00:00",
+  "completed_at": "2026-06-19T12:18:58.180141+00:00"
+}

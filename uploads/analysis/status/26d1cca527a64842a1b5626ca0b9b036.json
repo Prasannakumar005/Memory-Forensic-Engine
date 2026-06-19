@@ -1,0 +1,30 @@
+{
+  "job_id": "26d1cca527a64842a1b5626ca0b9b036",
+  "analysis_id": "30ca79748b3652757864bd3b3b2d6b0316106f0db20863b87e3d5e384d7410f6",
+  "state": "complete",
+  "stage": "Finalizing Results...",
+  "percent": 100,
+  "eta_seconds": 0,
+  "logs": [
+    "File uploaded: Fortinet_Certified_Associate_in_Cybersecurity_1.pdf",
+    "[2026-06-19T09:25:27.193354+00:00] Starting analysis pipeline.",
+    "[2026-06-19T09:25:27.275988+00:00] Loaded b1852dd60e9316fb_Fortinet_Certified_Associate_in_Cybersecurity_1.pdf for inspection.",
+    "[2026-06-19T09:25:27.317373+00:00] Computed MD5, SHA1, and SHA256 values from the uploaded file.",
+    "[2026-06-19T09:25:27.415278+00:00] Detected file type as PDF document.",
+    "[2026-06-19T09:25:27.478751+00:00] Scanning extracted content for suspicious signatures and entropy anomalies.",
+    "[2026-06-19T09:25:27.618464+00:00] Evaluating YARA rules against the uploaded file.",
+    "[2026-06-19T09:25:27.725637+00:00] Extracted 91 potential indicator(s) from the artifact.",
+    "[2026-06-19T09:25:27.740647+00:00] Memory analysis skipped because the artifact is not a memory dump.",
+    "[2026-06-19T09:25:27.752622+00:00] Correlating timestamps, process activity, and indicators into a timeline.",
+    "[2026-06-19T09:25:27.767590+00:00] Formatting evidence into report-ready sections.",
+    "[2026-06-19T09:25:27.785477+00:00] Analysis complete and ready for dashboard presentation.",
+    "[2026-06-19T09:25:27.803709+00:00] Analysis saved and ready for dashboard access."
+  ],
+  "error": null,
+  "filename": "Fortinet_Certified_Associate_in_Cybersecurity_1.pdf",
+  "original_filename": "Fortinet_Certified_Associate_in_Cybersecurity_1.pdf",
+  "stored_path": "uploads\\b1852dd60e9316fb_Fortinet_Certified_Associate_in_Cybersecurity_1.pdf",
+  "started_at": "2026-06-19T09:25:27.166256+00:00",
+  "updated_at": "2026-06-19T09:25:27.803667+00:00",
+  "completed_at": "2026-06-19T09:25:27.803691+00:00"
+}

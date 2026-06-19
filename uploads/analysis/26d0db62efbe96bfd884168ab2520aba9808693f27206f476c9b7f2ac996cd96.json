@@ -1,0 +1,3758 @@
+{
+  "analysis_id": "26d0db62efbe96bfd884168ab2520aba9808693f27206f476c9b7f2ac996cd96",
+  "source_file": "uploads\\924f70be99e9e471_nb6-startup_1602384431514_1_1.pcap",
+  "filename": "nb6-startup_1602384431514_1_1.pcap",
+  "stored_filename": "924f70be99e9e471_nb6-startup_1602384431514_1_1.pcap",
+  "original_filename": "nb6-startup_1602384431514_1_1.pcap",
+  "file_type": {
+    "detected": "Unknown binary/text artifact",
+    "mime_type": "unknown",
+    "extension": ".pcap",
+    "magic": "unknown"
+  },
+  "metadata": {
+    "size": 87143,
+    "created": "2026-06-19T12:32:56.175121+00:00",
+    "modified": "2026-06-19T12:32:56.176153+00:00",
+    "accessed": "2026-06-19T12:32:56.239923+00:00"
+  },
+  "hashes": {
+    "md5": "e4d22c3b8f4317536bc32df7218483dc",
+    "sha1": "e177e1f079a4710322d00eca887b8c5e4383d811",
+    "sha256": "26d0db62efbe96bfd884168ab2520aba9808693f27206f476c9b7f2ac996cd96"
+  },
+  "strings": {
+    "count": 1489,
+    "sample": [
+      "r<4neufbox_NB6-FXC-r2_NB6-MAIN-R3.3.4_NB6-ADSL-A2pD035p9",
+      "r<4neufbox_NB6-FXC-r2_NB6-MAIN-R3.3.4_NB6-ADSL-A2pD035p9",
+      "r<4neufbox_NB6-FXC-r2_NB6-MAIN-R3.3.4_NB6-ADSL-A2pD035p9",
+      "r<4neufbox_NB6-FXC-r2_NB6-MAIN-R3.3.4_NB6-ADSL-A2pD035p9",
+      "r<4neufbox_NB6-FXC-r2_NB6-MAIN-R3.3.4_NB6-ADSL-A2pD035p9",
+      "r<4neufbox_NB6-FXC-r2_NB6-MAIN-R3.3.4_NB6-ADSL-A2pD035p9",
+      "SE100-CRL1-1",
+      "ldcom",
+      "SE100-CRL1-1",
+      "ldcom",
+      "SE100-CRL1-1",
+      "BSE100-CRL1-1",
+      "E0A1D718C270@neufpnp^",
+      "*CHAP authentication success, unit 2709^",
+      "T-Uy",
+      "stats",
+      "neufbox",
+      "neuf",
+      "stats",
+      "neufbox",
+      "neuf",
+      "dbpolling-master",
+      "diag",
+      "dns1",
+      "gaoland",
+      "root",
+      "dbpolling-master",
+      "diag",
+      "dbpolling-master",
+      "diag",
+      "dns1",
+      "gaoland",
+      "root",
+      "stats",
+      "neufbox",
+      "neuf",
+      "stats",
+      "neufbox",
+      "neuf",
+      "dbpolling-master",
+      "diag",
+      "0T<26>Jan 01 00:01:47 nb6 nbd: 01=7;03=95.136.242.54;04=NB6-FXC-r2;05=E0A1D718C270;06=107;20=1;29=95.136.242.54;2A=NB6-BOOTLOADER-R1.32.0_NB6-MAIN-R3.3.4_NB6-RESCUE-R3.1.8_NB6-ADSL-A2pD035p_NB6-CONFIG-R3.3.4.2;07=40;08=10;0A=14010;0B=1128;0C=16000;0D=1068;0E=33.0;0F=18.4;12=6.2;13=6.8;14=19.8;15=12.1;16=0;17=0;18=0;19=0;1B=1;1C=ADSL2+;1D=0;1E=auto;1F=1;21=0;22=39;23=0;24=26;4B=3;4C=0;4D=24738;4E=313516;4F=0;50=0;51=0;52=0;10=1;11=4;30=0;31=0;32=2;33=2;34=0;35=0;36=0;41=0;42=unknown;7C=0;7D=unknown;2D=unknown;2F=unknown;39=0;3A=0;44=49;46=49;48=49;3B=0;3C=0;3D=0;3E=0;3F=0;40=0;77=5;78=0;79=0;90=0;91=0;92=0;98=;99=;9a=unknown;9b=on;9c=down;9d=0;B0=0q",
+      "r<4neufbox_NB6-FXC-r2_NB6-MAIN-R3.3.4_NB6-ADSL-A2pD035p9",
+      "86.64.233.133",
+      "'1|ca@1.1.1.1|1.1.1.1|toto@neuf.com|dm01(",
+      "huawei5600t3",
+      "r<4neufbox_NB6-FXC-r2_NB6-MAIN-R3.3.4_NB6-ADSL-A2pD035p2",
+      "86.64.233.133",
+      "'1|ca@1.1.1.1|1.1.1.1|toto@neuf.com|dm01(",
+      "huawei5600t3",
+      "86.64.233.133",
+      "'1|ca@1.1.1.1|1.1.1.1|toto@neuf.com|dm01(",
+      "huawei5600t3",
+      "D(<@",
+      "events",
+      "neufbox",
+      "neuf",
+      "events",
+      "neufbox",
+      "neuf",
+      "dns1",
+      "gaoland",
+      "root",
+      "D(W@",
+      "events",
+      "neufbox",
+      "neuf",
+      "events",
+      "neufbox",
+      "neuf",
+      "<26>Jan 01 00:01:53 nb6 nbd: 01=8;03=95.136.242.54;04=NB6-FXC-r2;05=E0A1D718C270;06=113;20=1;29=95.136.242.54;2A=NB6-BOOTLOADER-R1.32.0_NB6-MAIN-R3.3.4_NB6-RESCUE-R3.1.8_NB6-ADSL-A2pD035p_NB6-CONFIG-R3.3.4.2;37=4;30=0;31=0;32=2;33=2;34=0;35=0;36=0;41=0;42=unknown;7C=0;7D=unknown;2D=unknown;2F=unknown;39=0;3A=0;44=55;46=55;48=55r",
+      "general",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "general",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "dns1",
+      "gaoland",
+      "root",
+      "general",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "general",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "Pmvf",
+      "Pmvf",
+      "Pmvf",
+      "GET /t",
+      "Pmvf",
+      "cfgnb6dslgeneral.xml?ip_data=95.136.242.54&ip_voip=10.251.23.139&ip_tv=&mac=E0A1D718C270&mac_ppp=E0A1D718C273&login_ppp=E0A1D718C270@neufpnp&genrel=0&hw=NB6-FXC-r2&sw=NB6-MAIN-R3.3.4&hotspot_mode=4&hotspot_status=off HTTP/1.1",
+      "Host: general.nb6dsl.neufbox.neuf.fr",
+      "User-Agent: Wget",
+      "3yHTTP/1.1 200 OK",
+      "Date: Thu, 02 Jan 2014 08:25:36 GMT",
+      "Server: Apache",
+      "Content-Type: application/xml",
+      "Transfer-Encoding: chunked",
+      "<?xml version=\"1.0\"?>",
+      "<conf>",
+      "  <http_request_interval>3600</http_request_interval>",
+      "  <name version=\"201311051112\">general</name>",
+      "  <upgrade-delay>0</upgrade-delay>",
+      "  <service enable=\"true\">",
+      "    <name version=\"201308012016\">firmware</name>",
+      "    <file>cfgnb6dslfirmware.xml</file>",
+      "    <url>general.nb6dsl.neufbox.neuf.fr</url>",
+      "    <protocole>http</protocole>",
+      "  </service>",
+      "  <service enable=\"true\">",
+      "    <name version=\"201309051000\">hotspot</name>",
+      "    <file>cfgnbXchilli_201309051000.xml</file>",
+      "    <url>hotspot.nb6dsl.neufbox.neuf.fr</url>",
+      "    <protocole>http</protocole>",
+      "  </service>",
+      "  <service enable=\"false\">",
+      "    <name version=\"201212031801\">tvservices</name>",
+      "    <file>cfgnb4tvservices_201212031801.xml</file>",
+      "    <url>tv.nb6dsl.neufbox.neuf.fr</url>",
+      "    <protocole>http</protocole>",
+      "  </service>",
+      "  <service enable=\"true\">",
+      "    <name version=\"201312280534\">wanservices</name>",
+      "    <file>cfgnb4dslwanservices.xml</file>",
+      "    <url>wan.nb6dsl.neufbox.neuf.fr</url>",
+      "    <protocole>http</protocole>",
+      "  </service>",
+      "  <service enable=\"true\">",
+      "    <name version=\"201304231100\">ca</name>",
+      "    <file>cfgnb4ca_201304231100.xml</file>",
+      "    <url>ca.nb6dsl.neufbox.neuf.fr</url>",
+      "    <protocole>http</protocole>",
+      "  </service>",
+      "  <service enable=\"true\">",
+      "    <name version=\"201303121117\">voip</name>",
+      "    <file>cfgnb4sit",
+      "Pmvg",
+      "V^VB",
+      "2dmvg",
+      "3yp.xml</file>",
+      "    <url>voip.nb6dsl.neufbox.neuf.fr</url>",
+      "    <protocole>http</protocole>",
+      "  </service>",
+      "  <service enable=\"true\">",
+      "    <name version=\"201312280534\">wanservices</name>",
+      "    <file>cfgnb4dslwanservices.xml</file>",
+      "    <url>wan.nb6dsl.neufbox.neuf.fr</url>",
+      "    <protocole>http</protocole>",
+      "  </service>",
+      "</conf>",
+      "Pmvg",
+      "Pmvg",
+      "general",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "hotspot",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "general",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "dns1",
+      "gaoland",
+      "root",
+      "L4&@",
+      "general",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "hotspot",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "dns1",
+      "gaoland",
+      "root",
+      "L43@",
+      "hotspot",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "H43@",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "G46@",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "dns1",
+      "gaoland",
+      "root",
+      "G49@",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "I4B@",
+      "voip",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "general",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "H4J@",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "dns1",
+      "gaoland",
+      "root",
+      "G4Q@",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "hotspot",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "<e]@",
+      "PmUQ",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "dns1",
+      "gaoland",
+      "root",
+      "H4U@",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "voip",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "dns1",
+      "gaoland",
+      "root",
+      "I4^@",
+      "voip",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "GET /t",
+      "GET /t",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "dns1",
+      "gaoland",
+      "root",
+      "H4k@",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "<Y8@",
+      "PmKmJ",
+      "%)mUQ",
+      "4e^@",
+      "PmUQ",
+      "9e_@",
+      "PmUQ",
+      "GET /t",
+      "cfgnb6dslfirmware.xml?ip_data=95.136.242.54&ip_voip=10.251.23.139&ip_tv=&mac=E0A1D718C270&mac_ppp=E0A1D718C273&login_ppp=E0A1D718C270@neufpnp&genrel=201308012016&hw=NB6-FXC-r2&sw=NB6-MAIN-R3.3.4&hotspot_mode=4&hotspot_status=off HTTP/1.1",
+      "Host: general.nb6dsl.neufbox.neuf.fr",
+      "User-Agent: Wget",
+      "voip",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "cfgnb4tvservices_201212031801.xml?ip_data=95.136.242.54&ip_voip=10.251.23.139&ip_tv=&mac=E0A1D718C270&mac_ppp=E0A1D718C273&login_ppp=E0A1D718C270@neufpnp&genrel=201212031801&hw=NB6-FXC-r2&sw=NB6-MAIN-R3.3.4&hotspot_mode=4&hotspot_status=off HTTP/1.1",
+      "Host: tv.nb6dsl.neufbox.neuf.fr",
+      "User-Agent: Wget",
+      "nb6dsl",
+      "neufbox",
+      "neuf",
+      "<uS@",
+      "YGET /t",
+      "?PmKmK",
+      "4Y9@",
+      "PmKmK",
+      "9Y:@",
+      "PmKmK",
+      "8GET /t",
+      "4vHTTP/1.1 200 OK",
+      "Date: Thu, 02 Jan 2014 08:25:36 GMT",
+      "Server: Apache",
+      "Content-Type: application/xml",
+      "Transfer-Encoding: chunked",
+      "<?xml version=\"1.0\"?>",
+      "<firmware version=\"201308012016\">",
+      "  <vendor-id>NB6-FXC-r2</vendor-id>",
+      "  <url>ncdn.nb6dsl.neufbox.neuf.fr/nb6dsl_Vers%203.3.4_ter</url>",
+      "  <protocole>http</protocole>",
+      "  <main hash=\"62797705144e82b7c44963aa8ea13442d12057e7d01f33ed67bfab3f6d4e70d5\">NB6-MAIN-R3.3.4</main>",
+      "  <rescue hash=\"f00d0b3b8e6a88efaac18f80967e83c49b3454bbe26764a70a0dbfee3973442d\">NB6-RESCUE-R3.1.8</rescue>",
+      "  <config hash=\"0ea220adfb9dd1c845d9ec0e3d537aab281b5d45ba51b3688c69074225dd8cb4\">NB6-CONFIG-R3.3.4.2</config>",
+      "  <bootloader hash=\"3ece945cf370ff987ea184f3ac859d590b0a830d74949e8aa0c71900663d4d6c\">NB6-BOOTLOADER-R3.2.4</bootloader>",
+      "  <dsldriver hash=\"d6f592f35abe6e9914fe1b14560b764ee23c846d6c9b5bdecd3300a2b3afeb25\">NB6-ADSL-A2pD035p</dsldriver>",
+      "  <mac>00:17:33</mac>",
+      "  <mac>00:25:15</mac>",
+      "  <mac>e0:a1:d7</mac>",
+      "  <mac>30:7e:cb</mac>",
+      "</firmware>",
+      "%*mUQ",
+      "ee`@",
+      "PmUQ",
+      "cfgnbXchilli_201309051000.xml?ip_data=95.136.242.54&ip_voip=10.251.23.139&ip_tv=&mac=E0A1D718C270&mac_ppp=E0A1D718C273&login_ppp=E0A1D718C270@neufpnp&genrel=201309051000&hw=NB6-FXC-r2&sw=NB6-MAIN-R3.3.4&hotspot_mode=4&hotspot_status=off HTTP/1.1",
+      "Host: hotspot.nb6dsl.neufbox.neuf.fr",
+      "User-Agent: Wget",
+      ";GET /t",
+      "HTTP/1.1 200 OK",
+      "Date: Thu, 02 Jan 2014 08:25:36 GMT",
+      "Server: Apache",
+      "Last-Modified: Mon, 03 Dec 2012 18:47:39 GMT",
+      "ETag: \"440085-c62-4cff72efc48c0\"",
+      "Accept-Ranges: bytes",
+      "Content-Length: 3170",
+      "Content-Type: application/xml",
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+      "<tvservices version=\"201212031801\">",
+      "  <igmp-src-list>",
+      "    <net>86.65.232.0/24</net>",
+      "    <net>80.118.201.0/24</net>",
+      "    <net>84.96.146.0/24</net>",
+      "    <net>84.96.219.0/24</net>",
+      "    <net>80.118.192.0/24</net>",
+      "    <net>86.65.94.0/24</net>",
+      "    <net>86.65.95.0/24</net>",
+      "    <net>86.64.245.128/25</net>",
+      "    <net>86.64.159.201/32</net>",
+      "    <net>93.17.149.158/32</net>",
+      "    <net>109.203.65.49/32</net>",
+      "  </igmp-src-list>",
+      "  <igmp-stream-list>",
+      "    <net>232.0.0.0/7</net>",
+      "  </igmp-stream-list>",
+      "  <pfstv-list>",
+      "    <!-- PFS TV -->",
+      "    <net>86.64.159.127</net>",
+      "    <net>86.64.233.32/28</net>",
+      "    <net>84.103.237.80</net>",
+      "    <net>84.103.237.192/28</net>",
+      "    <net>109.0.66.32/30</net>",
+      "    <net>109.0.66.48/30</net>",
+      "    <net>109.0.66.64/30</net>",
+      "    <net>109.0.66.80/30</net>",
+      "    <!-- PFS TV dev -->",
+      "    <net>109.0.64.96/28</net>",
+      "    <net>109.0.65.96/28</net>",
+      "    <!-- M6 REPLAY -->",
+      "    <net>160.92.103.29</net>",
+      "    <net>160.92.103.30</net>",
+      "    <net>86.64.233.160/28</net>",
+      "    <!-- VOD -->",
+      "    <net>86.64.160.240/29</net>",
+      "    <net>86.64.161.192/29</net>",
+      "    <net>86.64.159.24/29</net>",
+      "    <net>86.64.159.72/29</net>",
+      "    <net>86.64.160.232/29</net>",
+      "    <net",
+      "t>80.118.202.96/29</net>",
+      "    <net>86.66.127.56/29</net>",
+      "    <net>86.65.125.31</net>",
+      "    <net>86.64.241.160</net>",
+      "    <!-- WCS V7 -->",
+      "    <net>109.0.74.78</net>",
+      "    <!-- Nouveaux POP VOD -->",
+      "    <net>93.17.162.128/29</net>",
+      "    <net>93.17.190.8/29</net>",
+      "    <net>93.17.190.72/29</net>",
+      "    <net>93.17.190.136/29</net>",
+      "    <net>93.17.190.216/29</net>",
+      "    <net>93.17.191.24/29</net>",
+      "    <net>93.17.190.88/29</net>",
+      "    <net>93.17.191.160/29</net>",
+      "    <net>93.20.92.32/27</net>",
+      "    <net>93.20.92.96/27</net>",
+      "    <net>93.17.191.216/29</net>",
+      "    <net>93.17.191.240/29</net>",
+      "    <net>93.20.107.8/29</net>",
+      "    <net>93.20.107.32/29</net>",
+      "<net>93.20.92.64/27</net>",
+      "    <net>86.65.123.192/26</net>",
+      "    <!-- Pure Pixel -->",
+      "    <net>86.66.127.160/27</net>",
+      "    <!-- M6 -->",
+      "    <net>160.92.103.11</net>",
+      "    <net>160.92.106.7</net>",
+      "    <net>195.88.194.48/29</net>",
+      "    <!-- Dailymotion -->",
+      "    <net>10.103.15.140/30</net>",
+      "    <net>10.103.15.151</net>",
+      "    <!-- TF1 -->",
+      "    <net>84.103.236.248/30</net>",
+      "    <!-- Canal Plus -->",
+      "    <net>84.96.146.171</net>",
+      "    <net>84.96.146.172</net>",
+      "    <!-- EPG -->",
+      "    <net>160.92.11.52</net>",
+      "    <!-- Courbevoie -->",
+      "    <net>84.96.217.32</net>",
+      "    <!-- CAS Cardless SFR -->",
+      "    <net>86.66.0.128/28</net>",
+      "    <!-- VIP VCAS VOD -->",
+      "    <net>93.17.149.16/28</net>",
+      "    <!-- GOD Preprod -->",
+      "    <net>93.20.51.64/27</net>",
+      "    <!-- GOD -->",
+      "    <net>109.24.9.16/28</net>",
+      "    <net>109.0.t",
+      "66.224/27</net>",
+      "    <!-- Wiztivi -->",
+      "    <net>84.96.238.192/28</net>",
+      "    <!-- mySniffer -->",
+      "<net>93.17.162.181</net>",
+      "<net>93.17.190.52</net>",
+      "<net>93.17.190.117</net>",
+      "<net>93.17.190.197</net>",
+      "<net>93.17.191.148</net>",
+      "<net>93.17.191.196</net>",
+      "<net>93.17.191.4</net>",
+      "<net>93.17.191.68</net>",
+      "<net>93.20.107.148</net>",
+      "<net>93.20.107.165</net>",
+      "<net>93.20.107.53</net>",
+      "<!-- NCDN -->",
+      "<net>93.20.64.7</net>",
+      "<!-- NCDN Pr",
+      "-prod-->",
+      "<net>93.20.64.244</net>",
+      "  </pfstv-list>",
+      "</tvservices>t",
+      "4,n@",
+      "?QmKmP",
+      "/DVB",
+      "%*mUR@",
+      "%*mUR@",
+      "HTTP/1.1 200 OK",
+      "Date: Thu, 02 Jan 2014 08:25:36 GMT",
+      "Server: Apache",
+      "Last-Modified: Tue, 15 Oct 2013 11:25:07 GMT",
+      "ETag: \"21003-1e55-4e8c5d6376ac0\"",
+      "Accept-Ranges: bytes",
+      "Content-Length: 7765",
+      "Content-Type: application/xml",
+      "<?xml version=\"1.0\"?>",
+      "<chilliconf version=\"201309051000\">",
+      "<version>201309051000</version>",
+      " <ssid enable=\"true\">",
+      "  <mode3>SFR WiFi Public</mode3>",
+      "  <mode4>SFR WiFi FON</mode4>",
+      " </ssid>",
+      " <ssid enable=\"true\">",
+      "  <mode5>SFR WiFi Mobile</mode5>",
+      " </ssid>",
+      " <max_users>10</max_users>",
+      " <eapsim>",
+      "  <radhost>proxyradeapprod.neufbox.neuf.fr</radhost>",
+      "  <radchan>4</radchan>",
+      "  <max_users>10</max_users>",
+      "  <autoregu>",
+      "<enable>false</enable>",
+      "<down>100</down>",
+      "<up>20</up>",
+      "<looptime>30</looptime>",
+      "<incstep>2</incstep>",
+      "<hidessid>true</hidessid>",
+      "  </autoregu>",
+      "  <radacct_interiminterval>8000</radacct_interiminterval>",
+      "  <radattr_nasportid>99.Neufbox-NB4.33</radattr_nasportid>",
+      "  <radattr_wispr_locationid>isocc=FR,cc=33,ac=x,network=SFRWiFiMobile/Neufbox</radattr_wispr_locationid>",
+      "  <radattr_wispr_locationname>SFR,Neufbox</radattr_wispr_locationname>",
+      " </eapsim>",
+      " <qos enable=\"true\"/>",
+      " <pat enable=\"true\"/>",
+      " <bwrestrict enable=\"true\" up=\"320\" down=\"1280\"/>",
+      " <bw_ratio>30</bw_ratio>",
+      " <idle_timeout>1200</idle_timeout>",
+      " <dhcp_lease_time>1200</dhcp_lease_time>",
+      " <session_timeout>7200</session_timeout>",
+      " <mode_syslog>1</mode_syslog>",
+      " <uam_channel>0</uam_channel>",
+      " <radius_channel>0</radius_channel>t",
+      "mUR@",
+      " <lan_ipaddr>192.168.2.1</lan_ipaddr>",
+      " <URL_portail_pub>neufpub.neufbox.neuf.fr</URL_portail_pub>",
+      " <URL_portail_captif>hotspot.wifi.sfr.fr</URL_portail_captif>",
+      " <URL_portail_captif_full>https://hotspot.wifi.sfr.fr/indexEncryptingChilli.php</URL_portail_captif_full>",
+      " <URL_proxy_radius>proxyradius.neufbox.neuf.fr</URL_proxy_radius>",
+      " <URL_conditions>http://hotspot.wifi.sfr.fr/mentions.html</URL_conditions>",
+      " <radius_nasportid>99.Neufbox-NB4.33</radius_nasportid>",
+      " <radius_locationid>isocc=FR,cc=33,ac=x,network=NeufWifi/Neufbox_</radius_locationid>",
+      " <radius_locationname>Neuf-Cegetel,Neufbox_</radius_locationname>",
+      " <whitelisttwin>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>195.8.210.141</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      " </whitelisttwin>",
+      " <autrewhitelist>",
+      " <access-list>",
+      "   <proto>all</proto>",
+      "   <url>www.sfr.fr</url>",
+      "   <port>all</port>",
+      "  </access-list> ",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>s1.s-sfr.fr</url>",
+      "   <port>all</port>",
+      "  </access-list>  ",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>assistance.sfr.fr</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "   <access-list>",
+      "   <proto>all</proto>",
+      "   <url>backup.sfr.fr</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>213.91.9.206</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>193.200.4.155</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <act",
+      "0rmUR@",
+      "cess-list>",
+      "   <proto>all</proto>",
+      "   <url>93.20.51.218</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>93.17.134.136</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>93.17.134.137</url>",
+      "   <port>all</port>",
+      "  </access-list>  ",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>86.65.62.3</url>",
+      "   <port>all</port>",
+      "  </access-list>  ",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>86.65.63.3</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>199.7.48.0/20</url>",
+      "   <port>all</port>",
+      "  </access-list>  ",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>199.7.71.0/24</url>",
+      "   <port>all</port>",
+      "  </access-list>  ",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>199.16.83.0/24</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>62.39.9.151</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>62.39.9.152</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>www.fon.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>support.fon.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>corp.fon.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>t",
+      "mUR@",
+      "purchases.fon.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>payment.fon.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>static.fon.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>stats.fon.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>sfr.portal.fon.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>sfr.purchases.fon.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>fon.zendesk.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>ocsp.comodoca.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>crl.comodoca.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>www.verisign.net</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>crl.verisign.net</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>www.mopay.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>help.mopay.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>statt",
+      "4uT@",
+      "`cfgnb4dslwanservices.xml?ip_data=95.136.242.54&ip_voip=10.251.23.139&ip_tv=&mac=E0A1D718C270&mac_ppp=E0A1D718C273&login_ppp=E0A1D718C270@neufpnp&genrel=201312280534&hw=NB6-FXC-r2&sw=NB6-MAIN-R3.3.4&hotspot_mode=4&hotspot_status=off HTTP/1.1",
+      "Host: wan.nb6dsl.neufbox.neuf.fr",
+      "User-Agent: Wget",
+      "\\Y;@",
+      "PmKmP",
+      "?cfgnb4ca_201304231100.xml?ip_data=95.136.242.54&ip_voip=10.251.23.139&ip_tv=&mac=E0A1D718C270&mac_ppp=E0A1D718C273&login_ppp=E0A1D718C270@neufpnp&genrel=201304231100&hw=NB6-FXC-r2&sw=NB6-MAIN-R3.3.4&hotspot_mode=4&hotspot_status=off HTTP/1.1",
+      "Host: ca.nb6dsl.neufbox.neuf.fr",
+      "User-Agent: Wget",
+      "Bcfgnb4sip.xml?ip_data=95.136.242.54&ip_voip=10.251.23.139&ip_tv=&mac=E0A1D718C270&mac_ppp=E0A1D718C273&login_ppp=E0A1D718C270@neufpnp&genrel=201303121117&hw=NB6-FXC-r2&sw=NB6-MAIN-R3.3.4&hotspot_mode=4&hotspot_status=off HTTP/1.1",
+      "Host: voip.nb6dsl.neufbox.neuf.fr",
+      "User-Agent: Wget",
+      "4ea@",
+      "PmUR@",
+      "4eb@",
+      "PmUR@",
+      "4ec@",
+      "PmUR@",
+      "4ed@",
+      "PmUR@",
+      "9uU@",
+      ">GET /t",
+      "4,o@",
+      "?QmKnx",
+      "?QmKnx",
+      "HTTP/1.1 200 OK",
+      "Date: Thu, 02 Jan 2014 08:25:36 GMT",
+      "Server: Apache",
+      "Last-Modified: Thu, 13 Jun 2013 12:17:22 GMT",
+      "ETag: \"4c0040-c0b-4df081cc13880\"",
+      "Accept-Ranges: bytes",
+      "Content-Length: 3083",
+      "Content-Type: application/xml",
+      "<?xml version=\"1.0\"?>",
+      "<ca version=\"201304231100\">",
+      "<!-- Parametres du CA  -->",
+      "<general>",
+      "<!-- Autorisation blocage flux tele -->",
+      "<lock>",
+      "<device>stb</device>",
+      "<device>femto</device>",
+      "</lock>",
+      "</general>",
+      "<!-- Notification -->",
+      "<notification>",
+      "<server>90.20.51.204</server>",
+      "</notification>",
+      "<!-- Portail -->",
+      "<portal>http://controle-acces.sfr.fr</portal>",
+      "<!-- Proxy -->",
+      "<proxy>",
+      "<url>93.20.51.215</url>",
+      "<port>80</port>",
+      "<!-- Securite -->",
+      "<RSA>C65EA19C47F7277BF25F681CE56E356FCF67A195830CFB3AEBDDA41ABD81B82DB821B00AC4C552D282ECB4157A3E85DEA3D6F680CEF3C0D0D87B0E0D4960CA644BFA1F3BC3713FD378423C0F2157B4C1964854B39F1768DEF6012EE91A38D98B09D2CDB33B715947B1A6291D2275364630DE0286A30834516EAF7C65E50415B5</RSA>",
+      "</proxy>",
+      "<!-- profiles -->",
+      "<redir>",
+      "<!-- lock -->",
+      "<url>93.20.51.204</url>",
+      "<port>8186</port>",
+      "<profile name=\"enfant\">",
+      "<url>93.20.51.204</url>",
+      "<port>8187</port>",
+      "</profile>",
+      "<profile name=\"ado\">",
+      "<url>93.20.51.204</url>",
+      "<port>8188</port>",
+      "</profile>",
+      "</redir>",
+      "<!-- Liste blanche filtrage: eviter blocage utilisateur -->",
+      "<whitelist>",
+      "<!-- Port 80 -->",
+      "<access-list>",
+      "<url>controle-acces.sfr.fr</url>",
+      "<port>80</port>",
+      "4Y<@",
+      "PmKnx",
+      "mKnx",
+      "roto>tcp</proto>",
+      "</access-list>",
+      "<access-list>",
+      "<url>www.sfr.fr</url>",
+      "<port>80</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<access-list>",
+      "<url>img.s-sfr.fr</url>",
+      "<port>80</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<access-list>",
+      "<url>s1.s-sfr.fr</url>",
+      "<port>80</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<access-list>",
+      "<url>s2.s-sfr.fr</url>",
+      "<port>80</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<!-- Port 443 -->",
+      "<access-list>",
+      "<url>www.sfr.fr</url>",
+      "<port>443</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<access-list>",
+      "<url>img.s-sfr.fr</url>",
+      "<port>443</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<access-list>",
+      "<url>s1.s-sfr.fr</url>",
+      "<port>443</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<access-list>",
+      "<url>s2.s-sfr.fr</url>",
+      "<port>443</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<!-- Site Mobile SFR -->",
+      "<access-list>",
+      "<url>m.sfr.fr</url>",
+      "<port>80</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<access-list>",
+      "<url>mist.m.sfr.fr</url>",
+      "<port>443</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<access-list>",
+      "<url>static.s-sfr.fr </url>",
+      "<port>80</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<!-- Portail SRR -->",
+      "<access-list>",
+      "<url>authentification.sfr.re</url>",
+      "<port>80</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<access-list>",
+      "<url>authentification.sfr.re</url>t",
+      "mKnx",
+      "<port>443</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<access-list>",
+      "<url>s3.s-sfr.fr</url>",
+      "<port>443</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<access-list>",
+      "<url>s4.s-sfr.fr</url>",
+      "<port>443</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "<access-list>",
+      "<url>monprofil.srr.fr</url>",
+      "<port>443</port>",
+      "<proto>tcp</proto>",
+      "</access-list>",
+      "</whitelist>",
+      "<!--  -->",
+      "</ca>",
+      "4Y=@",
+      "PmKnx",
+      "4Y>@",
+      "PmKnx",
+      "/CVB",
+      "4Y?@",
+      "PmKnx",
+      "4{;@",
+      "L>VB",
+      "\\uV@",
+      "Wcfgnb4dslwanservices.xml?ip_data=95.136.242.54&ip_voip=10.251.23.139&ip_tv=&mac=E0A1D718C270&mac_ppp=E0A1D718C273&login_ppp=E0A1D718C270@neufpnp&genrel=201312280534&hw=NB6-FXC-r2&sw=NB6-MAIN-R3.3.4&hotspot_mode=4&hotspot_status=off HTTP/1.1",
+      "Host: wan.nb6dsl.neufbox.neuf.fr",
+      "User-Agent: Wget",
+      "mUR@",
+      "ic.mopay.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>securepay.mopay.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <proto>all</proto>",
+      "   <url>safebrowsing.clients.google.com</url>",
+      "   <port>all</port>",
+      "  </access-list>",
+      " </autrewhitelist>",
+      " <whitelist-auth>",
+      "  <access-list>",
+      "   <port>22</port>",
+      "   <proto>both</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>25</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>53</port>",
+      "   <proto>udp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>80</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>110</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>143</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>220</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>443</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>465</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>500</port>",
+      "   <proto>udp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>587</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>993</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>995</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>1291:1296</port>",
+      "   <proto>tcp</proto>",
+      "  </access-listt",
+      "4ee@",
+      "PmUR@",
+      "A^mUR@",
+      "  <access-list>",
+      "   <port>2001</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>4500</port>",
+      "   <proto>udp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>4995</port>",
+      "   <proto>both</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>5223</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>5228</port>",
+      "   <proto>both</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>8080:8082</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>8787</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>9200:9207</port>",
+      "   <proto>tcp</proto>",
+      "  </access-list>",
+      "  <access-list>",
+      "   <port>10000</port>",
+      "   <proto>both</proto>",
+      "  </access-list>",
+      " </whitelist-auth>",
+      "</chilliconf>",
+      "4ef@",
+      "PmUR@",
+      "4eg@",
+      "PmUR@",
+      "HTTP/1.1 200 OK",
+      "Date: Thu, 02 Jan 2014 08:25:36 GMT",
+      "Server: Apache",
+      "Content-Type: application/xml",
+      "Transfer-Encoding: chunked",
+      "1c02",
+      "<?xml version=\"1.0\"?>",
+      "<voipconf version=\"201303121117\">",
+      "  <rand>7199811705e658f475a07bd062bd74ed</rand>",
+      "  <vendor-id>NB6-FXC-r2</vendor-id>",
+      "  <port>FXS</port>",
+      "  <group>no</group>",
+      "  <voice-network>",
+      "    <protocol>3</protocol>",
+      "    <stack>2</stack>",
+      "    <unbundled>2</unbundled>",
+      "  </voice-network>",
+      "  <telephony-services>",
+      "    <pub-identity-sip>+33360653674</pub-identity-sip>",
+      "    <display-name>0360653674</display-name>",
+      "    <password>5ccdc8d79c337c9d2459588901e96b91</password>",
+      "    <realm>ims.mnc010.mcc208.3gppnetwork.org</realm>",
+      "    <digest-username>NDI0360653674.PCA.DGP@sfr.fr</digest-username>",
+      "    <proxy port=\"5060\" id=\"1\" dnstype=\"naptr\">fixed.p-cscf.sfr.net</proxy>",
+      "    <proxy port=\"5060\" id=\"2\">fixed.p-cscf.sfr.net</proxy>",
+      "    <registrar port=\"5060\">fixed.p-cscf.sfr.net</registrar>",
+      "    <as port=\"\"></as>",
+      "    <pub-identity-tel>+33360653674</pub-identity-tel>",
+      "    <supplementary-services>096eaada484971f9d7cf99dec425601e85c8d650f6ada07afe3ece79f93f33d64f3065abad1565e50709985a100cf665</supplementary-services>",
+      "    <conference-factory-uri>conference@sfr.net</conference-factory-uri> ",
+      "  </telephony-services>",
+      "  <localSettings>",
+      "    <port>5060</port>",
+      "    <dscpRtp>0x2D</dscpRtp>",
+      "    <dscpProto>0x2D</dscpProto>",
+      "    <strictRTPaddress>on</strictRTPaddress>",
+      "    <strictSSRC>off</strictSSRC>",
+      "    <ignoreVia>on</it",
+      "gnoreVia>",
+      "    <noUnregister>on</noUnregister>",
+      "    <OIP>3651</OIP>",
+      "    <OIR />",
+      "  </localSettings>",
+      "  <data-access>",
+      "    <profile>5</profile>",
+      "  </data-access>",
+      "  <media>",
+      "    <codec enable=\"true\" id=\"1\">G711_alaw</codec>",
+      "    <codec enable=\"true\" id=\"2\">G711_mulaw</codec>",
+      "    <codec enable=\"true\" id=\"3\">G729_ab</codec>",
+      "    <codec enable=\"false\" id=\"4\">G726</codec>",
+      "    <codec enable=\"false\" id=\"5\">G722</codec>",
+      "    <dtmf enable=\"true\">rfc2833</dtmf>",
+      "    <dtmf enable=\"true\">inband</dtmf>",
+      "    <fax>upspeed</fax>",
+      "    <jitter-buffer-size>100</jitter-buffer-size>",
+      "    <confort-noise>disabled</confort-noise>",
+      "    <gain signal=\"input\">0</gain>",
+      "    <gain signal=\"output\">0</gain>",
+      "    <rtp>",
+      "      <port-min>35500</port-min>",
+      "      <port-max>35599</port-max>",
+      "    </rtp>",
+      "  </media>",
+      "  <sip-timers>",
+      "    <register-expire>3600</register-expire>",
+      "    <invite-expire>900</invite-expire>",
+      "    <subscribe-expire>900</subscribe-expire>",
+      "    <t1>500</t1>",
+      "    <t2>4000</t2>",
+      "    <nat>3595</nat>",
+      "  </sip-timers>",
+      "  <dialplan>",
+      "    <number route=\"voip\" length=\"open\">00</number>",
+      "    <number route=\"voip\" length=\"10\">01</number>",
+      "    <number route=\"voip\" length=\"10\">02</number>",
+      "    <number route=\"voip\" length=\"10\">03</number>",
+      "    <number route=\"voip\" length=\"10\">04</number>",
+      "    <number route=\"voip\" length=\"10\">05</number>",
+      "    <number route=\"voip\" length=\"10\">06</number>",
+      "    <number route=\"voip\" length=\"10\">07</number>",
+      "    <number route=\"voip\" length=\"10\">08</number>",
+      "    <numt",
+      "ber route=\"voip\" length=\"10\">09</number>",
+      "    <number route=\"voip\" length=\"4\">10</number>",
+      "    <number route=\"voip\" length=\"open\">110</number>",
+      "    <number route=\"voip\" length=\"open\">111</number>",
+      "    <number route=\"voip\" length=\"3\">112</number>",
+      "    <number route=\"voip\" length=\"open\">113</number>",
+      "    <number route=\"voip\" length=\"3\">114</number>",
+      "    <number route=\"voip\" length=\"3\">115</number>",
+      "    <number route=\"voip\" length=\"6\">116</number>",
+      "    <number route=\"voip\" length=\"open\">117</number>",
+      "    <number route=\"voip\" length=\"6\">118</number>",
+      "    <number route=\"voip\" length=\"3\">119</number>",
+      "    <number route=\"voip\" length=\"open\">12</number>",
+      "    <number route=\"voip\" length=\"open\">13</number>",
+      "    <number route=\"voip\" length=\"open\">140</number>",
+      "    <number route=\"voip\" length=\"open\">141</number>",
+      "    <number route=\"voip\" length=\"open\">142</number>",
+      "    <number route=\"voip\" length=\"open\">143</number>",
+      "    <number route=\"voip\" length=\"open\">144</number>",
+      "    <number route=\"voip\" length=\"open\">145</number>",
+      "    <number route=\"voip\" length=\"open\">146</number>",
+      "    <number route=\"voip\" length=\"3\">147</number>",
+      "    <number route=\"voip\" length=\"open\">148</number>",
+      "    <number route=\"voip\" length=\"open\">149</number>",
+      "    <number route=\"voip\" length=\"2\">15</number>",
+      "    <number route=\"voip\" length=\"open\">16</number>",
+      "    <number route=\"voip\" length=\"2\">17</number>",
+      "    <number route=\"voip\" length=\"2\">18</number>",
+      "    <number route=\"voip\" length=\"open\">t",
+      "19</number>",
+      "    <number route=\"voip\" length=\"open\">2</number>",
+      "    <number route=\"voip\" length=\"4\">30</number>",
+      "    <number route=\"voip\" length=\"4\">31</number>",
+      "    <number route=\"voip\" length=\"4\">32</number>",
+      "    <number route=\"voip\" length=\"open\">33</number>",
+      "    <number route=\"voip\" length=\"4\">34</number>",
+      "    <number route=\"voip\" length=\"4\">35</number>",
+      "    <number route=\"voip\" length=\"4\">360</number>",
+      "    <number route=\"voip\" length=\"4\">361</number>",
+      "    <number route=\"voip\" length=\"4\">362</number>",
+      "    <number route=\"voip\" length=\"4\">363</number>",
+      "    <number route=\"voip\" length=\"4\">364</number>",
+      "    <number route=\"voip\" length=\"4\">3650</number>",
+      "    <number route=\"voip\" length=\"open\">3651</number>",
+      "    <number route=\"voip\" length=\"open\">3652</number>",
+      "    <number route=\"voip\" length=\"4\">3653</number>",
+      "    <number route=\"voip\" length=\"4\">3654</number>",
+      "    <number route=\"voip\" length=\"4\">3655</number>",
+      "    <number route=\"voip\" length=\"4\">3656</number>",
+      "    <number route=\"voip\" length=\"4\">3657</number>",
+      "    <number route=\"voip\" length=\"4\">3658</number>",
+      "    <number route=\"voip\" length=\"4\">3659</number>",
+      "    <number route=\"voip\" length=\"4\">366</number>",
+      "    <number route=\"voip\" length=\"4\">367</number>",
+      "    <number route=\"voip\" length=\"4\">368</number>",
+      "    <number route=\"voip\" length=\"4\">369</number>",
+      "    <number route=\"voip\" length=\"4\">37</number>",
+      "    <number route=\"voip\" length=\"4\">38</number>",
+      "    <number route=\"voip\" length=\"4\">39</number>",
+      "4,s@",
+      "L?mKny",
+      "4Y@@",
+      "PmKny",
+      "4{<@",
+      "L=VB",
+      "DbmURA",
+      "4eh@",
+      "PmURA",
+      "    <number route=\"voip\" length=\"open\">4</number>",
+      "    <number route=\"voip\" length=\"open\">5</number>",
+      "    <number route=\"voip\" length=\"open\">6</number>",
+      "    <number route=\"voip\" length=\"open\">7</number>",
+      "    <number route=\"voip\" length=\"open\">8</number>",
+      "    <number route=\"voip\" length=\"open\">9</number>",
+      "    <number route=\"local\" length=\"3\" serviceid=\"1\">999</number>",
+      "    <number route=\"local\" length=\"4\" serviceid=\"2\">*70#</number>",
+      "    <number route=\"local\" length=\"4\" serviceid=\"3\">*71#</number>",
+      "    <number route=\"local\" length=\"4\" serviceid=\"4\">*72#</number>",
+      "    <number route=\"voip\" length=\"4\" serviceid=\"5\">*79#</number>",
+      "    <number route=\"local\" length=\"5\" serviceid=\"6\">*#70#</number>",
+      "    <number route=\"local\" length=\"5\" serviceid=\"7\">*#71#</number>",
+      "    <number route=\"local\" length=\"5\" serviceid=\"8\">*#72#</number>",
+      "    <number route=\"voip\" length=\"5\" serviceid=\"9\">*#79#</number>",
+      "    <number route=\"local\" length=\"4\" serviceid=\"10\">#70#</number>",
+      "    <number route=\"local\" length=\"4\" serviceid=\"11\">#71#</number>",
+      "    <number route=\"local\" length=\"4\" serviceid=\"12\">#72#</number>",
+      "    <number route=\"voip\" length=\"4\" serviceid=\"13\">#79#</number>",
+      "    <number route=\"voip\" length=\"open\">*</number>",
+      "    <number route=\"voip\" length=\"open\">#</number>",
+      "    <number route=\"local\" length=\"2\" serviceid=\"14\">R1</number>",
+      "    <number route=\"local\" length=\"2\" serviceid=\"15\">R2</number>",
+      "    <number route=\"local\" length=\"2\" serviceid=\"16\">R3</number>",
+      "   u",
+      " <number route=\"local\" length=\"2\" serviceid=\"17\">R9</number>",
+      "  </dialplan>",
+      "</voipconf>",
+      "HTTP/1.1 200 OK",
+      "Date: Thu, 02 Jan 2014 08:25:36 GMT",
+      "Server: Apache",
+      "Content-Type: application/xml",
+      "Transfer-Encoding: chunked",
+      "<?xml version=\"1.0\"?>",
+      "<wan_services version=\"201312280534\">",
+      "  <rand>50a29b54e5d6e8cf9d75ff88652f8718</rand>",
+      "  <vendor-id>NB6-FXC-r2</vendor-id>",
+      "  <ipv6>",
+      "    <infra>Tunnel</infra>",
+      "    <lns>109.6.1.72</lns>",
+      "    <forcev6 enable=\"false\"/>",
+      "    <ppp-password>2445ed086172d7663fe65254b0cdabb9</ppp-password>",
+      "    <AdvValidLifetime>604800</AdvValidLifetime>",
+      "    <AdvPreferredLifetime>604800</AdvPreferredLifetime>",
+      "  </ipv6>",
+      "  <ppp>",
+      "    <timeout>20</timeout>",
+      "    <failure>3</failure>",
+      "    <interval>20</interval>",
+      "  </ppp>",
+      "  <whitelist-smtp>",
+      "    <url>ghostsmtp.neufbox.neuf.fr</url>",
+      "  </whitelist-smtp>",
+      "  <ntp>",
+      "    <server>ntp.neufbox.neuf.fr</server>",
+      "    <timezone>CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00</timezone>",
+      "  </ntp>",
+      "  <pushlog>",
+      "    <server>stats.neufbox.neuf.fr</server>",
+      "    <eventserver>events.neufbox.neuf.fr</eventserver>",
+      "    <errorserver>errors.neufbox.neuf.fr</errorserver>",
+      "    <interval>86400</interval>",
+      "  </pushlog>",
+      "  <slid />",
+      "</wan_services>",
+      "|{=@",
+      "HTTP/1.1 200 OK",
+      "Date: Thu, 02 Jan 2014 08:25:36 GMT",
+      "Server: Apache",
+      "Content-Type: application/xml",
+      "Transfer-Encoding: chunked",
+      "<?xml version=\"1.0\"?>",
+      "<wan_services version=\"201312280534\">",
+      "  <rand>8b427d9f42b2bb21121c5ac32a01b1e2</rand>",
+      "  <vendor-id>NB6-FXC-r2</vendor-id>",
+      "  <ipv6>",
+      "    <infra>Tunnel</infra>",
+      "    <lns>109.6.1.72</lns>",
+      "    <forcev6 enable=\"false\"/>",
+      "    <ppp-password>bab55a6454cedf87165c189aa4fe9bcd</ppp-password>",
+      "    <AdvValidLifetime>604800</AdvValidLifetime>",
+      "    <AdvPreferredLifetime>604800</AdvPreferredLifetime>",
+      "  </ipv6>",
+      "  <ppp>",
+      "    <timeout>20</timeout>",
+      "    <failure>3</failure>",
+      "    <interval>20</interval>",
+      "  </ppp>",
+      "  <whitelist-smtp>",
+      "    <url>ghostsmtp.neufbox.neuf.fr</url>",
+      "  </whitelist-smtp>",
+      "  <ntp>",
+      "    <server>ntp.neufbox.neuf.fr</server>",
+      "    <timezone>CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00</timezone>",
+      "  </ntp>",
+      "  <pushlog>",
+      "    <server>stats.neufbox.neuf.fr</server>",
+      "    <eventserver>events.neufbox.neuf.fr</eventserver>",
+      "    <errorserver>errors.neufbox.neuf.fr</errorserver>",
+      "    <interval>86400</interval>",
+      "  </pushlog>",
+      "  <slid />",
+      "</wan_services>",
+      "4uW@",
+      "4uX@",
+      "neufbox",
+      "neuf",
+      "neufbox",
+      "neuf",
+      "dns1",
+      "gaoland",
+      "root",
+      "dns1",
+      "gaoland",
+      "root",
+      "neufbox",
+      "neuf",
+      "neufbox",
+      "neuf",
+      "8p0#",
+      "8kS$",
+      "AE/@",
+      "neufbox",
+      "neuf",
+      "neufbox",
+      "neuf",
+      "dns1",
+      "gaoland",
+      "root",
+      "9EK@",
+      "dns1",
+      "gaoland",
+      "root",
+      "AEn@",
+      "neufbox",
+      "neuf",
+      "neufbox",
+      "neuf",
+      "User requesty",
+      "SE100-CRL1-1",
+      "ldcom",
+      "SE100-CRL1-1",
+      "ldcom",
+      "8*k$",
+      "8J4#",
+      "SE100-CRL1-1",
+      "SE100-CRL1-1",
+      "ipv6/E0A1D718C270@neufpnp",
+      ")CHAP authentication success, unit 812",
+      "nnB1",
+      "8jm$",
+      "nnB1",
+      "serversyslog",
+      "neufbox",
+      "neuf",
+      "serversyslog",
+      "neufbox",
+      "neuf",
+      "_sip",
+      "_udp",
+      "fixed",
+      "p-cscf",
+      "_sip",
+      "_udp",
+      "fixed",
+      "p-cscf",
+      "cor1isc04",
+      "fixed",
+      "p-cscf",
+      "val3isc02",
+      "fixed",
+      "p-cscf",
+      "val3isc04",
+      "fixed",
+      "p-cscf",
+      "ach4isc04",
+      "fixed",
+      "p-cscf",
+      "ach4isc02",
+      "fixed",
+      "p-cscf",
+      "cor1isc02",
+      "fixed",
+      "p-cscf",
+      "&% REGISTER sip:ims.mnc010.mcc208.3gppnetwork.org SIP/2.0",
+      "Via: SIP/2.0/UDP 10.251.23.139:5060;branch=z9hG4bK22a5bdd",
+      "From: \"0360653674\" <sip:+33360653674@ims.mnc010.mcc208.3gppnetwork.org>;tag=17BC4C57",
+      "To: \"0360653674\" <sip:+33360653674@ims.mnc010.mcc208.3gppnetwork.org>",
+      "Call-ID: BEBA3F51D67EDA@10.251.23.139",
+      "CSeq: 1 REGISTER",
+      "Allow: INVITE, ACK, BYE, CANCEL, REFER, NOTIFY, SUBSCRIBE, REGISTER",
+      "Max-Forwards: 70",
+      "Expires: 3600",
+      "Contact: <sip:+33360653674@10.251.23.139:5060;user=phone>",
+      "User-Agent: neufbox6 - r13507",
+      "Content-Length: 0",
+      "4SIP/2.0 401 Unauthorized",
+      "Call-ID: BEBA3F51D67EDA@10.251.23.139",
+      "Via: SIP/2.0/UDP 10.251.23.139:5060;received=10.251.23.139;branch=z9hG4bK22a5bdd",
+      "To: \"0360653674\" <sip:+33360653674@ims.mnc010.mcc208.3gppnetwork.org>;tag=51d541c6-1388651149551398",
+      "From: \"0360653674\" <sip:+33360653674@ims.mnc010.mcc208.3gppnetwork.org>;tag=17BC4C57",
+      "CSeq: 1 REGISTER",
+      "Date: Thu, 02 Jan 2014 08:25:49 GMT",
+      "Server: Alcatel-Lucent-HPSS/3.0.3",
+      "WWW-Authenticate: Digest realm=\"sfr.fr\",",
+      "   nonce=\"b7c9036dbf3054aea9452c5228c0e9703dc8f84c1908\",",
+      "   opaque=\"ALU:QbkRBthOEgEQAkhWV1hYRAIBHgkdHwQCQ1lFRkJWDxstcSo3JnZyZiAnOGI-KD1-PzcnbmBmbmg_\",",
+      "   algorithm=MD5,",
+      "   qop=\"auth\"",
+      "Content-Length: 0",
+      "REGISTER sip:ims.mnc010.mcc208.3gppnetwork.org SIP/2.0",
+      "Via: SIP/2.0/UDP 10.251.23.139:5060;branch=z9hG4bK9a2d610",
+      "From: \"0360653674\" <sip:+33360653674@ims.mnc010.mcc208.3gppnetwork.org>;tag=17BC4C57",
+      "To: \"0360653674\" <sip:+33360653674@ims.mnc010.mcc208.3gppnetwork.org>",
+      "Call-ID: BEBA3F51D67EDA@10.251.23.139",
+      "CSeq: 2 REGISTER",
+      "Allow: INVITE, ACK, BYE, CANCEL, REFER, NOTIFY, SUBSCRIBE, REGISTER",
+      "Max-Forwards: 70",
+      "Expires: 3600",
+      "Contact: <sip:+33360653674@10.251.23.139:5060;user=phone>",
+      "User-Agent: neufbox6 - r13507",
+      "Authorization: Digest username=\"NDI0360653674.PCA.DGP@sfr.fr\", realm=\"sfr.fr\", nonce=\"b7c9036dbf3054aea9452c5228c0e9703dc8f84c1908\", uri=\"sip:ims.mnc010.mcc208.3gppnetwork.org\", response=\"24dd7d8e26b998fe807c179484062d39\", opaque=\"ALU:QbkRBthOEgEQAkhWV1hYRAIBHgkdHwQCQ1lFRkJWDxstcSo3JnZyZiAnOGI-KD1-PzcnbmBmbmg_\", qop=\"auth\", cnonce=\"1304900\", nc=\"00000001\", algorithm=MD5",
+      "Content-Length: 0",
+      "SIP/2.0 200 OK",
+      "Call-ID: BEBA3F51D67EDA@10.251.23.139",
+      "Via: SIP/2.0/UDP 10.251.23.139:5060;received=10.251.23.139;branch=z9hG4bK9a2d610",
+      "To: \"0360653674\" <sip:+33360653674@ims.mnc010.mcc208.3gppnetwork.org>;tag=51d541c6-1388651149675081",
+      "From: \"0360653674\" <sip:+33360653674@ims.mnc010.mcc208.3gppnetwork.org>;tag=17BC4C57",
+      "CSeq: 2 REGISTER",
+      "Allow-Events: reg",
+      "Contact: <sip:+33360653674@10.251.23.139:5060;user=phone>;expires=3171",
+      "Date: Thu, 02 Jan 2014 08:25:49 GMT",
+      "Path: <sip:pcgw-0006.imsgroup0-001.val3isc04.ims.sfr.net:5062;lr;ottag=ue_term;bidx=1588020;access-type=ADSL>",
+      "P-Associated-URI: Main <sip:+33360653674@ims.mnc010.mcc208.3gppnetwork.org>",
+      "P-Associated-URI: Alias <tel:+33360653674>",
+      "Server: Alcatel-Lucent-HPSS/3.0.3",
+      "Content-Length: 0",
+      "109.6.1.72",
+      "xelerance.com",
+      "Cisco Systems, Inc.",
+      "xxCl3",
+      "ppp/95.136.242.99@E0A1D718C273",
+      "K3XB8DDMS907O3XP",
+      "7neufbox_NB6-FXC-r2_NB6-MAIN-R3.3.4_NB6-ADSL-A2pD035p",
+      "7neufbox_NB6-FXC-r2_NB6-MAIN-R3.3.4_NB6-ADSL-A2pD035p",
+      "neufpub",
+      "neufbox",
+      "neuf",
+      "neufpub",
+      "neufbox",
+      "neuf",
+      "hotspot",
+      "wifi",
+      "hotspot",
+      "wifi",
+      "s-sfr",
+      "s-sfr",
+      "https1",
+      "service-ncdn",
+      "assistance",
+      "assistance",
+      "backup",
+      "backup",
+      "microsites",
+      "support",
+      "support",
+      "zendesk",
+      "corp",
+      "corp",
+      "purchases",
+      "purchases",
+      "payment",
+      "payment",
+      "static",
+      "static",
+      "stats",
+      "stats",
+      "portal",
+      "portal",
+      "purchases",
+      "purchases",
+      "zendesk",
+      "zendesk",
+      "ocsp",
+      "comodoca",
+      "ocsp",
+      "comodoca",
+      "comodoca",
+      "comodoca",
+      "verisign",
+      "verisign",
+      "verisign",
+      "verisign",
+      "symantec",
+      "edgekey",
+      "e6845",
+      "akamaiedge",
+      "mopay",
+      "mopay",
+      "help",
+      "mopay",
+      "help",
+      "mopay",
+      "static",
+      "mopay",
+      "static",
+      "mopay",
+      "securepay",
+      "mopay",
+      "securepay",
+      "mopay",
+      "safebrowsing",
+      "clients",
+      "google",
+      "safebrowsing",
+      "clients",
+      "google",
+      "clients",
+      "proxyradius",
+      "neufbox",
+      "neuf",
+      "proxyradius",
+      "neufbox",
+      "neuf",
+      "proxyradius",
+      "neufbox",
+      "neuf",
+      "proxyradius",
+      "neufbox",
+      "neuf",
+      "L,U@",
+      "LY;@",
+      "FFFFFF",
+      "LY<@",
+      "8_C#",
+      "L,V@",
+      "\\A=J3",
+      "\\A=J3",
+      "LY=@",
+      "L,W@",
+      "8F\\$",
+      "49\"1#",
+      "8Ko#",
+      "rledacd"
+    ]
+  },
+  "entropy": 6.12083317889672,
+  "iocs": [
+    {
+      "type": "ip",
+      "value": "95.136.242.54",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.64.233.133",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "1.1.1.1",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "10.251.23.139",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.65.232.0",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "80.118.201.0",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "84.96.146.0",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "84.96.219.0",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "80.118.192.0",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.65.94.0",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.65.95.0",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.64.245.128",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.64.159.201",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.149.158",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "109.203.65.49",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "232.0.0.0",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.64.159.127",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.64.233.32",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "84.103.237.80",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "84.103.237.192",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "109.0.66.32",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "109.0.66.48",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "109.0.66.64",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "109.0.66.80",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "109.0.64.96",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "109.0.65.96",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "160.92.103.29",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "160.92.103.30",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.64.233.160",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.64.160.240",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.64.161.192",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.64.159.24",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.64.159.72",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.64.160.232",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "80.118.202.96",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.66.127.56",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.65.125.31",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.64.241.160",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "109.0.74.78",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.162.128",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.190.8",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.190.72",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.190.136",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.190.216",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.191.24",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.190.88",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.191.160",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.20.92.32",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.20.92.96",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.191.216",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.191.240",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.20.107.8",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.20.107.32",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.20.92.64",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.65.123.192",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.66.127.160",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "160.92.103.11",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "160.92.106.7",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "195.88.194.48",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "10.103.15.140",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "10.103.15.151",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "84.103.236.248",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "84.96.146.171",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "84.96.146.172",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "160.92.11.52",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "84.96.217.32",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.66.0.128",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.149.16",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.20.51.64",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "109.24.9.16",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "84.96.238.192",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.162.181",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.190.52",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.190.117",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.190.197",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.191.148",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.191.196",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.191.4",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.191.68",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.20.107.148",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.20.107.165",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.20.107.53",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.20.64.7",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.20.64.244",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "192.168.2.1",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "195.8.210.141",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "213.91.9.206",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "193.200.4.155",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.20.51.218",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.134.136",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.17.134.137",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.65.62.3",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "86.65.63.3",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "199.7.48.0",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "199.7.71.0",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "199.16.83.0",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "62.39.9.151",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "62.39.9.152",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "90.20.51.204",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.20.51.215",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "93.20.51.204",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "109.6.1.72",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "ip",
+      "value": "95.136.242.99",
+      "description": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "type": "url",
+      "value": "https://hotspot.wifi.sfr.fr/indexEncryptingChilli.php",
+      "description": "Observed URL indicator in extracted evidence."
+    },
+    {
+      "type": "url",
+      "value": "http://hotspot.wifi.sfr.fr/mentions.html",
+      "description": "Observed URL indicator in extracted evidence."
+    },
+    {
+      "type": "url",
+      "value": "http://controle-acces.sfr.fr",
+      "description": "Observed URL indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "neuf.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "cfgnb6dslgeneral.xml",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "general.nb6dsl.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "cfgnb6dslfirmware.xml",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "hotspot.nb6dsl.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "tv.nb6dsl.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "cfgnb4dslwanservices.xml",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "wan.nb6dsl.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ca.nb6dsl.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "3yp.xml",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "voip.nb6dsl.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ncdn.nb6dsl.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "proxyradeapprod.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "99.Neufbox",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "neufpub.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "hotspot.wifi.sfr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "indexEncryptingChilli.php",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "proxyradius.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "mentions.html",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "www.sfr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "s1.s-sfr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "assistance.sfr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "backup.sfr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "www.fon.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "support.fon.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "corp.fon.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "purchases.fon.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "payment.fon.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "static.fon.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "stats.fon.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "sfr.portal.fon.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "sfr.purchases.fon.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "fon.zendesk.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ocsp.comodoca.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "crl.comodoca.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "www.verisign.net",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "crl.verisign.net",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "www.mopay.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "help.mopay.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Bcfgnb4sip.xml",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "controle-acces.sfr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "img.s-sfr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "s2.s-sfr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "m.sfr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "mist.m.sfr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "static.s-sfr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "authentification.sfr.re",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "s3.s-sfr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "s4.s-sfr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "monprofil.srr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Wcfgnb4dslwanservices.xml",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ic.mopay.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "securepay.mopay.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "safebrowsing.clients.google.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ims.mnc010.mcc208.3gppnetwork.org",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "NDI0360653674.PCA.DGP",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "sfr.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "fixed.p-cscf.sfr.net",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "sfr.net",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ghostsmtp.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ntp.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "stats.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "events.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "errors.neufbox.neuf.fr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "pcgw-0006.imsgroup0-001.val3isc04.ims.sfr.net",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "xelerance.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "C-3yp.xml",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "4purchases.fon.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "4ic.mopay.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "email",
+      "value": "toto@neuf.com",
+      "description": "Observed email indicator in extracted evidence."
+    },
+    {
+      "type": "email",
+      "value": "NDI0360653674.PCA.DGP@sfr.fr",
+      "description": "Observed email indicator in extracted evidence."
+    },
+    {
+      "type": "email",
+      "value": "conference@sfr.net",
+      "description": "Observed email indicator in extracted evidence."
+    },
+    {
+      "type": "email",
+      "value": "33360653674@ims.mnc010.mcc208.3gppnetwork.org",
+      "description": "Observed email indicator in extracted evidence."
+    },
+    {
+      "type": "sha256",
+      "value": "62797705144e82b7c44963aa8ea13442d12057e7d01f33ed67bfab3f6d4e70d5",
+      "description": "Observed SHA-256-like indicator in extracted evidence."
+    },
+    {
+      "type": "sha256",
+      "value": "f00d0b3b8e6a88efaac18f80967e83c49b3454bbe26764a70a0dbfee3973442d",
+      "description": "Observed SHA-256-like indicator in extracted evidence."
+    },
+    {
+      "type": "sha256",
+      "value": "0ea220adfb9dd1c845d9ec0e3d537aab281b5d45ba51b3688c69074225dd8cb4",
+      "description": "Observed SHA-256-like indicator in extracted evidence."
+    },
+    {
+      "type": "sha256",
+      "value": "3ece945cf370ff987ea184f3ac859d590b0a830d74949e8aa0c71900663d4d6c",
+      "description": "Observed SHA-256-like indicator in extracted evidence."
+    },
+    {
+      "type": "sha256",
+      "value": "d6f592f35abe6e9914fe1b14560b764ee23c846d6c9b5bdecd3300a2b3afeb25",
+      "description": "Observed SHA-256-like indicator in extracted evidence."
+    },
+    {
+      "type": "md5",
+      "value": "7199811705e658f475a07bd062bd74ed",
+      "description": "Observed MD5-like indicator in extracted evidence."
+    },
+    {
+      "type": "md5",
+      "value": "5ccdc8d79c337c9d2459588901e96b91",
+      "description": "Observed MD5-like indicator in extracted evidence."
+    },
+    {
+      "type": "md5",
+      "value": "50a29b54e5d6e8cf9d75ff88652f8718",
+      "description": "Observed MD5-like indicator in extracted evidence."
+    },
+    {
+      "type": "md5",
+      "value": "2445ed086172d7663fe65254b0cdabb9",
+      "description": "Observed MD5-like indicator in extracted evidence."
+    },
+    {
+      "type": "md5",
+      "value": "8b427d9f42b2bb21121c5ac32a01b1e2",
+      "description": "Observed MD5-like indicator in extracted evidence."
+    },
+    {
+      "type": "md5",
+      "value": "bab55a6454cedf87165c189aa4fe9bcd",
+      "description": "Observed MD5-like indicator in extracted evidence."
+    },
+    {
+      "type": "md5",
+      "value": "24dd7d8e26b998fe807c179484062d39",
+      "description": "Observed MD5-like indicator in extracted evidence."
+    }
+  ],
+  "yara_matches": [],
+  "signature_matches": [
+    {
+      "name": "Encoded PowerShell execution",
+      "category": "execution",
+      "family": null,
+      "evidence": [
+        "-enc"
+      ]
+    }
+  ],
+  "suspicious_indicators": [
+    {
+      "title": "Encoded PowerShell execution",
+      "evidence": "-enc",
+      "category": "execution"
+    }
+  ],
+  "memory_analysis": {
+    "is_memory_dump": false,
+    "plugins": {},
+    "processes": [],
+    "network_connections": [],
+    "suspicious_processes": [],
+    "hidden_processes": [],
+    "code_injection": [],
+    "persistence": [],
+    "timeline_events": [],
+    "summary": [
+      "No evidence found."
+    ],
+    "status": "No evidence found."
+  },
+  "timeline": [
+    {
+      "timestamp": "2026-06-19T12:32:56.175121+00:00",
+      "event_type": "File creation",
+      "description": "File creation timestamp from filesystem metadata.",
+      "evidence": "Filesystem metadata"
+    },
+    {
+      "timestamp": "2026-06-19T12:32:56.176153+00:00",
+      "event_type": "File modification",
+      "description": "File modification timestamp from filesystem metadata.",
+      "evidence": "Filesystem metadata"
+    }
+  ],
+  "evidence_collected": [
+    {
+      "section": "File Type",
+      "value": "Unknown binary/text artifact",
+      "evidence": "unknown"
+    },
+    {
+      "section": "Metadata",
+      "value": "Size 87143 bytes",
+      "evidence": "{\"accessed\": \"2026-06-19T12:32:56.239923+00:00\", \"created\": \"2026-06-19T12:32:56.175121+00:00\", \"modified\": \"2026-06-19T12:32:56.176153+00:00\", \"size\": 87143}"
+    },
+    {
+      "section": "Hashes",
+      "value": "26d0db62efbe96bfd884168ab2520aba9808693f27206f476c9b7f2ac996cd96",
+      "evidence": "{\"md5\": \"e4d22c3b8f4317536bc32df7218483dc\", \"sha1\": \"e177e1f079a4710322d00eca887b8c5e4383d811\", \"sha256\": \"26d0db62efbe96bfd884168ab2520aba9808693f27206f476c9b7f2ac996cd96\"}"
+    },
+    {
+      "section": "Strings",
+      "value": "1489",
+      "evidence": "Printable strings extracted from file bytes."
+    },
+    {
+      "section": "Entropy",
+      "value": "6.1208",
+      "evidence": "Calculated from the file byte distribution."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "95.136.242.54",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.64.233.133",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "1.1.1.1",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "10.251.23.139",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.65.232.0",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "80.118.201.0",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "84.96.146.0",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "84.96.219.0",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "80.118.192.0",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.65.94.0",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.65.95.0",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.64.245.128",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.64.159.201",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.149.158",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "109.203.65.49",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "232.0.0.0",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.64.159.127",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.64.233.32",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "84.103.237.80",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "84.103.237.192",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "109.0.66.32",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "109.0.66.48",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "109.0.66.64",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "109.0.66.80",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "109.0.64.96",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "109.0.65.96",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "160.92.103.29",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "160.92.103.30",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.64.233.160",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.64.160.240",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.64.161.192",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.64.159.24",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.64.159.72",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.64.160.232",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "80.118.202.96",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.66.127.56",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.65.125.31",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.64.241.160",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "109.0.74.78",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.162.128",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.190.8",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.190.72",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.190.136",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.190.216",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.191.24",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.190.88",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.191.160",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.20.92.32",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.20.92.96",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.191.216",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.191.240",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.20.107.8",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.20.107.32",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.20.92.64",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.65.123.192",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.66.127.160",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "160.92.103.11",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "160.92.106.7",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "195.88.194.48",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "10.103.15.140",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "10.103.15.151",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "84.103.236.248",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "84.96.146.171",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "84.96.146.172",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "160.92.11.52",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "84.96.217.32",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.66.0.128",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.149.16",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.20.51.64",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "109.24.9.16",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "84.96.238.192",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.162.181",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.190.52",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.190.117",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.190.197",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.191.148",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.191.196",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.191.4",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.191.68",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.20.107.148",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.20.107.165",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.20.107.53",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.20.64.7",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.20.64.244",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "192.168.2.1",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "195.8.210.141",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "213.91.9.206",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "193.200.4.155",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.20.51.218",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.134.136",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.17.134.137",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.65.62.3",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "86.65.63.3",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "199.7.48.0",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "199.7.71.0",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "199.16.83.0",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "62.39.9.151",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "62.39.9.152",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "90.20.51.204",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.20.51.215",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "93.20.51.204",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "109.6.1.72",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: ip",
+      "value": "95.136.242.99",
+      "evidence": "Observed IP indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: url",
+      "value": "https://hotspot.wifi.sfr.fr/indexEncryptingChilli.php",
+      "evidence": "Observed URL indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: url",
+      "value": "http://hotspot.wifi.sfr.fr/mentions.html",
+      "evidence": "Observed URL indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: url",
+      "value": "http://controle-acces.sfr.fr",
+      "evidence": "Observed URL indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "neuf.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "cfgnb6dslgeneral.xml",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "general.nb6dsl.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "cfgnb6dslfirmware.xml",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "hotspot.nb6dsl.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "tv.nb6dsl.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "cfgnb4dslwanservices.xml",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "wan.nb6dsl.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ca.nb6dsl.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "3yp.xml",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "voip.nb6dsl.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ncdn.nb6dsl.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "proxyradeapprod.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "99.Neufbox",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "neufpub.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "hotspot.wifi.sfr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "indexEncryptingChilli.php",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "proxyradius.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "mentions.html",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "www.sfr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "s1.s-sfr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "assistance.sfr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "backup.sfr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "www.fon.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "support.fon.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "corp.fon.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "purchases.fon.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "payment.fon.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "static.fon.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "stats.fon.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "sfr.portal.fon.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "sfr.purchases.fon.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "fon.zendesk.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ocsp.comodoca.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "crl.comodoca.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "www.verisign.net",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "crl.verisign.net",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "www.mopay.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "help.mopay.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Bcfgnb4sip.xml",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "controle-acces.sfr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "img.s-sfr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "s2.s-sfr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "m.sfr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "mist.m.sfr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "static.s-sfr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "authentification.sfr.re",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "s3.s-sfr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "s4.s-sfr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "monprofil.srr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Wcfgnb4dslwanservices.xml",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ic.mopay.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "securepay.mopay.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "safebrowsing.clients.google.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ims.mnc010.mcc208.3gppnetwork.org",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "NDI0360653674.PCA.DGP",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "sfr.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "fixed.p-cscf.sfr.net",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "sfr.net",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ghostsmtp.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ntp.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "stats.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "events.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "errors.neufbox.neuf.fr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "pcgw-0006.imsgroup0-001.val3isc04.ims.sfr.net",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "xelerance.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "C-3yp.xml",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "4purchases.fon.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "4ic.mopay.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: email",
+      "value": "toto@neuf.com",
+      "evidence": "Observed email indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: email",
+      "value": "NDI0360653674.PCA.DGP@sfr.fr",
+      "evidence": "Observed email indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: email",
+      "value": "conference@sfr.net",
+      "evidence": "Observed email indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: email",
+      "value": "33360653674@ims.mnc010.mcc208.3gppnetwork.org",
+      "evidence": "Observed email indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: sha256",
+      "value": "62797705144e82b7c44963aa8ea13442d12057e7d01f33ed67bfab3f6d4e70d5",
+      "evidence": "Observed SHA-256-like indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: sha256",
+      "value": "f00d0b3b8e6a88efaac18f80967e83c49b3454bbe26764a70a0dbfee3973442d",
+      "evidence": "Observed SHA-256-like indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: sha256",
+      "value": "0ea220adfb9dd1c845d9ec0e3d537aab281b5d45ba51b3688c69074225dd8cb4",
+      "evidence": "Observed SHA-256-like indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: sha256",
+      "value": "3ece945cf370ff987ea184f3ac859d590b0a830d74949e8aa0c71900663d4d6c",
+      "evidence": "Observed SHA-256-like indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: sha256",
+      "value": "d6f592f35abe6e9914fe1b14560b764ee23c846d6c9b5bdecd3300a2b3afeb25",
+      "evidence": "Observed SHA-256-like indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: md5",
+      "value": "7199811705e658f475a07bd062bd74ed",
+      "evidence": "Observed MD5-like indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: md5",
+      "value": "5ccdc8d79c337c9d2459588901e96b91",
+      "evidence": "Observed MD5-like indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: md5",
+      "value": "50a29b54e5d6e8cf9d75ff88652f8718",
+      "evidence": "Observed MD5-like indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: md5",
+      "value": "2445ed086172d7663fe65254b0cdabb9",
+      "evidence": "Observed MD5-like indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: md5",
+      "value": "8b427d9f42b2bb21121c5ac32a01b1e2",
+      "evidence": "Observed MD5-like indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: md5",
+      "value": "bab55a6454cedf87165c189aa4fe9bcd",
+      "evidence": "Observed MD5-like indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: md5",
+      "value": "24dd7d8e26b998fe807c179484062d39",
+      "evidence": "Observed MD5-like indicator in extracted evidence."
+    }
+  ],
+  "attack_indicators": [
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC ip",
+    "IOC url",
+    "IOC url",
+    "IOC url",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC email",
+    "IOC email",
+    "IOC email",
+    "IOC email",
+    "IOC sha256",
+    "IOC sha256",
+    "IOC sha256",
+    "IOC sha256",
+    "IOC sha256",
+    "IOC md5",
+    "IOC md5",
+    "IOC md5",
+    "IOC md5",
+    "IOC md5",
+    "IOC md5",
+    "IOC md5",
+    "Encoded PowerShell execution"
+  ],
+  "suspicious_processes": [],
+  "malware_present": true,
+  "malware_family": null,
+  "infection_status": "Infected",
+  "persistence_status": "No evidence found.",
+  "threat_active": false,
+  "severity": "Critical",
+  "risk_score": 100,
+  "conclusion_points": [
+    {
+      "text": "Malware present: Yes.",
+      "evidence": "Encoded PowerShell execution: -enc"
+    },
+    {
+      "text": "Malware family: No evidence found..",
+      "evidence": "No evidence found."
+    },
+    {
+      "text": "Infection status: Infected.",
+      "evidence": "Encoded PowerShell execution: -enc"
+    },
+    {
+      "text": "Persistence status: No evidence found..",
+      "evidence": "No evidence found."
+    },
+    {
+      "text": "Threat active: No.",
+      "evidence": "No evidence found."
+    },
+    {
+      "text": "Severity: Critical. Risk score: 100.",
+      "evidence": "Encoded PowerShell execution: -enc"
+    }
+  ],
+  "recommended_actions": [
+    {
+      "action": "Preserve the original artifact and acquisition chain.",
+      "evidence": "Cryptographic hashes and filesystem metadata were collected."
+    },
+    {
+      "action": "Isolate the host and perform containment.",
+      "evidence": "Malware indicators were observed in the uploaded file analysis."
+    },
+    {
+      "action": "Re-scan with organization-approved YARA rules and endpoint telemetry.",
+      "evidence": "No invented findings were used; this recommendation is tied to collected evidence only."
+    }
+  ],
+  "has_evidence": true,
+  "evidence_profile": {
+    "benign": 4,
+    "suspicious": 191,
+    "malicious": 1,
+    "total": 196,
+    "benign_percent": 2.0,
+    "suspicious_percent": 97.4,
+    "malicious_percent": 0.5
+  },
+  "stored_path": "uploads\\924f70be99e9e471_nb6-startup_1602384431514_1_1.pcap"
+}

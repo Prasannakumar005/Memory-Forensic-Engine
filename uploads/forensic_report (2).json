@@ -1,0 +1,147 @@
+{
+    "report_generated_at": "2026-06-18 10:50:04.657415",
+    "status": "COMPLETED",
+    "architecture_layer": "REPORTING & EXPORT ENGINE",
+    "memory_snapshot_summary": [
+        {
+            "pid": 104,
+            "ppid": 4,
+            "name": "System",
+            "offset": "0xfffff80003a1d040",
+            "threads": 120,
+            "handles": 0,
+            "vt_status": "Suspicious",
+            "vt_malicious_count": 3
+        },
+        {
+            "pid": 444,
+            "ppid": 104,
+            "name": "smss.exe",
+            "offset": "0xfffff80004c32080",
+            "threads": 4,
+            "handles": 30,
+            "vt_status": "Suspicious",
+            "vt_malicious_count": 5
+        },
+        {
+            "pid": 712,
+            "ppid": 644,
+            "name": "csrss.exe",
+            "offset": "0xfffff80005d12040",
+            "threads": 12,
+            "handles": 210,
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        },
+        {
+            "pid": 820,
+            "ppid": 644,
+            "name": "wininit.exe",
+            "offset": "0xfffff80512a1c040",
+            "threads": 6,
+            "handles": 140,
+            "vt_status": "Suspicious",
+            "vt_malicious_count": 1
+        },
+        {
+            "pid": 888,
+            "ppid": 820,
+            "name": "services.exe",
+            "offset": "0xfffff80513b2d120",
+            "threads": 8,
+            "handles": 450,
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        },
+        {
+            "pid": 912,
+            "ppid": 820,
+            "name": "lsass.exe",
+            "offset": "0xfffff80514c3e240",
+            "threads": 15,
+            "handles": 600,
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        },
+        {
+            "pid": 1204,
+            "ppid": 888,
+            "name": "svchost.exe",
+            "offset": "0xfffff80515d4f360",
+            "threads": 32,
+            "handles": 1200,
+            "vt_status": "Suspicious",
+            "vt_malicious_count": 4
+        },
+        {
+            "pid": 2048,
+            "ppid": 1204,
+            "name": "explorer.exe",
+            "offset": "0xfffff80519a8b410",
+            "threads": 45,
+            "handles": 2400,
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        },
+        {
+            "pid": 3120,
+            "ppid": 2048,
+            "name": "chrome.exe",
+            "offset": "0xfffff80521c7a520",
+            "threads": 22,
+            "handles": 850,
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        },
+        {
+            "pid": 4512,
+            "ppid": 2048,
+            "name": "cmd.exe",
+            "offset": "0xfffff80532d8b630",
+            "threads": 2,
+            "handles": 45,
+            "vt_status": "Malicious",
+            "vt_malicious_count": 23
+        },
+        {
+            "pid": 5096,
+            "ppid": 2048,
+            "name": "powershell.exe",
+            "offset": "0xfffff80543e9c740",
+            "threads": 5,
+            "handles": 110,
+            "vt_status": "Malicious",
+            "vt_malicious_count": 46
+        },
+        {
+            "pid": 6112,
+            "ppid": 888,
+            "name": "spoolsv.exe",
+            "offset": "0xfffff80554f0d850",
+            "threads": 4,
+            "handles": 130,
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        },
+        {
+            "pid": 7744,
+            "ppid": 1204,
+            "name": "mimikatz.exe",
+            "offset": "0xfffff80565a1e960",
+            "threads": 3,
+            "handles": 95,
+            "vt_status": "Malicious",
+            "vt_malicious_count": 18
+        },
+        {
+            "pid": 8912,
+            "ppid": 2048,
+            "name": "svchost_rogue.exe",
+            "offset": "0xfffff80576b2f070",
+            "threads": 1,
+            "handles": 12,
+            "vt_status": "Clean",
+            "vt_malicious_count": 0
+        }
+    ]
+}

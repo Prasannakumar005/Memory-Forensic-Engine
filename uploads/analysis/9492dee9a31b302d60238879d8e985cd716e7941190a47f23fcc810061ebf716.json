@@ -1,0 +1,377 @@
+{
+  "analysis_id": "9492dee9a31b302d60238879d8e985cd716e7941190a47f23fcc810061ebf716",
+  "source_file": "uploads\\1ffce242af3fd009_Forensic_Report_4.pdf",
+  "filename": "Forensic_Report_4.pdf",
+  "stored_filename": "1ffce242af3fd009_Forensic_Report_4.pdf",
+  "original_filename": "Forensic_Report_4.pdf",
+  "file_type": {
+    "detected": "PDF document",
+    "mime_type": "application/pdf",
+    "extension": ".pdf",
+    "magic": "PDF document"
+  },
+  "metadata": {
+    "size": 6552,
+    "created": "2026-06-19T12:33:20.944849+00:00",
+    "modified": "2026-06-19T12:33:20.945693+00:00",
+    "accessed": "2026-06-19T12:33:21.032696+00:00"
+  },
+  "hashes": {
+    "md5": "efca1c52be8126c9d33abccf6d66aa80",
+    "sha1": "ec11d52e22baee5b9465f67da173e3698f99e65b",
+    "sha256": "9492dee9a31b302d60238879d8e985cd716e7941190a47f23fcc810061ebf716"
+  },
+  "strings": {
+    "count": 86,
+    "sample": [
+      "%PDF-1.4",
+      " ReportLab Generated PDF document (opensource)",
+      "1 0 obj",
+      "/F1 2 0 R /F2 3 0 R /F3 4 0 R",
+      "endobj",
+      "2 0 obj",
+      "/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font",
+      "endobj",
+      "3 0 obj",
+      "/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font",
+      "endobj",
+      "4 0 obj",
+      "/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font",
+      "endobj",
+      "5 0 obj",
+      "/Contents 14 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 13 0 R /Resources <<",
+      "/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]",
+      ">> /Rotate 0 /Trans <<",
+      "  /Type /Page",
+      "endobj",
+      "6 0 obj",
+      "/Contents 15 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 13 0 R /Resources <<",
+      "/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]",
+      ">> /Rotate 0 /Trans <<",
+      "  /Type /Page",
+      "endobj",
+      "7 0 obj",
+      "/Outlines 9 0 R /PageMode /UseNone /Pages 13 0 R /Type /Catalog",
+      "endobj",
+      "8 0 obj",
+      "/Author () /CreationDate (D:20260618161154+05'00') /Creator (\\(unspecified\\)) /Keywords () /ModDate (D:20260618161154+05'00') /Producer (xhtml2pdf <https://github.com/xhtml2pdf/xhtml2pdf/>) ",
+      "  /Subject () /Title () /Trapped /False",
+      "endobj",
+      "9 0 obj",
+      "/Count 2 /First 10 0 R /Last 10 0 R /Type /Outlines",
+      "endobj",
+      "10 0 obj",
+      "/Count -2 /Dest [ 5 0 R /Fit ] /First 11 0 R /Last 12 0 R /Parent 9 0 R /Title (FORENSIC ANALYSIS REPORT)",
+      "endobj",
+      "11 0 obj",
+      "/Dest [ 5 0 R /Fit ] /Next 12 0 R /Parent 10 0 R /Title (1. Process Threat Intelligence)",
+      "endobj",
+      "12 0 obj",
+      "/Dest [ 5 0 R /Fit ] /Parent 10 0 R /Prev 11 0 R /Title (2. Indicators of Compromise \\(IOC\\))",
+      "endobj",
+      "13 0 obj",
+      "/Count 2 /Kids [ 5 0 R 6 0 R ] /Type /Pages",
+      "endobj",
+      "14 0 obj",
+      "/Filter [ /ASCII85Decode /FlateDecode ] /Length 3315",
+      "stream",
+      "Gb!;hgMYe9&q/A5e>![BmClpK*QR#M2]H*\\=C?[[M\\/D2bg$V3Ebmc3qF1#(*4BJ#C.IDqoH42\"3i@jXW\\;iMC^(S%Yi^/<\"o)L0cX/J9**.:!,a#>-).'EtI_U,OnbYaja$=[>R*uP(A].\\d+kn%p1Upu_Iu#ntEXNBo5HHn!r\\pU*EBsc0[_NSSQ>u\",4b(_)S$5A-s+CL58ik+GLunrB&+JrYS+j+8\\\\<@r07J3:o=qK4Y2T>[[r:-,^4XsSYkm43qlU8\"h2.ei,\"cj'12*_ROsU[m&^HnXWX2i?/\"7sATH3!C:W:N`]WK=-YA76gXRc$*Y'0\\iZRJ*!].Culc5@kLd#_M3W3\\aZVT)4Nc=go/<$*`95X>]JMuoc2&kWM@P`0Pb<=X61:LaL&UL;(SA[tC*i(=U$/.3/V'.OGeTFf6WVNhQ(8e>a9)cQM?;%Mk@QSt,P6f%H-1dlm]VN-7?>me(_I(bI%0)_u!5%Y(3=rLe7(o=S>`egEpJL)HQL'lfEU71,l(LpB`4UHhm/[-Q(?1I_=:06<,Wuq60\\f?p(W&?.4D:M-hMeUQSa:i)W3FXD5DTET;K\\<_K\"d7q_[@K-bCeSpp@pF)LRpnm#baPCjaJ[)rQUGP]q*E\"[EBGOSJKcsYfDG7?du^^ec\\Z`M/W\"@+2SQt[D>X;GUe=l8WRgbc?(TOk'j)SM:\"V]%I8sfF`l:Co18[?Pl!96[/.Is%*-NN2B#<ad\"PDjO@]#l?Aid61)]P+OlM?QfT5SB%igR8rc:hJDF!DD2B.Xr!03-To^=\\f\"MCPWSGmN_+C#`iuXtI*>QLRJkj@'dQ6ZLHol(<iZT*gBf$5*WB_K##WT\"Wq?leTdK#qal1E4LqVkD%;NV*T.26nD6q96-GVl>9gjr(E'QaGI-+<te>K-Q*J*I;qA!8\"g6#ltOU>)?3D0adQ(i[L_#4Zqp@COVQt3VU(Rh1)X/\\H5'-L7pI/V_`5(MQO>:DX0f1&$13ZVb2neH)CU=1CPr@jZ(.QSEiGEIMI!J;p.9ru);CR?R#<8^Th:N,KpEG(>'+U6(0$i+T8P6r)`FUh46L$nZ+Qid9ciaSI[aFZIPP7YU.r<rS&qSf3obNk.,DCB<.(Ac\"loC(i6+PhJ'L6DFj`*1'AT#%j3+9*U?[qrrNC,Y%Ash%OY7JLroJT-<dBs0Ss.!]o<>c)eklMsZ[AH8Kja\\:5KcK\\IB:S.Sl1q3Z(5lG/sg]cBhG_QpoX$9b_8C+[^SgC3>#7UNSCU*]\"a<'ECu11k\"3]m\"(?&opOA\\$<n<bI)18,_F+L>[`YM`Q.-`Y#*#FOu^3n#&qI@7m,SfH`HtQ]RM^;\\E9R6J%+\\P4u)1JYl.]3'V/3!7bPe*@nm>NF^V,E?NritEdip.YLn.k\"^6#DNsn_a$=c_N3<-\\FM<d;lLf.ul&P79oGjaL6E3p>qHWFo+W-WQGaDP!8ig#'n5+kE5m?%&\"[?I_jsOMpTonFdDlV;N`c0iVhXdr0'>b*[KQ*3Z#AYlc)1N6$ta72[&`dI1@>\",*id0I'tlR>6+D08@Ad?ObMHI6`WdR\"1U9WZ:29Z/B\"D&-/9Tfq\\l@5gm]J?+rj3q$;t#6k.[XOej=&B_oIQIFckMbCi>&=Mh*>B,+T4rh@.LA\"&m]<3ZYH<)3QQU,\"8CP\\S+Y$GV(bSe(Be&R]\\&'\"10dL0o[l$HD91(d)H@11r?'QLiPF>)^?'G#W!t]\"_!mC6W5\\\"eIJ_1f[q7G+NdKq\"X=^[%)XQNEYi]2#fRLqYR7,[\"^E`J0uYiB\\.jVUh0S:pl@&OL4p%PEM=`]V4#8-dKM0c/l#ZoLAk9?9Q_lFaklC.qODGL=,rl.F9YVW0?422Y*'QifW/L:+@!a[T>7=2&([6%Wp1?k((mq$Mdcl;Lc&c`r&1KXDDL#Ga7r+f8S]6\\Kdr\\%S$..6/`AGH-l%sEsTWJf`BnT(,&`kW1>9aj2#W!t]\"YQ;#&77+]e./V0f[q7G+Ni#\\l]\"_70at**b2%U6NDN;'%'(Mnh14gN:eWSP.5#IE>Aai3\\E[As*'OG\"l&#$jJ3,P4>D,Yu($Tf?G@jCS#a_DAdcgc\"b`HWQ%OJ[C%rL/*D+a(q/VNgXI#LTn([3MZK,Kh(#,\\>WF;hC\"%*97e;q+5s%G5'CA;c\"0d4$ckRZ]^<$Z52dG%@,?/'?0<D2_:b,>=Pt.!Gd#0g[US0PNSBg^VWM#fSX;bf]3(0i@mqka:(PlSLN.a!uo91Z3R('N5FX.Yr+(i-HU^;[gPnLiPH4H6X,&$q#nF_9d'[FBnI@Gm6Di:X]s>.UY=g*7l$mVC0Z!^iia<Xt_D#;k1mYmAt83@h_7?^BN+?IZA.\"[n^EXF1dee56mZ2d@</7'VY\"WU>-c*\\jUVr'N9\\%CP[\"TYeq.!GuIBK$72f=8^M>s*g)peUCQWgPaeQ]0T+jL0MbP]hFiAr'ZYcMMF-o@!fWj5%a9@e]2R=90rp/$\\u\"d5>^46p>jZEeCqVL&)Tk-d=`3]/Ea.$Rr;,dFc-'J/_qo\\d\"eem'bhYJ^VP*(+PcqT8/3l7R+Sf)D=k6+5f<6`8e.2]^LJ+HPiJ+Ui9;VPJ75X7lUqi+=8^cmbqf#a*Em/Qu=;Z0K2<#qCMbDcP,l[-*ZMq(r<bf^BZp`!2Hj,P[I(cKP`SET0_nXcl:IF9aHulc:V.B!cn)L.\\NUPnB3_SI\\>WkYnl@-tCX=EZ472aD??&m$%+7cdl/TgsA:G96+nC+uJ3&>5'C>2$J3MQE/M!NoDFmTRFrP?UL,<4_)GuRB\"Q1VgF<(mkF\"nVW4G$[@^ok-(=N05@HhXhL@1m=(aH^D!r8[lFG\\W`G(:>ake0\"G-JP3#S7GN4A#f$Z#1fT!.nhcQ]rAWW;YfX('#,5Ylr>UV<j\"PKrLg*HL9('3u/D3c.b]1?>ukGt8ha'h\\]lklc&5&n#M:\\?b=(eZI>E2\":hX7H6RY@(YfAQGo,q(4]CqbYqkf%Ie4SARu0F^EZg\\Kco3VhS[\\[QX0G/\\JU,XU_LiSEku)%&:ag8!Ka;Oe/p=2AaYdU[H4),+MTK-mK,nXZfTV\\W=(_hTNVG5OptnhpBEXT<cfA@okk\\?r^6hIjt)q.rTL-b\"qnDpEB1;3a@\"3qeCP'=(LA@cAZrTi9d:>FoT##[7;rArscD2j!=3B1]dp6nS0'4,Tn$F%*p(@hHT:*)>8\\\\I0F.kKAegYbTr4#o^?mI2'+-OCRRMJ9l[_3V]S\\([2/?R@g\"D3o3R0(K!!!S`u'@u<^6R(b9*:n*15]+1<Y)nS)P.\"l+N18I*B/]^(GCC+kd0h:X=.@-b!.7id\\%KR;2~>endstream",
+      "endobj",
+      "15 0 obj",
+      "/Filter [ /ASCII85Decode /FlateDecode ] /Length 844",
+      "stream",
+      "GauHH_/>bs&A@ZMF%dhGe73!@YA)Hd9d2I:WkE@;?oFg=f`9c?s1U5kZF&:MU,F!MjI,aSr&i:.$lDgQ-3_3,'&J*^+:cR'a@@><kA\\$)m^u3]cKk$,I#aAsdL\\*d,%(OFiSAc3aIl^^4UZ%.pqY;;(!$rCb7=6U]27;n##)Pr]jp?F$n/nf8QZ`nKNpQA=!g2sl6$>mdasE[MY;[;\"\\2X+Q.Ja<K/9i\\#Kp=R*kQ#:gB2S6?\\)=8bRZ[(NN2FWFl6@&Fi]6umN6Hmh(`c)j+37(3--*?#.!9o<%)26Q8rJ$d-$!?E$\\@JLcscA5pT(=s&;B[..ZKdr$%$$bH/78.hb>fGuBoMR5Ik6,I_B4?UrM!D,hJ.HoG&rQSs`([Pj\"<ioF`UQIT=t@\\=GD6GQDgY'n+Z<!'3dHPj8q4/E:^<ia[fY31<rBcV/\"jI+r?egnRt<ET\\JO,?a88P(!L`u/B7i;U5UU6cA^2g6Wl@r,VI0Zd%*o=BH727CW5gn^%drdp/NS!g',.GX\"!$r2brEa>WQETP6HLiWs%[]*lNP/QCM1$qS?+Ak]0fU*r's0Ca0PK&TuU3GXl2T`DMS)(rIWPPA]hTg>YGc_:l9\"s)/YJcK:5OUnfmJ\"%Q]\\\\laAl;13;;TkNKrh@`'CXL`S.6UqCtJ\".Xq&\"'_cMoWf#'1@4HP)^l&b^kg*[6W=;*9Z!+NSsKGL[>G-k1uO?oef&Du@o5S?F:e/nT30`tdV]0u?\\Z%p[^W,_+8?Dm#mbX9B,`u$O,PNaP!jrn6'@uQcu<q\"nCoOH3Vp<r)=6;uYAa<aM8lt+MpA$X#QEX@p<HeJ?*Ep8/L)_3IEjT~>endstream",
+      "endobj",
+      "xref",
+      "0 16",
+      "0000000000 65535 f ",
+      "0000000061 00000 n ",
+      "0000000112 00000 n ",
+      "0000000219 00000 n ",
+      "0000000331 00000 n ",
+      "0000000436 00000 n ",
+      "0000000641 00000 n ",
+      "0000000846 00000 n ",
+      "0000000931 00000 n ",
+      "0000001183 00000 n ",
+      "0000001256 00000 n ",
+      "0000001384 00000 n ",
+      "0000001495 00000 n ",
+      "0000001611 00000 n ",
+      "0000001677 00000 n ",
+      "0000005084 00000 n ",
+      "trailer",
+      "/ID ",
+      "[<c9a1ecdacc838ef9506ea979014c089a><c9a1ecdacc838ef9506ea979014c089a>]",
+      "% ReportLab generated PDF document -- digest (opensource)",
+      "/Info 8 0 R",
+      "/Root 7 0 R",
+      "/Size 16",
+      "startxref",
+      "6019",
+      "%%EOF"
+    ]
+  },
+  "entropy": 6.277292870629992,
+  "iocs": [
+    {
+      "type": "url",
+      "value": "https://github.com/xhtml2pdf/xhtml2pdf/",
+      "description": "Observed URL indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "github.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "h2.ei",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "DD2B.Xr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "NritEdip.YLn",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "lLf.ul",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "N5FX.Yr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "q.rTL",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Q.Ja",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "78.hb",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "hJ.HoG",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "windows_path",
+      "value": "M:\\?b=(eZI",
+      "description": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "type": "md5",
+      "value": "c9a1ecdacc838ef9506ea979014c089a",
+      "description": "Observed MD5-like indicator in extracted evidence."
+    }
+  ],
+  "yara_matches": [],
+  "signature_matches": [],
+  "suspicious_indicators": [],
+  "memory_analysis": {
+    "is_memory_dump": false,
+    "plugins": {},
+    "processes": [],
+    "network_connections": [],
+    "suspicious_processes": [],
+    "hidden_processes": [],
+    "code_injection": [],
+    "persistence": [],
+    "timeline_events": [],
+    "summary": [
+      "No evidence found."
+    ],
+    "status": "No evidence found."
+  },
+  "timeline": [
+    {
+      "timestamp": "2026-06-19T12:33:20.944849+00:00",
+      "event_type": "File creation",
+      "description": "File creation timestamp from filesystem metadata.",
+      "evidence": "Filesystem metadata"
+    },
+    {
+      "timestamp": "2026-06-19T12:33:20.945693+00:00",
+      "event_type": "File modification",
+      "description": "File modification timestamp from filesystem metadata.",
+      "evidence": "Filesystem metadata"
+    }
+  ],
+  "evidence_collected": [
+    {
+      "section": "File Type",
+      "value": "PDF document",
+      "evidence": "PDF document"
+    },
+    {
+      "section": "Metadata",
+      "value": "Size 6552 bytes",
+      "evidence": "{\"accessed\": \"2026-06-19T12:33:21.032696+00:00\", \"created\": \"2026-06-19T12:33:20.944849+00:00\", \"modified\": \"2026-06-19T12:33:20.945693+00:00\", \"size\": 6552}"
+    },
+    {
+      "section": "Hashes",
+      "value": "9492dee9a31b302d60238879d8e985cd716e7941190a47f23fcc810061ebf716",
+      "evidence": "{\"md5\": \"efca1c52be8126c9d33abccf6d66aa80\", \"sha1\": \"ec11d52e22baee5b9465f67da173e3698f99e65b\", \"sha256\": \"9492dee9a31b302d60238879d8e985cd716e7941190a47f23fcc810061ebf716\"}"
+    },
+    {
+      "section": "Strings",
+      "value": "86",
+      "evidence": "Printable strings extracted from file bytes."
+    },
+    {
+      "section": "Entropy",
+      "value": "6.2773",
+      "evidence": "Calculated from the file byte distribution."
+    },
+    {
+      "section": "IOC: url",
+      "value": "https://github.com/xhtml2pdf/xhtml2pdf/",
+      "evidence": "Observed URL indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "github.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "h2.ei",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "DD2B.Xr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "NritEdip.YLn",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "lLf.ul",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "N5FX.Yr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "q.rTL",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Q.Ja",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "78.hb",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "hJ.HoG",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: windows_path",
+      "value": "M:\\?b=(eZI",
+      "evidence": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: md5",
+      "value": "c9a1ecdacc838ef9506ea979014c089a",
+      "evidence": "Observed MD5-like indicator in extracted evidence."
+    }
+  ],
+  "attack_indicators": [
+    "IOC url",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC windows_path",
+    "IOC md5"
+  ],
+  "suspicious_processes": [],
+  "malware_present": false,
+  "malware_family": null,
+  "infection_status": "No evidence found.",
+  "persistence_status": "No evidence found.",
+  "threat_active": false,
+  "severity": "High",
+  "risk_score": 65,
+  "conclusion_points": [
+    {
+      "text": "Malware present: No.",
+      "evidence": "No evidence found."
+    },
+    {
+      "text": "Malware family: No evidence found..",
+      "evidence": "No evidence found."
+    },
+    {
+      "text": "Infection status: No evidence found..",
+      "evidence": "No evidence found."
+    },
+    {
+      "text": "Persistence status: No evidence found..",
+      "evidence": "No evidence found."
+    },
+    {
+      "text": "Threat active: No.",
+      "evidence": "No evidence found."
+    },
+    {
+      "text": "Severity: High. Risk score: 65.",
+      "evidence": "No evidence found."
+    }
+  ],
+  "recommended_actions": [
+    {
+      "action": "Preserve the original artifact and acquisition chain.",
+      "evidence": "Cryptographic hashes and filesystem metadata were collected."
+    },
+    {
+      "action": "Re-scan with organization-approved YARA rules and endpoint telemetry.",
+      "evidence": "No invented findings were used; this recommendation is tied to collected evidence only."
+    }
+  ],
+  "has_evidence": true,
+  "evidence_profile": {
+    "benign": 4,
+    "suspicious": 13,
+    "malicious": 0,
+    "total": 17,
+    "benign_percent": 23.5,
+    "suspicious_percent": 76.5,
+    "malicious_percent": 0.0
+  },
+  "stored_path": "uploads\\1ffce242af3fd009_Forensic_Report_4.pdf"
+}

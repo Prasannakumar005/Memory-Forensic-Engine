@@ -1,0 +1,6805 @@
+{
+  "analysis_id": "b59276be2b88a34541325dd9fed8c7b77731ce55530b07ddfb5987bbe58c75a5",
+  "source_file": "uploads\\7792a426af149bc7_Internal_Assessment_2.pdf",
+  "filename": "Internal_Assessment_2.pdf",
+  "stored_filename": "7792a426af149bc7_Internal_Assessment_2.pdf",
+  "original_filename": "Internal_Assessment_2.pdf",
+  "file_type": {
+    "detected": "PDF document",
+    "mime_type": "application/pdf",
+    "extension": ".pdf",
+    "magic": "PDF document"
+  },
+  "metadata": {
+    "size": 2836658,
+    "created": "2026-06-19T12:31:54.536728+00:00",
+    "modified": "2026-06-19T12:31:54.544733+00:00",
+    "accessed": "2026-06-19T12:31:54.615081+00:00"
+  },
+  "hashes": {
+    "md5": "757ca86b53c40761853866de61f40d90",
+    "sha1": "d26e3c81639f154e98de39aafbfc3ebe9b275737",
+    "sha256": "b59276be2b88a34541325dd9fed8c7b77731ce55530b07ddfb5987bbe58c75a5"
+  },
+  "strings": {
+    "count": 32996,
+    "sample": [
+      "%PDF-1.5",
+      "24 0 obj",
+      "/Ordering (Identity)",
+      "/Registry (Adobe)",
+      "/Supplement 0",
+      "endobj",
+      "26 0 obj",
+      "/Filter /FlateDecode",
+      "/Length 150028",
+      "/Length1 347852",
+      "stream",
+      "san0",
+      "AkUc",
+      "unH[",
+      "Gf;&",
+      "t,[:",
+      "$$!!",
+      "W?}N",
+      "/U.$!",
+      "IH~ua7",
+      "IH~(B",
+      "A*dC>",
+      "L@?S",
+      "J=8a3",
+      "4kjr\\",
+      "t!dT",
+      "*SJJ",
+      "k,}Y",
+      "Vt6a",
+      "LxV44S",
+      "sL^p",
+      "8Z<B+",
+      "{uos",
+      "|D+G[",
+      "uBc/wn",
+      "6+>7jz",
+      "*p+7",
+      "Z:{[[",
+      "*mus[p",
+      "6hl&",
+      "Tm\"K",
+      "{Qeb",
+      "0lz*z,",
+      ">%|B",
+      "{^s$b",
+      "\"<F>",
+      "n \\O",
+      "!,&t",
+      "tB'a>a",
+      "&B#a*",
+      "PA('",
+      "PH( ",
+      "NB6!",
+      ">&|D",
+      "#<Jx",
+      "wzc\\",
+      "z*r;",
+      "7z&b",
+      "FvB2[",
+      "QF(%",
+      "PA('",
+      "'L$L ",
+      "*B*!",
+      "B;a.a",
+      "Bh&L#",
+      "=[zv",
+      "Q5+z",
+      ".twm\\",
+      "Jp-T",
+      "volr7:",
+      "89|v",
+      "\\:g~",
+      "+[&xV",
+      "~A@y",
+      "TW/<",
+      "Up5\\",
+      "3i$>",
+      "X\"vX",
+      "0/Wb%L",
+      "[]Q2Ag2UX",
+      "4:\\P*",
+      "KSF5",
+      "I1iy",
+      "pSlB",
+      ":]I.",
+      "Bo-/",
+      "bxL;O",
+      "madq1v\\",
+      "k7Li",
+      "\"CaqA",
+      ":B5xNJvv",
+      ":.#))#A",
+      "H]<Q",
+      "7iz4",
+      "FFq6",
+      "-iyZ",
+      "AZqC",
+      "Vab^",
+      "yNErFC",
+      "sSSs",
+      "jgDD4",
+      "$g>b",
+      "Z{afZ",
+      "]7qp",
+      "Kw46N",
+      "G96+",
+      "l\\|nS",
+      "FVhO",
+      "4MZ6",
+      "Ulw5G",
+      "MyU|",
+      " F'6",
+      "5X!^1",
+      "#&gr{g",
+      "jzqU",
+      "_ix:",
+      "cOp2:",
+      "CZyA",
+      ">J-c2",
+      ",rkN^E",
+      "uljF]Gya}I",
+      "L>2+",
+      "de2;DB2",
+      "%Y0F:",
+      ">9>[n",
+      "fK{,",
+      ",Zqt",
+      "7vl|",
+      "A/>^",
+      "UxeKv",
+      "lI>e;",
+      "-?zB",
+      "0V>Sq",
+      ";g@:[",
+      "udBj",
+      "p?\"~",
+      "l(;1",
+      "\"SXu",
+      "r!q$;",
+      "z >=",
+      "B~q)",
+      "y5op",
+      "68iV",
+      "Y#=K",
+      "XEgX",
+      "i\\@x",
+      "'_9c",
+      "Xw0b&q",
+      "g:n:",
+      "dYt(",
+      "EtU'",
+      ":J'0",
+      "m/3&",
+      "yypv",
+      "NG* ",
+      "o><aJ`",
+      "{K2v",
+      "iw5l",
+      "3eK5",
+      "35I3",
+      "lOL>?[",
+      "0{b^",
+      "C_9c",
+      "/aW+",
+      "4p*g",
+      "krN2;/iqX<",
+      "_Q:p",
+      "H$=7",
+      "1Te ",
+      "l9OD31\"v",
+      "bxiVqq",
+      "M[B.W",
+      "Lwu'",
+      "_P,l",
+      "mh4}",
+      "aQ'0t",
+      ";FJ@",
+      "%7-\\",
+      "{a0:",
+      "Xv!s",
+      "x|bv",
+      "cG|2-",
+      "0]BD",
+      "gpS<",
+      "?jFu",
+      "^:[3",
+      ".U>L&",
+      "5|&-",
+      "{rj8",
+      "4'q$",
+      "vk*]*",
+      "`'qj",
+      "S@:$",
+      "mxNvI",
+      ",tpM",
+      "uV[-p",
+      ")MR*",
+      "q#vt",
+      "]%67",
+      "@u'm",
+      "^o`t",
+      "eE$1",
+      "d]j=4",
+      "__Zq",
+      "OM>H",
+      "M!u/J",
+      "]wpm",
+      "Rr+n",
+      "u?JZ",
+      "M+2C",
+      "_p`(",
+      "D;cm+",
+      "H2;[",
+      "9>Cz",
+      "p:0w",
+      "A@Mh",
+      "$dj[",
+      "y1O{w",
+      "nG?K*@[-",
+      "B6 [",
+      "T;Zk",
+      "XNKK",
+      "&On -_",
+      "_y`M",
+      ":'4:",
+      ".#_A",
+      "'aS3+I",
+      "5EG{>",
+      "LZyl",
+      "dUg5",
+      "5Cj,",
+      "h1R,",
+      "#mjJ",
+      "[@8x",
+      "g _&",
+      "<FUK",
+      "?XlV",
+      "z=+r",
+      "q29o[",
+      "5eJe{",
+      "yUc2@Q",
+      "@c_*",
+      "eEhQ",
+      "2,ZD",
+      "Z]R|",
+      "N!F0",
+      "mjq$",
+      "y;z/",
+      "(K<`A",
+      "dfHB",
+      "XKGc",
+      "hbFi0",
+      "'\"oa",
+      "=\"oc",
+      "Jck,O",
+      "Lr.`",
+      "!7oR",
+      "_tr<",
+      "*Cu<n",
+      "m\"r9",
+      "1N>;C",
+      "<LcW",
+      "z3Y^]}6",
+      "3JZ&",
+      "-j;\\3@",
+      "NZ/}b",
+      "Zi=R",
+      "l.fw",
+      "d4o@",
+      "|;\\2*",
+      "!Dgq7",
+      "%e_J",
+      "J?&w",
+      "|1VU",
+      "\"ijT",
+      "&mWG",
+      "KiMk",
+      "7JHj _",
+      "<sDm%",
+      "PKL)",
+      "g#JW",
+      "@j;-",
+      "SVU6(U~",
+      "z}^%",
+      "1_;j",
+      "yuTiw",
+      "kwG6",
+      "vxby<$;Q7",
+      "mb]Y",
+      ",ndn",
+      "I#,M$",
+      ")oX[\\W",
+      "u5k*K",
+      "juie",
+      "*KVW",
+      "URU\\",
+      "*O)-^U|C",
+      "Mq)-+",
+      "z}-n",
+      "w.T?=",
+      "/T?#",
+      ":CDZn",
+      "W*7|(U",
+      "h9I}",
+      "t)8}",
+      "i-8y",
+      "_|,U",
+      "[ef5",
+      "VQox4",
+      "/P?f",
+      "@ 010`5KVK",
+      "6i{^",
+      "imo33",
+      "Gk|!%",
+      "@!4i~.t",
+      "ijj2",
+      "|4l7Kvk",
+      "3q!&?",
+      "^J3&",
+      "D\"W|Tk",
+      ";>tl",
+      "12gd",
+      "LVGc",
+      "H`Ap",
+      ")7D|",
+      ")frC",
+      "AOz*",
+      "~!i8q",
+      "WXz}",
+      "ZX>n?",
+      "e311",
+      "/g73",
+      "1=Dx",
+      "0a'a",
+      ")>)i",
+      "Xq^L",
+      "($)gH",
+      ")s] ",
+      "nxgC",
+      "\"an\\(V",
+      "K/I#",
+      "|P>,",
+      "P`Xn",
+      "7?b~",
+      "<d>ny",
+      "4cZV",
+      "r%Em",
+      "=\"}@",
+      "e0^5",
+      "o}Jk",
+      "D*x4",
+      "q7m'9",
+      "4=(R1C",
+      "m*B=-$",
+      "=;IG",
+      "C\"}]o",
+      "GXDe",
+      "BotQ",
+      "v=wf",
+      "}YzN",
+      "CWjO",
+      "aE'?",
+      "N~J+?",
+      "?zJ'",
+      "ur@+",
+      "LfvT",
+      "!},}",
+      "LvT8",
+      "yb8D",
+      "#}\"}",
+      ")_*_",
+      "%_!_",
+      "E^ /`",
+      "Q&or",
+      "r]K\\K",
+      "gDJUD",
+      "U9UN",
+      "V5QM",
+      "j&\"U",
+      "\"ZuV",
+      "UTV{",
+      "#U$$U",
+      "SyU^H",
+      "BjUX",
+      "TeUYH",
+      "AN5@",
+      "yPJ-P",
+      "j5TPk",
+      "nC=uW",
+      "Du\\`0",
+      "Lq%2",
+      "4W\"3\\",
+      "lW\"s\\",
+      ",r%2",
+      "U`\"Id:Id",
+      "W\"K]",
+      "D~r%",
+      "iW2g\\",
+      "`o$c",
+      "9q^\\",
+      "%qY\\",
+      "=q_<",
+      "D'0EW",
+      "6%Z#",
+      "jaZ2-\\K",
+      "!Zb-",
+      "k>Mj~-",
+      "YZPSZ",
+      "%dIYJ",
+      "edYYN",
+      "dEYI~(+",
+      "YS~,k",
+      "WS|5",
+      "J~&[",
+      "D9IN",
+      "T9MN",
+      "H>6:",
+      "\\f.7W",
+      "|f>7_",
+      "`h0i0,",
+      ">8.8>8!818)898%858-8=8#838+8",
+      "r>ET@",
+      "ZuoD",
+      "3o:{",
+      "ZaV2+",
+      "JnEX)",
+      "Jk}`EZ",
+      "?Va*",
+      "?QX\"1L",
+      "}pMO",
+      "#888",
+      "t?r8",
+      "&4M<",
+      "y0b,",
+      "uz$x",
+      "1D?h",
+      "4`=i",
+      ".aTb",
+      "JLv(",
+      "Q6'Q",
+      ">+@u",
+      "T7bE",
+      "V,#Z",
+      "e,z{'v",
+      ",?e9",
+      "![Du#",
+      "<g^0/",
+      "\\Vn+",
+      "RVie",
+      "T=S)TJ",
+      "m)DOJ",
+      "0:J%",
+      "bTfqF",
+      "lJ:W",
+      "{&8g",
+      "yoN@Z",
+      "WT3~",
+      "vUw;",
+      "l*]IN",
+      "fa,%f",
+      "(Zkn",
+      "wB[;",
+      "*bD9",
+      "Y[~)",
+      "mp`pzpc",
+      "yHz\"",
+      "DyHF\"",
+      "LD2yHf\"",
+      "!1Db",
+      "xHV\"Y",
+      "xH^\"y",
+      "xHQ\"E",
+      "xHY\"e",
+      "yHu\"",
+      "xHS\"M",
+      "yHG\"",
+      "yHw\"",
+      "X\"c=d",
+      "T\"S=d",
+      "YJd)",
+      "YKd-",
+      ")N+6%h",
+      "|w4T",
+      "o-Op",
+      "v[6P",
+      "FjqV*{",
+      "((((",
+      ";Ee>",
+      ")BN<~r",
+      "vnnd",
+      "c%ky",
+      "nwQ]",
+      ",)C]",
+      ">gP4",
+      "|2t>%}3",
+      "XdE)",
+      "f (Cc(",
+      ")<8<",
+      "Pt&6~",
+      "F=p!bV",
+      "d1EL",
+      "x\\<!",
+      "xV<'",
+      "/C2A&",
+      ",Sd9",
+      "e5Y]",
+      "5e-Y[",
+      "r9W^!",
+      "|R>%",
+      "k4I~+",
+      "t-zE",
+      "A<(6",
+      "$9YN",
+      "3t#m",
+      "P|$>",
+      "**OUU",
+      "W>LI",
+      "yDzE",
+      "YLa9N",
+      "Nwe^",
+      "yfa!(",
+      "4QQT",
+      "mx$2v$",
+      "#Q5;",
+      "#Q-;",
+      "$[T^",
+      "HgYK",
+      "qFglF)*p",
+      "UEUJ",
+      "<q>k",
+      "qTBNX",
+      "=[_F",
+      "Tg@P>(",
+      "c+56Ca",
+      "%1jkE",
+      " Udt",
+      "n*dKJc.",
+      "OR/}",
+      "6q&D}M",
+      "j2M&",
+      "9}VJ",
+      "l#my",
+      "Ale.o",
+      "#^S$",
+      "oQDW",
+      "VYVa",
+      "|,flo9",
+      "k%O,",
+      "?K*{",
+      "qp:8MM2",
+      "|]~J",
+      "d5JD",
+      "U5uL",
+      "`^4/",
+      "L;^I",
+      "-V{.V",
+      "AQ@N",
+      "z18k",
+      "3Z{Z",
+      "(ORW",
+      "{>r\"",
+      "d6# ",
+      "'9K=",
+      "Md8~<D",
+      "S6|nN",
+      "q^q>r",
+      "('b(",
+      "Aqb(",
+      ",XFq",
+      "))x x",
+      "]5wF",
+      "Z[[u^FmU",
+      "ZcfT2",
+      "Yx~n",
+      "iLgNf",
+      "N?WiM",
+      "0GB'",
+      "?9f$",
+      "K=P)",
+      "Jq?T",
+      "_s.D",
+      "8c'pnX",
+      "}>x_",
+      "4y 4",
+      "<'!B+y",
+      "ha)Z.",
+      "Et#-",
+      "N_~7",
+      "dul=g",
+      "!{\";",
+      "Vyw{k",
+      "zOxOzO{",
+      ")-424",
+      "Ix9^",
+      "WHY^",
+      "Zx-(",
+      "A2R34D34R$R$ETD4-",
+      "P[H:h",
+      "$I{I{",
+      "Fm#I",
+      "vD;B",
+      "?KUaW",
+      "Wex[",
+      ">J_e",
+      "Ar>m%H",
+      ">9/X",
+      "j%(%+",
+      "J_yu",
+      "t.]@K",
+      "%zUQ",
+      "qjG5IMQ",
+      " vELF",
+      "x?bw",
+      "{#f ",
+      " NA,D",
+      "\".B,E\\",
+      "@,G|",
+      "d)YNV",
+      "]d/9@",
+      "7f#ND",
+      "k=JE",
+      ";&R~",
+      "\\ Wi#",
+      "e:cLx",
+      ">bMY3",
+      "{xGH",
+      "ql<{",
+      "cl.{",
+      "F11'h",
+      "-Vtkk",
+      "bM*:",
+      "3t%]",
+      "7P*@\\",
+      "G}-1",
+      "XaGg",
+      "M-n1",
+      "F<2C",
+      "g NB\\",
+      "4!<.",
+      "@l16",
+      "xs=l",
+      "Y+F ",
+      "JGxox",
+      "\"-QO",
+      "(PVa",
+      "h_KC",
+      "B}a>",
+      "Gs}(",
+      "{GCz",
+      "FCxL",
+      "-=Lq5#",
+      "#!<J",
+      "-K(Z",
+      "-K(Z",
+      "jN\\Y",
+      "9qe5'",
+      "jN\\_",
+      "9q}5'",
+      "8@gy",
+      "5;i|",
+      "0<ox",
+      "zdj^.)",
+      "7b,)",
+      ".<rcX",
+      "$wHI",
+      "!vDLBLALC",
+      ";\"o<",
+      "U& .E",
+      "et7=L",
+      "t)QJ[%IIW",
+      "gHDH",
+      ")Dzb<",
+      "!P7#",
+      "3d%YG6",
+      "1$O~",
+      "C#hS",
+      "K~BrYr",
+      "t/=H+",
+      "(^%Ri",
+      "*w9j",
+      "]\"A7",
+      ";%6P",
+      "A?;\"'",
+      "[?N?",
+      "zs!o",
+      "d1.:A",
+      "({5Ek",
+      "W>$tv",
+      "%KJm",
+      "lG[V",
+      "u<n^",
+      "{f ]LS",
+      "=/B(",
+      "%B@9}",
+      "4,}<l",
+      ",(,X^",
+      "95ej",
+      "\\tfF",
+      "%BxIm_",
+      "[{/p",
+      "x%s{",
+      "J?U<[Q.F",
+      "_Ff9",
+      "}E+K",
+      "Bh:HEbO",
+      "P#JBmJ",
+      "(B}$",
+      "'+=P",
+      "ax4F",
+      "PCSP7",
+      "Hw_;",
+      "%M f_",
+      ">)$a",
+      "FaK'",
+      "y|\\u",
+      "A,(.",
+      "!,R7",
+      "wjxP",
+      "vG]x",
+      "u|#,",
+      "^c{-n",
+      "|}rUT",
+      "TfFefTfFefTfFefTfFefTfFef",
+      "3T,Q1C",
+      "'y6.",
+      "j~zr",
+      "|jum",
+      "A{tl",
+      "D'{Wl",
+      "E6Md",
+      "D6Md",
+      "D6Md",
+      "D6Md",
+      "D6Md",
+      "&W6M\\y",
+      "5Z;iZ",
+      "^a`r:l",
+      "+'%TK",
+      "j8i1",
+      "2V`%V",
+      "79?`",
+      "qBy2",
+      "IQ]m",
+      "MN|6",
+      "_#r_,",
+      "_3GO",
+      "UWQu",
+      "B3?V%>",
+      "fj4S",
+      "fj4S",
+      "fj4S",
+      "fj4S",
+      "quXR",
+      "6P{=",
+      "A29J&",
+      "cwtW",
+      "8Q~K;;",
+      "Tx>q",
+      ">JS{",
+      "^Zk6t",
+      "!#:dD",
+      "!#:d",
+      "ri0z?",
+      "J\\*U",
+      "W{??",
+      "tCN7",
+      "tCN7",
+      "tCN7",
+      "tCN7",
+      "tCN7",
+      "tCN7",
+      "tCN7",
+      "r([Y",
+      "*g]o{",
+      "RxTu",
+      "(gF93",
+      "(gF93",
+      "(gF93",
+      "`]ymH",
+      "jjXM",
+      "xV%w",
+      "qbWx%",
+      "o87t6|",
+      "9[95t;",
+      " t6^k_\\",
+      "2uvMb(,P",
+      "qx^e",
+      "=m+/Vz",
+      "*iL%",
+      "(VEC",
+      "c*aL%",
+      "qteBuU",
+      "bw|V",
+      "55iMMZS",
+      "sz.K",
+      "D/^E",
+      "qBx&",
+      "<aukk",
+      "6lqL",
+      "vXoc",
+      "en=fn=&",
+      ";Dyq",
+      "P].T",
+      "mUk[",
+      "VVme",
+      "UWSu",
+      "2M_1E",
+      "l2A6",
+      "dXc2",
+      "zr/-",
+      "KG'gF",
+      "LJ2)",
+      "Y1<+",
+      "*O^5",
+      " U[+V\\",
+      "EkAKP",
+      "z!V/d",
+      "Jz\\I",
+      "r!V.",
+      ">$$Z",
+      "8HOf",
+      "JF\\y",
+      "?|*~",
+      "2lXF",
+      "w36,",
+      "wa-0VU",
+      "fp\"4",
+      "1=LL",
+      "S`*<",
+      "\"f}ah",
+      "rLA9",
+      "<b?0",
+      "NdV'2",
+      "kEss",
+      "iI`mY",
+      "ga\"L",
+      "c`,<",
+      "ga\"L",
+      ")].vA",
+      "Y_]n",
+      "kxvQf",
+      "8Q.N",
+      "8Q.N",
+      "8Q.N",
+      "'\"zO\"z",
+      "JYJ^",
+      "i)ji",
+      "ji)ji",
+      "'P].",
+      "rQ].",
+      "rQ].",
+      "o^&~i",
+      "+wiW",
+      "#Wp\\",
+      "(}#q",
+      "\"_/6L",
+      "A# N",
+      "}yPg",
+      "CuIy",
+      "^WN]B",
+      "X_r-",
+      ",=7z",
+      "<t>yg",
+      "uq,CW",
+      "!kE&",
+      "RC`(<",
+      "{ZezU",
+      "~:F>",
+      "?.}q)",
+      "jR'|Tz",
+      "s1>j",
+      "./`]^*_g",
+      "~/h(",
+      "E\\Mp&Am",
+      "AsOD",
+      "yl}-",
+      "3'Bs",
+      "Zo)dC-",
+      "vm.2",
+      "3~nv3",
+      "l\\c>`",
+      "4VK[",
+      "e\\66",
+      "l-O3",
+      "vFRv",
+      "\\^$/2*",
+      "mf2T",
+      "<t t",
+      "TVs+S",
+      "5_>h",
+      "5.<)<IM",
+      "p^8O=",
+      "5#|(|H",
+      "4R/F",
+      "Ij^$3",
+      "V,:4:",
+      ">aeD",
+      "}4':",
+      "c-c'YSb",
+      "X{+76:6",
+      "+/6+6",
+      "n-Mo",
+      "7zWt",
+      "=A1>",
+      "`}|IA",
+      "Nsu<",
+      "MypF",
+      "Fz@mV[h0",
+      "&Z.{Q",
+      "eUf/",
+      "''%G",
+      "\\89C",
+      "ZXzj",
+      "p1bZ{",
+      "1B.C",
+      "F]TF",
+      "ho4r",
+      "rfx3",
+      ")`L!",
+      "td]d=E#_D",
+      ",KCLz",
+      "T\\P/[P",
+      "oB<#`",
+      "< ZkX",
+      "Xf{WzW",
+      "EzF4",
+      "q-]p",
+      "O8<(<",
+      " jGmJ",
+      "}f5z",
+      "req5",
+      "xw+v",
+      "YOxL",
+      "Ya.)",
+      "<3;v",
+      "qb&&",
+      "4JlO",
+      "5r-9",
+      "WN[&",
+      "|y\"$v",
+      ";6|%",
+      "-~]3",
+      "2=LW",
+      "(@=g",
+      "o+FN",
+      "t27 ",
+      ".-7]Q",
+      "VgzR",
+      "-eM!z",
+      "C-So",
+      "vv{+",
+      "5yTyw",
+      "^Ug5",
+      "xTcV",
+      "QCX?G=",
+      "WXQG",
+      "YKG-a-",
+      "fcoc5",
+      "- T2",
+      "~z`mB=",
+      " luA",
+      "Q u9A",
+      "B/QFhnh",
+      "v>w>",
+      "lp6 f",
+      "\"<s ",
+      "~g?ju",
+      "Wr+Qa",
+      "5QZ-",
+      "vk#o",
+      "}n/j",
+      "Nt'R",
+      "zw=r",
+      "Fw#J",
+      "Z^!/",
+      "5HJOJ",
+      "MTZw",
+      "88Yo",
+      "Py=UO",
+      "S3=S",
+      "Utxt8",
+      "V=pD",
+      "TW8n=p",
+      "g.{.",
+      "j+,k",
+      "[$(Y8",
+      "TT-.",
+      "V#n]",
+      "ZD8h",
+      "_6u'",
+      "tgQ3",
+      "P8e#p",
+      "R8esa",
+      "wV]qDuE",
+      "Q]qDu",
+      "+ZTW|Q]",
+      "hQ]q",
+      "hQ]qDuE",
+      "hQ]qDu",
+      "aRjR*",
+      ">FFR&Rf",
+      "'^DVR",
+      "5|+5",
+      "Ea'Y<",
+      "D/A<",
+      "Oz;bX",
+      "*HeE",
+      "JIeE)",
+      "JeEA",
+      "Q*+:J%EG",
+      "{GhE",
+      "whg,-",
+      "yc+b",
+      "fsp?",
+      "CbGJ",
+      "I9WI",
+      "GlW9",
+      "#%}N",
+      "/6o;s",
+      "sbgJ",
+      "yT5x5",
+      ")%!?",
+      "-~Nx",
+      "G~U<",
+      "]n^^v",
+      "'Ge?g",
+      ">}T^yv$",
+      "[f||H",
+      "u<Z'",
+      "^B9s",
+      "AE$|J",
+      "!\"*\"",
+      ":uN-",
+      "~(3I",
+      "83ps",
+      "AjRv(",
+      "R)U:",
+      "{8'f9",
+      "*yHN",
+      "[Vsbd",
+      "HoKGe9",
+      "~%Fc1",
+      "[is+",
+      "\\|%:",
+      "1xJP",
+      "\\wkSC",
+      "|=B=",
+      "Q?R`",
+      "~y+b",
+      "#~C]N",
+      "O^\\9&;K",
+      "^Z$?*-c",
+      "zyg ",
+      "P].Z ",
+      "Uci1",
+      "`cx=",
+      "ZoX{",
+      "KdRK",
+      "najazvzv",
+      "7s6J<",
+      "Zdy,C",
+      "V9Mc",
+      "?4~Ba",
+      "}Tl~n~",
+      "Yd-Bx",
+      "!R(l",
+      "K*pz:",
+      "~D.wtz4",
+      "cTu!",
+      "jc5 B",
+      "ZO[O",
+      "c l:&",
+      "<WEY",
+      "ri&F",
+      "`Y|N",
+      "%1Hv",
+      "kd;J",
+      ":(t'h$",
+      "x)AW",
+      "NTbV",
+      "Tx]B2]",
+      "'s}2",
+      "Cf<d",
+      "+n)t",
+      "e#bD",
+      "Ae{AcK!",
+      "6BXHy",
+      "Wb|e",
+      "x4I<",
+      "p6} ",
+      "FytSt+Qt[t",
+      "t/E!",
+      "yNw|",
+      "m/2*I5.7",
+      "fPCP",
+      "c8hSS",
+      "|6 p2",
+      "V3pq",
+      "|ZaUP[",
+      "#j<`",
+      "|b|B!",
+      "B6/d)",
+      "NY)jk",
+      "Q;N]",
+      "]nsS",
+      "m<)+",
+      "^zw3E+",
+      "ajc>b",
+      ",hsG",
+      "dk2]",
+      "]J#Y",
+      "c]o<",
+      "]KKc",
+      "Vy7X",
+      "([vf",
+      "8GQv",
+      "PnOh",
+      "2n\",Y!",
+      "f=o=",
+      "ket&",
+      "s:uwz8",
+      "XWM(s",
+      "y[V?",
+      "3y[W",
+      "Ixg $",
+      "oO(|{",
+      ";RSSg",
+      "SVx-",
+      "=e%{7y",
+      "zx3b;",
+      "5J--",
+      "4B-R",
+      "\"9:9.9)9=ysrvr^rAC",
+      "/mQrYrerM",
+      "N,N,O",
+      "<7:,",
+      "_xODi",
+      "QiL1",
+      "uD?n",
+      "sm\\'",
+      "V(EX",
+      "-bKX",
+      "Nc}l",
+      "{X{I",
+      "o9F*'",
+      "&]wO",
+      "H~kYw\\",
+      "tA]T",
+      ")%yV;~",
+      "j.hz4",
+      "!6EL",
+      "{N;*{Y]",
+      "Q0J&",
+      "3v`7",
+      "k5F`Q",
+      "ea+f",
+      "W{I;",
+      "[]`N=",
+      "l}Av",
+      "bH3d",
+      "\\60n",
+      "b\\5N",
+      "@iZi",
+      "n7=1",
+      "|R<%",
+      "a?(^",
+      "8!NiK",
+      "{%qE",
+      "al%6",
+      "`wkdR",
+      "$E)v",
+      "e25[",
+      "*k*k",
+      "Z6Tv",
+      "=.{R",
+      "Yp\\s\\w",
+      "rL9f",
+      "reyJy",
+      "8j-7",
+      "n)R-",
+      "_!<(q",
+      "|A7Y",
+      "Zh1B",
+      "waV'",
+      "2\\']",
+      "]g\\E",
+      "yjnv",
+      "*.V\\",
+      "]1SqG",
+      "r@_Ry",
+      "_UXUl",
+      "[%V9",
+      "*@8B",
+      "0^cZ",
+      "~5p:p&P",
+      "a`*0",
+      "`R05",
+      "e=x.",
+      "[5%5",
+      "jVjVk",
+      "Jh0t#4",
+      "pB8)",
+      "'|1|9|5<",
+      "F:tJ",
+      "zd82",
+      "lEv\"{",
+      "hR45",
+      "^B/#+z",
+      "t*LuR",
+      "N}^vA",
+      "lX6B}Q6&",
+      ">u]~L~",
+      "Zy)-",
+      "Qd)n",
+      "X'6~2[</",
+      "$$S~Z",
+      "itLyVy",
+      "@-B@",
+      "'^:,",
+      "#eI\\",
+      "gQ#z",
+      "R^TB",
+      "c95!",
+      "iY{W",
+      "gVI=n",
+      "jsb{",
+      "o&`,pv",
+      ",*)d",
+      "q{PG*)Q",
+      "vNRR",
+      "#/x\\",
+      "dlV_",
+      "?|(=",
+      ",-xMc\\",
+      "\"'(l",
+      ".H/o4",
+      ".|Tk",
+      ".7+,",
+      "K9W&",
+      "PtRQ",
+      "9z_Do",
+      "7/n[|f",
+      "WU'V",
+      "A)_])",
+      "A#hOd",
+      "lheQ",
+      "[/C\\",
+      "U(3%@",
+      "?H1\"7",
+      "ya5h",
+      "x)x)x",
+      "fGH$",
+      "Y|7G$y",
+      "~s!k",
+      "l6d#",
+      "HYVT",
+      "\"F!j",
+      "cA6hN",
+      "%c4>&",
+      "Bj=\"m",
+      "pFdEp\"",
+      "kw^|",
+      "6Qca",
+      "a,&Rw\"u",
+      "2vau",
+      "7daV",
+      "(ZL|4",
+      "#~>6",
+      "s)#{",
+      "@U<0",
+      "@U<0",
+      "`O`,zP",
+      "d0^j",
+      "p%p%p!",
+      "^4\\L",
+      "4Afl",
+      "12o`s#",
+      "&JkK",
+      "EQ[K",
+      "x?x?x",
+      "016(^",
+      "Nzq#",
+      "`_V?",
+      "O6&B",
+      "Dl](v",
+      "+<f,",
+      "z>\"k9",
+      "wg@qj",
+      ";=Ir",
+      "VUir9",
+      "d_!>",
+      "9w*u7R",
+      "bO:\\]4",
+      "V38K",
+      "3\\s<",
+      "fzVu",
+      "{\"z&r",
+      ";H[K<",
+      "F? s",
+      "xIwq",
+      "*=,K",
+      "l*;]",
+      "(|@cw",
+      "4+E]",
+      "s$o/!",
+      "N4m8",
+      "G~8u",
+      "Fq0uk",
+      "Y21Yt2",
+      "vcnk",
+      "^zbn_",
+      "{i\\]",
+      "ouY{[",
+      "nzGs#",
+      "lheN",
+      "6eOo",
+      "=f-jB",
+      "$_Wnf",
+      "w.lX.",
+      ":N/F",
+      "Us?:",
+      "pOh.",
+      "ig':",
+      "W:G4J",
+      "BD_v",
+      "v^Bi",
+      "mzze",
+      "g:of",
+      "dDOp",
+      "r4BC",
+      "D4zE",
+      ":@oV",
+      "\"jzC",
+      "%o&+",
+      "[CkF",
+      "UEM#4",
+      "'<5j",
+      ")Q[q",
+      "8qeq",
+      "pFQ:",
+      "aOW,",
+      "p~Es{4",
+      "G[{z",
+      "df#3",
+      "f,x,2",
+      "|C-f}",
+      "|p?p?",
+      "$13.",
+      "1um7",
+      "zr)2",
+      "vZiH",
+      ">&)=",
+      "A[3h",
+      "aU1W",
+      "'\"s\"",
+      "\"\"-\"",
+      "Yu#V]",
+      "7)oj",
+      ">&]/",
+      "/=0=4=\"}u",
+      "BN%j",
+      "0|!\\",
+      "P_i(",
+      "7vG0",
+      "W*?5 5",
+      "65&usjb",
+      "zjmj}jSjkj",
+      "WM?ERt",
+      "]l)>",
+      "aDOt#:28)",
+      "4wyX",
+      "725*",
+      "&e~SS",
+      "b,+,",
+      "U=n$",
+      "xY6.P",
+      "1j\\1&",
+      ";e<1",
+      "`<cc&dg",
+      "dh*4",
+      ",@^l",
+      "<Lsy",
+      "b^6G",
+      "ra3/,",
+      "p0la",
+      "Jx\"|",
+      "%|3|",
+      "n%[N\\",
+      "qjUZ",
+      "9ouY=",
+      "zV]d",
+      "f{#i",
+      "i_MJ",
+      "`MFMVMnMAMQ",
+      "6*jn",
+      "\"j$;R",
+      "0{ha+d0",
+      "nC-fA",
+      "Qm4h",
+      "A_+oJ6",
+      "pl\"%Nw",
+      "(8VE",
+      "?B(KH",
+      "-Bl?q",
+      "?Q&S",
+      "kJ,}",
+      " |Xp",
+      "z|1(",
+      " oo}",
+      "jTsh)",
+      "lu~$}",
+      "GW-J",
+      "zTY-Ww",
+      "uI]Q",
+      "X;nnO",
+      "1G~_r",
+      ";|Mx",
+      "$B*)",
+      "*2(W<",
+      "T-yU",
+      "AuH?",
+      "+PGq",
+      "vU_ty",
+      "-Y};[",
+      "w{<u",
+      "Wv(n",
+      "d;Vv",
+      ",1 ;",
+      "CcDg",
+      "I*:(",
+      "wbuH",
+      "Vj/M.ub",
+      "\\t_v",
+      "RIZI&",
+      "%e%*",
+      "'@yi",
+      "@EY=h*k",
+      "48Wv",
+      "wz#`7h",
+      "p(YJ.",
+      "$8#dF?",
+      " Ma@b",
+      "|-&I",
+      "%;;f",
+      "V6Nb",
+      "Blo:",
+      "$fyv",
+      "j1Br1",
+      "5=uYr",
+      "Yf+!",
+      "[^eu",
+      "J!nj",
+      "4Sl7",
+      "Tr+Y",
+      "fb/=",
+      "?L)Y]",
+      "h'k&",
+      "f9$P",
+      "pChf>Jg",
+      "@%GH",
+      "\\M,=",
+      "^>E+",
+      "@'3=",
+      "c5g}",
+      ">IxFoyH",
+      "N+f:",
+      "[:Nef",
+      "h?0C!",
+      "+'tn3",
+      "t}n=",
+      "mL$S",
+      "~qV??",
+      "l|~*",
+      "z~F=?",
+      "=${H.!y",
+      "-^*Q6",
+      "@>?c%",
+      "w)g*C",
+      "6ZLr1",
+      "[F9P",
+      "33gf",
+      "(.O64&=",
+      "/yT*",
+      "u/x/",
+      "G#O?",
+      ".GG'",
+      "$WJ.?",
+      "7!1jB",
+      "[_e.4",
+      "mH|C",
+      "!q}C",
+      "(hP;",
+      "BNE>",
+      "Ayu~",
+      "/!1W",
+      "\"\\#\\",
+      "EF^Y",
+      "WpGS",
+      ";u(4",
+      "ix{o",
+      "aFUqO",
+      "]!|W",
+      "!g@?",
+      " m><",
+      "M74oA",
+      ")h^E",
+      "CwiZ",
+      "s~/A",
+      "u(x;",
+      "u^?Jb",
+      "tNK%|",
+      " Wa=S",
+      "X0.,",
+      "%r.A",
+      "-$,!,",
+      "Ube]I",
+      "XI!q?",
+      "DB!t",
+      "xGIa",
+      "9B7!",
+      "h#l$",
+      "8mi6",
+      "|\\Z\\ZF1",
+      "S;vq:j",
+      "-'[3",
+      "'l\"l",
+      "^E|=",
+      "e>B.!",
+      "8n(9Gq7",
+      "`[ivy]",
+      "/o*_HXBXNh&",
+      "JXHXBXNh&",
+      "#H{[",
+      "V$T$",
+      "]b7a",
+      "-W-Ak",
+      "_h26+",
+      "TMf>",
+      "4_=b'",
+      ">bjA",
+      "Ayo\"",
+      "J[I,",
+      ")o/[",
+      "-H.p",
+      "Vp}i",
+      "WU}`ue6",
+      "z>WA6",
+      "~H<d",
+      ";E}|j|",
+      "Z#V+5J",
+      ";on^SX",
+      "/{hyK",
+      "7o6i",
+      "y&Io",
+      "Gsq^",
+      "r/KY",
+      "]G|H",
+      "_N5WXD",
+      ";A8M8G",
+      "\"@-;",
+      "l%iWg",
+      "h*iOg",
+      "Z,gv",
+      "m$l!",
+      "rX\\P",
+      "#tg]",
+      "}}$I",
+      "N]E9",
+      "<.Q%f",
+      "=mq$ ",
+      "4k$ ",
+      "2c9{",
+      "8xWf",
+      "PWo$x",
+      "flty",
+      "N=28d",
+      "d03u",
+      "\"\\IO",
+      "BM/J",
+      "wnsnK",
+      "H Knz",
+      "a)=B",
+      "xzSN",
+      "={yNy",
+      "JIMI",
+      "l#l`&",
+      "epWG",
+      "NM:\"",
+      "c#,i'Y",
+      "dirmN",
+      "'%$%",
+      "dIuU",
+      "#+ep",
+      "!jqO",
+      "x{m#)",
+      "mcmEb",
+      "pD;>%",
+      "1+f0",
+      "YQZ\"k",
+      "_Eqw",
+      "G83q",
+      "pZ[u(",
+      "1d}7",
+      "-v$Z",
+      "OZ1)",
+      "Z1fHo'",
+      "@9bc",
+      "F8;A",
+      "D8Ct",
+      "%Jv\"",
+      "ZE/D",
+      "y+~`~",
+      "dB)+",
+      "?[%U",
+      ",A#E",
+      "rDW2A-*",
+      ",f)a",
+      "#*[Gf)",
+      "MAy\"",
+      "<du&",
+      "EA6jZG",
+      "lb`6",
+      "(A){",
+      "Rl,JN",
+      "'<)e",
+      "`?3ABf",
+      "@_;)",
+      "#r?m",
+      "Ay&j",
+      "ja?\"?",
+      "7F?U",
+      "kLoY",
+      "9'<D5",
+      ".FC<",
+      "pV1c6",
+      "8IlCJ",
+      "o4 4",
+      "@$_X",
+      "6X5^)",
+      "`[9(e",
+      "g}<o7",
+      "&vIzI",
+      "J$1H/\"E",
+      "nHw#=",
+      "{Or^M",
+      "pVQo1",
+      "f(7k",
+      "h%NA",
+      "GEP)",
+      "v?FK",
+      "84dltLBTJb",
+      "_Dx|bB",
+      "CRbH",
+      "b2hU",
+      "[mY^",
+      "gxQL",
+      "2#|NL",
+      "):]|",
+      "sOR|",
+      "[Rrb",
+      "=KW6",
+      "|>\"n",
+      ";+lEYTw",
+      "{-3c",
+      ",(*,1",
+      "Xr]e",
+      "KL$F",
+      "]LdLXHJ",
+      "M.}9GN",
+      "S3w+",
+      ")?a,",
+      "<0t?r",
+      "icy~iX",
+      "&Phu",
+      "4Tvf",
+      "3C-u",
+      ">\"^Y}",
+      "In5C",
+      "tMV:",
+      "E:SQ",
+      "m,{qt",
+      "sG&F",
+      "_ff]",
+      "Q:mq",
+      "+ny8",
+      "\\VX0qGI",
+      "VC4c",
+      "I8kGk",
+      "p]n7",
+      "U;V}F;",
+      "icimc",
+      "hy;v",
+      "L:5T~S",
+      "J9jdT",
+      "Iv#a",
+      "vntg~}",
+      "1|gB",
+      "3U}t'/#",
+      "}Kv-",
+      "?<Q0g",
+      "R;[]",
+      "}]&N2|",
+      ">usv",
+      "!7U4@z",
+      "(~~S",
+      "pmK;p",
+      "X9[r",
+      ".$rtP",
+      "3xf$<1",
+      "J#y{",
+      "-LB4",
+      "bz^L",
+      "endstream",
+      "endobj",
+      "25 0 obj",
+      "/Type /FontDescriptor",
+      "/FontName /ABCDEE+Calibri,Bold",
+      "/Flags 32",
+      "/ItalicAngle 0",
+      "/Ascent 750",
+      "/Descent -250",
+      "/CapHeight 750",
+      "/AvgWidth 536",
+      "/MaxWidth 1781",
+      "/FontWeight 700",
+      "/XHeight 250",
+      "/StemV 53",
+      "/FontBBox [-519 -250 1263 750]",
+      "/FontFile2 26 0 R",
+      "endobj",
+      "27 0 obj",
+      "[0 [507] 3 [226 606] 18 [529] 28 [488] 38 [459] 47 [267] 60 [547] 62 [423] 68 [874 659] 87 [532] 90 [563] 94 [473] 100 [495] 258 [494] 272 [418] 286 [503] 349 [246] 367 [246] 374 [537] 381 [538] 396 [355] 400 [399] 455 [474] 882 [306] 1005 [507 507]]",
+      "endobj",
+      "23 0 obj",
+      "/BaseFont /ABCDEE+Calibri,Bold",
+      "/Subtype /CIDFontType2",
+      "/Type /Font",
+      "/CIDToGIDMap /Identity",
+      "/DW 1000",
+      "/CIDSystemInfo 24 0 R",
+      "/FontDescriptor 25 0 R",
+      "/W 27 0 R",
+      "endobj",
+      "22 0 obj",
+      "[23 0 R]",
+      "endobj",
+      "28 0 obj",
+      "/Filter /FlateDecode",
+      "/Length 383",
+      "stream",
+      "Cc;M;P0",
+      "['-R",
+      "v\\+.",
+      "q2Gv",
+      "('J%",
+      "H1u/r",
+      " &/~",
+      "endstream",
+      "endobj",
+      "21 0 obj",
+      "/Type /Font",
+      "/Subtype /Type0",
+      "/BaseFont /ABCDEE+Calibri,Bold",
+      "/Encoding /Identity-H",
+      "/DescendantFonts 22 0 R",
+      "/ToUnicode 28 0 R",
+      "endobj",
+      "30 0 obj",
+      "/Type /FontDescriptor",
+      "/FontName /ABCDEE+Calibri,Bold",
+      "/Flags 32",
+      "/ItalicAngle 0",
+      "/Ascent 750",
+      "/Descent -250",
+      "/CapHeight 750",
+      "/AvgWidth 536",
+      "/MaxWidth 1781",
+      "/FontWeight 700",
+      "/XHeight 250",
+      "/StemV 53",
+      "/FontBBox [-519 -250 1263 750]",
+      "/FontFile2 26 0 R",
+      "endobj",
+      "31 0 obj",
+      "[226]",
+      "endobj",
+      "29 0 obj",
+      "/Type /Font",
+      "/Subtype /TrueType",
+      "/Name /F2",
+      "/BaseFont /ABCDEE+Calibri,Bold",
+      "/Encoding /WinAnsiEncoding",
+      "/FontDescriptor 30 0 R",
+      "/FirstChar 32",
+      "/LastChar 32",
+      "/Widths 31 0 R",
+      "endobj",
+      "35 0 obj",
+      "/Ordering (Identity)",
+      "/Registry (Adobe)",
+      "/Supplement 0",
+      "endobj",
+      "37 0 obj",
+      "/Filter /FlateDecode",
+      "/Length 98371",
+      "/Length1 347280",
+      "stream",
+      ".nCiX",
+      "n0|~",
+      "ZwU?",
+      "[6o\\",
+      "b~'l",
+      "{K0^|h",
+      "!DJs",
+      "xh;F",
+      "}x~a0",
+      "'L4a",
+      "em^[",
+      "?Se9NY",
+      "`L&<",
+      "XP-Te",
+      "T{an",
+      "Gu%,A]",
+      "^@u=",
+      "kQ/D}",
+      "z/lG",
+      "@JcI",
+      "j?Un",
+      "%'hO",
+      "`L\"j",
+      "^z^1N",
+      "i0b5",
+      "h:mO",
+      ")\"iO1",
+      "(n4,",
+      "d2J&",
+      ")G^m:b9K",
+      "CQl6",
+      ":l*Z",
+      "dTQ4Y$",
+      "JVUY",
+      "Vzi{",
+      ";&GY",
+      "*fQ1;",
+      "T\\XQ",
+      "M5[l",
+      "$<&m",
+      "p#9Un",
+      ":y7N\"",
+      "Uvh^P'",
+      "M#kO9U",
+      "$R>?",
+      ".s9]n",
+      "DCUeQ",
+      "*+KB",
+      "y]^pj6",
+      "(^1e]",
+      "q{|.",
+      "JsRL|",
+      "$H@-|16",
+      "LTV&",
+      "E8\\,",
+      "de2Y",
+      "B]eK",
+      "(^1e]",
+      "(+SZ",
+      "@S][CSuSC9",
+      ":Z]Q",
+      "uvi]b0&",
+      "mnlnN",
+      "5uVs2",
+      "<}>4",
+      "W$ ^",
+      "5kFc",
+      "xUeu",
+      "wZGg",
+      "L5V7",
+      "s::f",
+      "g|r2",
+      "Oe]M",
+      "h>{~",
+      "<bm,",
+      "zZ0g",
+      "i,qO",
+      "2'=gf]C",
+      "@^0RS",
+      "T]mM",
+      "%3Xr",
+      "JfFJ",
+      "G]q}",
+      "tewW0",
+      "ukVf",
+      "R'KB",
+      "OFv5",
+      "shzz]",
+      "JkV(",
+      "ti.GrI&I",
+      "Z(]5\\Z",
+      "K~Dp",
+      "sNozH",
+      "Xp>4",
+      "si9;,/",
+      "-x7p@(",
+      "{2g+",
+      "EDRD",
+      "1=fz",
+      "p9MEH",
+      "oPv`",
+      "(qe;",
+      "[K-R.",
+      "32G;",
+      "51eiLY",
+      "\\o9F",
+      "\\o;F",
+      "(*!l",
+      "<6-|C",
+      "`g_$",
+      "<[IX",
+      "}]2V",
+      "s=jI",
+      "NGev",
+      "Cws'",
+      ";Wt;zW",
+      ",\\1tv",
+      "9{N7",
+      ":EuF",
+      "gv/UZ",
+      "YN/(",
+      "0`Ku",
+      "Z./]",
+      "2,U:",
+      "l!GI",
+      ";!Jr",
+      "DRd*",
+      "ZH~O",
+      "TFJN",
+      ")<)<%",
+      "}p%_L7C",
+      "B{x?7",
+      "9N>!O",
+      "rw+9I~ ",
+      "8(&;",
+      "z#jO",
+      "\\_Jv",
+      " 9.5",
+      "kI=>K",
+      "@~%^",
+      "4cFS",
+      "?}}rl",
+      "`3PC",
+      "fY,\"",
+      "{L55`2",
+      "pzr5",
+      "8XU\"^&",
+      "`|rO",
+      "~0)ld(TUV",
+      "DC5Y",
+      ":kvK",
+      ",6[y",
+      "%)u_",
+      "=cRL",
+      "3%qS",
+      "?0A$q",
+      "ZU11d",
+      "au97",
+      "7U(t5[",
+      "4xF:c",
+      "PGDF2",
+      "tDWN",
+      "qM^}Q",
+      "I(9A",
+      ".k67L",
+      "<J-B",
+      "Q>IO",
+      "Xt{T",
+      "g5FJ",
+      "BstKu",
+      "ZRz*",
+      "{P[N",
+      "0XduZ@",
+      "[ >0x!",
+      "5w7F",
+      ")H@s",
+      "@qe?",
+      "~qKC",
+      "\\Uon",
+      "-MGJLK",
+      "JEPT4",
+      "mT[k",
+      "yU~X",
+      "QG2^",
+      "M^L<W",
+      "~y8TV",
+      "=5;V5",
+      "?~yK",
+      "[c3Y",
+      "4BB9",
+      "-P(D",
+      "(=(A",
+      "mEv\"]"
+    ]
+  },
+  "entropy": 7.887378509802892,
+  "iocs": [
+    {
+      "type": "domain",
+      "value": "l.fw",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "w.lX",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "M.ub",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ti.GrI",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "g.twm",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "B.WJVx",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "bD.rBjFzAnfEnOg",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "myAle.oD",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "e.UG",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "A.gh",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "yM.kzs",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Q.Fw",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "E.qa",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "i.Nm",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Q.Es",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "9O.Eq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "0.rRr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "aldKcl-O3.vFRvgQ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "F8Uw.lX",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Wg6xY6.Pq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "cdd.Xyw",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "1.tJ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "A.Aj",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "V.eH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "t.Ir",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "2i.Bnn",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "o.zOw",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "o.ua",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Z.HZ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Mctr.SI.Gt",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "B.Ow",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "y.BzP",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "KW.Ak",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "wA.AAhbB",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "1b.iz",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "N.Gh",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Z.nPq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "P.LI",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "q3.ZH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "F.rG",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ZKJt3rj1.VX",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "w.hm",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "s.ode",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "2l.am",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "v.Jn",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "O.rFnnN",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Pt06.QF",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "kxEfF.Nk",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Z.QTp",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ccGmb.Ma",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "x9bZ9.zq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "S.oq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Mz.ak",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "9.rh",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "3.qN",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "M.Fi",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "fh.CKt",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "S1Wj.ZO",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "c5.af",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "p.Bm",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "9.kWQT",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "mX.Ft",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "T.Cp",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "B.Nst",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "TVWL.is",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "i.li",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "tAg.cWk",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "l.xV",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "7fK.KW",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Qd.eQi",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "6.EZTq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "A.bH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "0-Mx.cY",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "hOr.Rj",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "R.eu",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "B5.BGh",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "NM.Mj",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "n.ttA",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "xP.ui",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "k00R.QG",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "9Uo.fH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "n.lfdS",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "i.aH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "jZH.wwH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "C.pP",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Ry-.FH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "H.fY",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "0.pp",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "sj.Ub",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "l.YH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "wp.dl",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "tm.VO",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "yIT8.Brx",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "N.IU",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "M.cW",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "MZD.fUF",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "dA7D.VJ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "F9.WAV",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "d.cX",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "f3.OI",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Y.Vi",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "n2.nq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "o.za",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "hy.Wo",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "x.NqqXj",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "B.zl",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "O.OpxoVYey",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "CkIl.kiXKn",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "g.YF",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "t.JG",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "lllbdvXl.WC",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "QqM58J-.bzSN",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "I6XDU.st",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "j.Ih",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "8.GZlPE",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "r.oW",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "B.NZ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "TKW.Ae",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "zN.Yi",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "KM.kkl",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "PZ9z.MCe",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "7.ds",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "l.FBmy",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "n.ZYauqOU",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "1.Sn",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "y.OI",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "W3.jBE",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "x2.hb",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "J.KVk",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "N8.sHP",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "kN.Is",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "6N.xO",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "yw.TG",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "N.LjA",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "t.gI",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "UT.eV",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "FPP.wQ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "7zZH.cYDJ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "V.uqeki",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "--.GT",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "sNfx.mk",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "fWRsq4OA1pc.wd",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "u.YG",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "b.Xa",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "RBS.vz",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "m.by",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "2T.EX",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "h.fFFOJ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "pngu.pe",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "X.Xr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "WCC-y1.OUR",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "x.UYG",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "H.cX",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Dxy.MZz",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "I.NAI",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "sH.mV",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "N03-7L.nX",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "3mV.Ys",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "cE.HEG",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "c5.fq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "7.qf",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Xt.wc",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "v9V.xe",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "u.Yq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "u.gI",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "6.mmOnl",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ey.ZD",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "FEn0zY.VE",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Ct.sq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "tq.lY",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Uj.NLU",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "R.KjZXS",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Lh.Sf",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Q4o.aa",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "B.kXKsrHC",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "z.oiJ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "he.RD",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "EDi.jk",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "k.XI",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "X.zV",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "l.tkrJmY",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "TVZ.scY",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Gim.tOqj",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "X.chs",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Y-.DG",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "W.xn",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "o.LKq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Y5S.Xk",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ks.Kvao",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "UF.OnL",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "V.nW",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Vr2.uqXjP",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "qX-.tm",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "j.wOu",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "z.rg",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "8O.KF",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "U5E.kn",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "fmT.ngih",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Kz.XSp",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "O.V.uMv",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "mF.tj",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "vk.re",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "LvW.rY",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "p.eO",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "5.Sd",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "4X.QZ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "K.vN",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "0bs9P.rmX",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Ot.lq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "3O.FEC",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "H.dp",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "m.RFKx",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Z-.CcvHs",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "6.gOZp",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "u.Zr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "OXZ8.cEL",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "T.Ub",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "S.uc",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "cDE2.Cm",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "U.qd",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "c.Hmo",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Hk.FR",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "d.ae",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "g.wt",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "q.QG",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "4.yV",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Cq.iv",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "SI.aX",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "nz.MJCa",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "A.OUa",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "WV.UYX",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "5.bMJ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "MDaW.HT",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "i4Yld.Yc",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "m.tWM",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "z.bx",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "9.Bb",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "hz.ojwv",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "M.ZW",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Jm.TC",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "K9.FwI",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "FU.Te",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "hCr.da",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "--.EsWQH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "k5.WjH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "I.Ko",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "gO.DeU",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "vsUF.uA",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Ube.gp",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "a.oU",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Hl.rpAOy",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "s.hc",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "o.OG",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "R.VL",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Qj.DT",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "k.ZyIr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "nX.rfp",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "h.Zh",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "h.jh",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "h.ZiI",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "weG.QH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "75E.HD",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "C.mv",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "X.UQ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "2K.qjEYb",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "etHwwIo9-.dg",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "I.pVBsFr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "3zQzV.mRq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "l.onC",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "J8.qWn",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "n.mC",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "TzR.Vmd",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "fmgn.nK",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Sp.ee",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Hm.KE",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "V.rWW",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "H.sV",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "2hx.Uh",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "E.cJZ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "R0Q.IC",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "J6S.nq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "m4nxGtQ.bM",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "jN.EFv",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "E.tBqA",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "TOBo.dz",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Qr.Mp",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "V.mv",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "E.Uk",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "o.ci",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "J.Kg",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "cm.UA",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "m.dd",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "S.HH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "x.Dw",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "M4Vf9l.eu",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "9iciF.Oi",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Ef.rXZ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ac-.Na",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "u.uQ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "x.iS",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "eX.mXV",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "jF.fi",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "XVU.kZVU",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "c1y.QC",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "azwY.ew",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "K.xsA",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "OO.WSB",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "j.SY",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "o.Jq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "r.Wd",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "x.Am",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ac.Ww",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "9RjK.MB",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "i.Hse",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "u.ERH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "u.sN",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "T.eN",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "4X.wP",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "F3fA.Ed",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "h.apX",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "n.dA",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Io.lmo",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "1H.vTW",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "n.Cr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "N.WhX",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "k.lW",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "xVi.EA",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ME.dD",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "a.dg",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "6.qcAe",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "l.zU",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "HsA.Vr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "M.Qk",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "jbuhml7.QUU",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "X.IEG",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "1.JMUjgq",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "6.RD",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "V.KH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "4.Ua",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "OX.fef",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "GJdyHWX.nVI",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "NxsT.uK",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "I4.YW",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Y.yI",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "CI.MQ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "j.ci",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "I.GXv",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "S.Ud",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "a.qy",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Qd.TS",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "sn.FS",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "u.Ck",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "uI.cj",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "8T.cl",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "X.pH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "16.sXp",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "1H.Yr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "E6gqv.fY",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "n.nZ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "4.ey",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "DIbO.BCn",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "s.wcw",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "S.Agbvm",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "KG.LNv",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "V.fZA",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "3r.Iw",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "43O.GC",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "S.lm",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Z-o.MwZ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "S.mK",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Y.dhlf",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "W.Ky",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "68f.cAo",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Sm.DU",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "zRa.gg",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "I.lEr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "K.YfUW",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "E.QJ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "I.tk",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "L.vl",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "m.wI",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "3.Zd",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "m.KfauuIiM",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "w.ekX",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "tf.PGr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "FK.dZbl",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "sy.wi",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Z.iYvzE",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "soG.kcy",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "LmrIN.tn",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "v8.tiXvekr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "3.bPE",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "5c.mFcY",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "d.zk",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "mg.guk",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "B9.Uhmh",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "t.Fs",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "m.Kt",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "rZ.kuR",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Q.Rk",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "M.knO",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "vE.qs",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "zPI.ldKH",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "v.kl",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "Hm.GZ",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "ENU.Te",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "GWt.Rr",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "y.ehg",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "u.kp",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "lV7.tzfF",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "domain",
+      "value": "www.ilovepdf.com",
+      "description": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "type": "registry",
+      "value": "hKu\\e6CKU",
+      "description": "Observed registry path indicator in extracted evidence."
+    },
+    {
+      "type": "windows_path",
+      "value": "N:\\\u011b\u011b\u011b\u011b\u011b:xS\u0007oM\u001d7u\u000e:xS[J-%\u0012wKRn)q[J-%yy\u0010\u007f=G\u001e#z_\u0011\u007f=G\u001e[O[O[O\u0011)].vA\u0019=P\u000e\u0015P",
+      "description": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "type": "windows_path",
+      "value": "y:\\I\u0010 BC`8\u001b@5y;O#Y\u0019\u001fxT\u001f1;T\u000e\u000fo$k\u0003I",
+      "description": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "type": "windows_path",
+      "value": "z:\\_\u0656",
+      "description": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "type": "windows_path",
+      "value": "h:\\m.k;\u0018mKJ\u0017",
+      "description": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "type": "windows_path",
+      "value": "D:\\\u0292fI\u0017gEmJ(Q`",
+      "description": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "type": "windows_path",
+      "value": "E:\\&V3*%VlQ\u0014\u001dn\u0010\u074d",
+      "description": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "type": "windows_path",
+      "value": "b:\\\u0002;1~,XBqSMi)",
+      "description": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "type": "md5",
+      "value": "FC35B971EB260718C974AD673867E944",
+      "description": "Observed MD5-like indicator in extracted evidence."
+    },
+    {
+      "type": "md5",
+      "value": "0D286916AF1EBA7B2E738350235F592A",
+      "description": "Observed MD5-like indicator in extracted evidence."
+    }
+  ],
+  "yara_matches": [],
+  "signature_matches": [
+    {
+      "name": "Encoded PowerShell execution",
+      "category": "execution",
+      "family": null,
+      "evidence": [
+        "IEX"
+      ]
+    }
+  ],
+  "suspicious_indicators": [
+    {
+      "title": "Encoded PowerShell execution",
+      "evidence": "IEX",
+      "category": "execution"
+    },
+    {
+      "title": "High entropy content",
+      "evidence": "Entropy score 7.89",
+      "category": "packing"
+    }
+  ],
+  "memory_analysis": {
+    "is_memory_dump": false,
+    "plugins": {},
+    "processes": [],
+    "network_connections": [],
+    "suspicious_processes": [],
+    "hidden_processes": [],
+    "code_injection": [],
+    "persistence": [],
+    "timeline_events": [],
+    "summary": [
+      "No evidence found."
+    ],
+    "status": "No evidence found."
+  },
+  "timeline": [
+    {
+      "timestamp": "2026-06-19T12:31:54.536728+00:00",
+      "event_type": "File creation",
+      "description": "File creation timestamp from filesystem metadata.",
+      "evidence": "Filesystem metadata"
+    },
+    {
+      "timestamp": "2026-06-19T12:31:54.544733+00:00",
+      "event_type": "File modification",
+      "description": "File modification timestamp from filesystem metadata.",
+      "evidence": "Filesystem metadata"
+    }
+  ],
+  "evidence_collected": [
+    {
+      "section": "File Type",
+      "value": "PDF document",
+      "evidence": "PDF document"
+    },
+    {
+      "section": "Metadata",
+      "value": "Size 2836658 bytes",
+      "evidence": "{\"accessed\": \"2026-06-19T12:31:54.615081+00:00\", \"created\": \"2026-06-19T12:31:54.536728+00:00\", \"modified\": \"2026-06-19T12:31:54.544733+00:00\", \"size\": 2836658}"
+    },
+    {
+      "section": "Hashes",
+      "value": "b59276be2b88a34541325dd9fed8c7b77731ce55530b07ddfb5987bbe58c75a5",
+      "evidence": "{\"md5\": \"757ca86b53c40761853866de61f40d90\", \"sha1\": \"d26e3c81639f154e98de39aafbfc3ebe9b275737\", \"sha256\": \"b59276be2b88a34541325dd9fed8c7b77731ce55530b07ddfb5987bbe58c75a5\"}"
+    },
+    {
+      "section": "Strings",
+      "value": "32996",
+      "evidence": "Printable strings extracted from file bytes."
+    },
+    {
+      "section": "Entropy",
+      "value": "7.8874",
+      "evidence": "Calculated from the file byte distribution."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "l.fw",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "w.lX",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "M.ub",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ti.GrI",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "g.twm",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "B.WJVx",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "bD.rBjFzAnfEnOg",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "myAle.oD",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "e.UG",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "A.gh",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "yM.kzs",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Q.Fw",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "E.qa",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "i.Nm",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Q.Es",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "9O.Eq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "0.rRr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "aldKcl-O3.vFRvgQ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "F8Uw.lX",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Wg6xY6.Pq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "cdd.Xyw",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "1.tJ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "A.Aj",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "V.eH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "t.Ir",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "2i.Bnn",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "o.zOw",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "o.ua",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Z.HZ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Mctr.SI.Gt",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "B.Ow",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "y.BzP",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "KW.Ak",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "wA.AAhbB",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "1b.iz",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "N.Gh",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Z.nPq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "P.LI",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "q3.ZH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "F.rG",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ZKJt3rj1.VX",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "w.hm",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "s.ode",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "2l.am",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "v.Jn",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "O.rFnnN",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Pt06.QF",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "kxEfF.Nk",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Z.QTp",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ccGmb.Ma",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "x9bZ9.zq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "S.oq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Mz.ak",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "9.rh",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "3.qN",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "M.Fi",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "fh.CKt",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "S1Wj.ZO",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "c5.af",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "p.Bm",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "9.kWQT",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "mX.Ft",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "T.Cp",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "B.Nst",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "TVWL.is",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "i.li",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "tAg.cWk",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "l.xV",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "7fK.KW",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Qd.eQi",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "6.EZTq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "A.bH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "0-Mx.cY",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "hOr.Rj",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "R.eu",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "B5.BGh",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "NM.Mj",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "n.ttA",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "xP.ui",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "k00R.QG",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "9Uo.fH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "n.lfdS",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "i.aH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "jZH.wwH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "C.pP",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Ry-.FH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "H.fY",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "0.pp",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "sj.Ub",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "l.YH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "wp.dl",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "tm.VO",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "yIT8.Brx",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "N.IU",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "M.cW",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "MZD.fUF",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "dA7D.VJ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "F9.WAV",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "d.cX",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "f3.OI",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Y.Vi",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "n2.nq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "o.za",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "hy.Wo",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "x.NqqXj",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "B.zl",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "O.OpxoVYey",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "CkIl.kiXKn",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "g.YF",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "t.JG",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "lllbdvXl.WC",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "QqM58J-.bzSN",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "I6XDU.st",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "j.Ih",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "8.GZlPE",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "r.oW",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "B.NZ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "TKW.Ae",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "zN.Yi",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "KM.kkl",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "PZ9z.MCe",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "7.ds",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "l.FBmy",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "n.ZYauqOU",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "1.Sn",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "y.OI",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "W3.jBE",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "x2.hb",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "J.KVk",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "N8.sHP",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "kN.Is",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "6N.xO",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "yw.TG",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "N.LjA",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "t.gI",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "UT.eV",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "FPP.wQ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "7zZH.cYDJ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "V.uqeki",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "--.GT",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "sNfx.mk",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "fWRsq4OA1pc.wd",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "u.YG",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "b.Xa",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "RBS.vz",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "m.by",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "2T.EX",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "h.fFFOJ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "pngu.pe",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "X.Xr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "WCC-y1.OUR",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "x.UYG",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "H.cX",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Dxy.MZz",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "I.NAI",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "sH.mV",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "N03-7L.nX",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "3mV.Ys",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "cE.HEG",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "c5.fq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "7.qf",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Xt.wc",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "v9V.xe",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "u.Yq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "u.gI",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "6.mmOnl",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ey.ZD",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "FEn0zY.VE",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Ct.sq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "tq.lY",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Uj.NLU",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "R.KjZXS",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Lh.Sf",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Q4o.aa",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "B.kXKsrHC",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "z.oiJ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "he.RD",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "EDi.jk",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "k.XI",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "X.zV",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "l.tkrJmY",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "TVZ.scY",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Gim.tOqj",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "X.chs",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Y-.DG",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "W.xn",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "o.LKq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Y5S.Xk",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ks.Kvao",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "UF.OnL",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "V.nW",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Vr2.uqXjP",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "qX-.tm",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "j.wOu",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "z.rg",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "8O.KF",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "U5E.kn",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "fmT.ngih",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Kz.XSp",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "O.V.uMv",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "mF.tj",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "vk.re",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "LvW.rY",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "p.eO",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "5.Sd",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "4X.QZ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "K.vN",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "0bs9P.rmX",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Ot.lq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "3O.FEC",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "H.dp",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "m.RFKx",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Z-.CcvHs",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "6.gOZp",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "u.Zr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "OXZ8.cEL",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "T.Ub",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "S.uc",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "cDE2.Cm",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "U.qd",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "c.Hmo",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Hk.FR",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "d.ae",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "g.wt",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "q.QG",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "4.yV",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Cq.iv",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "SI.aX",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "nz.MJCa",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "A.OUa",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "WV.UYX",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "5.bMJ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "MDaW.HT",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "i4Yld.Yc",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "m.tWM",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "z.bx",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "9.Bb",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "hz.ojwv",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "M.ZW",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Jm.TC",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "K9.FwI",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "FU.Te",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "hCr.da",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "--.EsWQH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "k5.WjH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "I.Ko",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "gO.DeU",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "vsUF.uA",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Ube.gp",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "a.oU",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Hl.rpAOy",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "s.hc",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "o.OG",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "R.VL",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Qj.DT",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "k.ZyIr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "nX.rfp",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "h.Zh",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "h.jh",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "h.ZiI",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "weG.QH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "75E.HD",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "C.mv",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "X.UQ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "2K.qjEYb",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "etHwwIo9-.dg",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "I.pVBsFr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "3zQzV.mRq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "l.onC",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "J8.qWn",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "n.mC",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "TzR.Vmd",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "fmgn.nK",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Sp.ee",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Hm.KE",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "V.rWW",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "H.sV",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "2hx.Uh",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "E.cJZ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "R0Q.IC",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "J6S.nq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "m4nxGtQ.bM",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "jN.EFv",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "E.tBqA",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "TOBo.dz",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Qr.Mp",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "V.mv",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "E.Uk",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "o.ci",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "J.Kg",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "cm.UA",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "m.dd",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "S.HH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "x.Dw",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "M4Vf9l.eu",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "9iciF.Oi",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Ef.rXZ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ac-.Na",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "u.uQ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "x.iS",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "eX.mXV",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "jF.fi",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "XVU.kZVU",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "c1y.QC",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "azwY.ew",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "K.xsA",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "OO.WSB",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "j.SY",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "o.Jq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "r.Wd",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "x.Am",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ac.Ww",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "9RjK.MB",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "i.Hse",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "u.ERH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "u.sN",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "T.eN",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "4X.wP",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "F3fA.Ed",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "h.apX",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "n.dA",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Io.lmo",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "1H.vTW",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "n.Cr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "N.WhX",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "k.lW",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "xVi.EA",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ME.dD",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "a.dg",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "6.qcAe",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "l.zU",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "HsA.Vr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "M.Qk",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "jbuhml7.QUU",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "X.IEG",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "1.JMUjgq",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "6.RD",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "V.KH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "4.Ua",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "OX.fef",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "GJdyHWX.nVI",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "NxsT.uK",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "I4.YW",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Y.yI",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "CI.MQ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "j.ci",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "I.GXv",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "S.Ud",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "a.qy",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Qd.TS",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "sn.FS",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "u.Ck",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "uI.cj",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "8T.cl",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "X.pH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "16.sXp",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "1H.Yr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "E6gqv.fY",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "n.nZ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "4.ey",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "DIbO.BCn",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "s.wcw",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "S.Agbvm",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "KG.LNv",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "V.fZA",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "3r.Iw",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "43O.GC",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "S.lm",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Z-o.MwZ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "S.mK",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Y.dhlf",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "W.Ky",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "68f.cAo",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Sm.DU",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "zRa.gg",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "I.lEr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "K.YfUW",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "E.QJ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "I.tk",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "L.vl",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "m.wI",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "3.Zd",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "m.KfauuIiM",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "w.ekX",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "tf.PGr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "FK.dZbl",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "sy.wi",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Z.iYvzE",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "soG.kcy",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "LmrIN.tn",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "v8.tiXvekr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "3.bPE",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "5c.mFcY",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "d.zk",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "mg.guk",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "B9.Uhmh",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "t.Fs",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "m.Kt",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "rZ.kuR",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Q.Rk",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "M.knO",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "vE.qs",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "zPI.ldKH",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "v.kl",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "Hm.GZ",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "ENU.Te",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "GWt.Rr",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "y.ehg",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "u.kp",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "lV7.tzfF",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: domain",
+      "value": "www.ilovepdf.com",
+      "evidence": "Observed domain indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: registry",
+      "value": "hKu\\e6CKU",
+      "evidence": "Observed registry path indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: windows_path",
+      "value": "N:\\\u011b\u011b\u011b\u011b\u011b:xS\u0007oM\u001d7u\u000e:xS[J-%\u0012wKRn)q[J-%yy\u0010\u007f=G\u001e#z_\u0011\u007f=G\u001e[O[O[O\u0011)].vA\u0019=P\u000e\u0015P",
+      "evidence": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: windows_path",
+      "value": "y:\\I\u0010 BC`8\u001b@5y;O#Y\u0019\u001fxT\u001f1;T\u000e\u000fo$k\u0003I",
+      "evidence": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: windows_path",
+      "value": "z:\\_\u0656",
+      "evidence": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: windows_path",
+      "value": "h:\\m.k;\u0018mKJ\u0017",
+      "evidence": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: windows_path",
+      "value": "D:\\\u0292fI\u0017gEmJ(Q`",
+      "evidence": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: windows_path",
+      "value": "E:\\&V3*%VlQ\u0014\u001dn\u0010\u074d",
+      "evidence": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: windows_path",
+      "value": "b:\\\u0002;1~,XBqSMi)",
+      "evidence": "Observed Windows path indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: md5",
+      "value": "FC35B971EB260718C974AD673867E944",
+      "evidence": "Observed MD5-like indicator in extracted evidence."
+    },
+    {
+      "section": "IOC: md5",
+      "value": "0D286916AF1EBA7B2E738350235F592A",
+      "evidence": "Observed MD5-like indicator in extracted evidence."
+    }
+  ],
+  "attack_indicators": [
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC domain",
+    "IOC registry",
+    "IOC windows_path",
+    "IOC windows_path",
+    "IOC windows_path",
+    "IOC windows_path",
+    "IOC windows_path",
+    "IOC windows_path",
+    "IOC windows_path",
+    "IOC md5",
+    "IOC md5",
+    "Encoded PowerShell execution",
+    "High entropy content"
+  ],
+  "suspicious_processes": [],
+  "malware_present": true,
+  "malware_family": null,
+  "infection_status": "Infected",
+  "persistence_status": "No evidence found.",
+  "threat_active": false,
+  "severity": "Critical",
+  "risk_score": 100,
+  "conclusion_points": [
+    {
+      "text": "Malware present: Yes.",
+      "evidence": "Encoded PowerShell execution: IEX"
+    },
+    {
+      "text": "Malware family: No evidence found..",
+      "evidence": "No evidence found."
+    },
+    {
+      "text": "Infection status: Infected.",
+      "evidence": "Encoded PowerShell execution: IEX"
+    },
+    {
+      "text": "Persistence status: No evidence found..",
+      "evidence": "No evidence found."
+    },
+    {
+      "text": "Threat active: No.",
+      "evidence": "No evidence found."
+    },
+    {
+      "text": "Severity: Critical. Risk score: 100.",
+      "evidence": "Encoded PowerShell execution: IEX"
+    }
+  ],
+  "recommended_actions": [
+    {
+      "action": "Preserve the original artifact and acquisition chain.",
+      "evidence": "Cryptographic hashes and filesystem metadata were collected."
+    },
+    {
+      "action": "Isolate the host and perform containment.",
+      "evidence": "Malware indicators were observed in the uploaded file analysis."
+    },
+    {
+      "action": "Re-scan with organization-approved YARA rules and endpoint telemetry.",
+      "evidence": "No invented findings were used; this recommendation is tied to collected evidence only."
+    }
+  ],
+  "has_evidence": true,
+  "evidence_profile": {
+    "benign": 4,
+    "suspicious": 422,
+    "malicious": 1,
+    "total": 427,
+    "benign_percent": 0.9,
+    "suspicious_percent": 98.8,
+    "malicious_percent": 0.2
+  },
+  "stored_path": "uploads\\7792a426af149bc7_Internal_Assessment_2.pdf"
+}

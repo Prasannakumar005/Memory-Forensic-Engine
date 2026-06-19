@@ -1,0 +1,30 @@
+{
+  "job_id": "b2424ec429a9404d8aae9378a2981420",
+  "analysis_id": "81c70ae51eefafad9269888acea77ec0f11ee3873a34d19f865ce096b56938b2",
+  "state": "complete",
+  "stage": "Finalizing Results...",
+  "percent": 100,
+  "eta_seconds": 0,
+  "logs": [
+    "File uploaded: FA.docx",
+    "[2026-06-19T12:02:58.475004+00:00] Starting analysis pipeline.",
+    "[2026-06-19T12:02:58.524980+00:00] Loaded 8dde26ab20f37779_FA.docx for inspection.",
+    "[2026-06-19T12:02:58.554875+00:00] Computed MD5, SHA1, and SHA256 values from the uploaded file.",
+    "[2026-06-19T12:02:58.564621+00:00] Detected file type as ZIP archive.",
+    "[2026-06-19T12:02:59.081816+00:00] Scanning extracted content for suspicious signatures and entropy anomalies.",
+    "[2026-06-19T12:03:00.353320+00:00] Evaluating YARA rules against the uploaded file.",
+    "[2026-06-19T12:03:01.239532+00:00] Extracted 1094 potential indicator(s) from the artifact.",
+    "[2026-06-19T12:03:01.253326+00:00] Memory analysis skipped because the artifact is not a memory dump.",
+    "[2026-06-19T12:03:01.265846+00:00] Correlating timestamps, process activity, and indicators into a timeline.",
+    "[2026-06-19T12:03:01.279493+00:00] Formatting evidence into report-ready sections.",
+    "[2026-06-19T12:03:01.291043+00:00] Analysis complete and ready for dashboard presentation.",
+    "[2026-06-19T12:03:01.306081+00:00] Analysis saved and ready for dashboard access."
+  ],
+  "error": null,
+  "filename": "FA.docx",
+  "original_filename": "FA.docx",
+  "stored_path": "uploads\\8dde26ab20f37779_FA.docx",
+  "started_at": "2026-06-19T12:02:58.459939+00:00",
+  "updated_at": "2026-06-19T12:03:01.306052+00:00",
+  "completed_at": "2026-06-19T12:03:01.306070+00:00"
+}
