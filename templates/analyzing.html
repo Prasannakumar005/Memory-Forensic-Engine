@@ -1,293 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analyzing {{ status.original_filename or status.filename }}</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            background:
-                radial-gradient(circle at top, rgba(14, 165, 233, 0.18), transparent 28%),
-                radial-gradient(circle at bottom right, rgba(15, 23, 42, 0.7), transparent 32%),
-                #020617;
-        }
-        .glass {
-            background: linear-gradient(180deg, rgba(15, 23, 42, 0.88), rgba(2, 6, 23, 0.94));
-            border: 1px solid rgba(148, 163, 184, 0.18);
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
-            backdrop-filter: blur(18px);
-        }
-        .stage-item.active { border-color: #38bdf8; color: #e0f2fe; }
-        .stage-item.complete { border-color: rgba(16, 185, 129, 0.35); color: #86efac; }
-        .log-line { border-bottom: 1px solid rgba(51, 65, 85, 0.45); }
-        .progress-glow { box-shadow: 0 0 28px rgba(56, 189, 248, 0.3); }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analyzing - Memory Forensic Engine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/main.css">
+  <style>
+    .analyzing-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--sp-6);
+    }
+    @media (min-width: 1200px) {
+      .analyzing-grid {
+        grid-template-columns: 1.35fr 0.85fr;
+      }
+    }
+  </style>
 </head>
-<body class="min-h-screen text-slate-100">
-    <div class="max-w-7xl mx-auto px-4 py-6 md:py-10">
-        <div class="glass rounded-3xl p-5 md:p-7">
-            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5 border-b border-slate-700/70 pb-5">
-                <div>
-                    <p class="text-cyan-300 text-xs uppercase tracking-[0.35em]">Live analysis pipeline</p>
-                    <h1 class="text-2xl md:text-4xl font-black text-white mt-2">Analyzing {{ status.original_filename or status.filename }}</h1>
-                    <p class="text-sm text-slate-400 mt-2 max-w-3xl">The dashboard will open automatically only after the backend completes every analysis stage and saves verified results for this file.</p>
-                </div>
-                <div class="grid grid-cols-2 gap-3 text-sm">
-                    <div class="rounded-2xl border border-slate-700 bg-slate-950/70 px-4 py-3">
-                        <div class="text-slate-500 text-[10px] uppercase tracking-[0.24em]">Current stage</div>
-                        <div id="currentStage" class="text-cyan-300 font-semibold mt-1">{{ status.stage }}</div>
-                    </div>
-                    <div class="rounded-2xl border border-slate-700 bg-slate-950/70 px-4 py-3">
-                        <div class="text-slate-500 text-[10px] uppercase tracking-[0.24em]">ETA</div>
-                        <div id="etaText" class="text-white font-semibold mt-1">{{ status.eta_seconds if status.eta_seconds is not none else 'Calculating...' }}</div>
-                    </div>
-                </div>
-            </div>
+<body class="analyzing-page">
+  <div class="max-w-screen mx-auto">
 
-            <div class="grid grid-cols-1 xl:grid-cols-[1.35fr_0.85fr] gap-6 mt-6">
-                <div class="space-y-5">
-                    <div class="glass rounded-2xl p-5 border border-slate-800/80">
-                        <div class="flex items-center justify-between gap-4 mb-3">
-                            <div>
-                                <h2 class="text-lg font-bold text-white">Analysis Progress</h2>
-                                <p class="text-xs text-slate-400">Detection, extraction, memory inspection, and report construction are tracked in real time.</p>
-                            </div>
-                            <div class="text-right">
-                                <div id="percentText" class="text-3xl font-black text-cyan-300">{{ status.percent }}%</div>
-                                <div class="text-[10px] uppercase tracking-[0.28em] text-slate-500">completed</div>
-                            </div>
-                        </div>
-                        <div class="h-4 bg-slate-800 rounded-full overflow-hidden border border-slate-700 progress-glow">
-                            <div id="progressBar" class="h-full rounded-full bg-gradient-to-r from-cyan-400 via-sky-500 to-blue-500 transition-all duration-500" style="width: {{ status.percent }}%"></div>
-                        </div>
-                        <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
-                            <div class="rounded-2xl border border-slate-700 bg-slate-950/70 px-4 py-3">
-                                <div class="text-slate-500 text-[10px] uppercase tracking-[0.24em]">File</div>
-                                <div class="text-white font-semibold mt-1 break-all">{{ status.original_filename or status.filename }}</div>
-                            </div>
-                            <div class="rounded-2xl border border-slate-700 bg-slate-950/70 px-4 py-3">
-                                <div class="text-slate-500 text-[10px] uppercase tracking-[0.24em]">Status</div>
-                                <div id="statusText" class="text-cyan-300 font-semibold mt-1">{{ status.state|title }}</div>
-                            </div>
-                            <div class="rounded-2xl border border-slate-700 bg-slate-950/70 px-4 py-3">
-                                <div class="text-slate-500 text-[10px] uppercase tracking-[0.24em]">Analysis ID</div>
-                                <div id="analysisIdText" class="text-white font-semibold mt-1 break-all">{{ status.analysis_id or 'Pending...' }}</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="glass rounded-2xl p-5 border border-slate-800/80">
-                        <h2 class="text-lg font-bold text-white mb-3">Analysis Stages</h2>
-                        <div id="stageList" class="grid gap-2">
-                            {% set stages = [
-                                'Detecting File Type...',
-                                'Extracting Metadata...',
-                                'Calculating Hashes...',
-                                'Running Malware Analysis...',
-                                'Running YARA Scan...',
-                                'Extracting Indicators of Compromise (IOC)...',
-                                'Running Memory Analysis (if applicable)...',
-                                'Building Attack Timeline...',
-                                'Generating Report...',
-                                'Finalizing Results...'
-                            ] %}
-                            {% for stage in stages %}
-                            <div class="stage-item flex items-center justify-between rounded-xl border border-slate-800 bg-slate-950/70 px-4 py-3 text-sm" data-stage="{{ stage }}">
-                                <span>{{ stage }}</span>
-                                <span class="text-[10px] uppercase tracking-[0.22em] text-slate-500">waiting</span>
-                            </div>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-
-                <div class="space-y-5">
-                    <div class="glass rounded-2xl p-5 border border-slate-800/80">
-                        <div class="flex items-center justify-between gap-4 mb-3">
-                            <h2 class="text-lg font-bold text-white">Realtime Status</h2>
-                            <div class="flex items-center gap-2 text-xs text-slate-400">
-                                <span class="inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                                Live backend polling
-                            </div>
-                        </div>
-                        <div class="space-y-2 text-sm">
-                            <div class="rounded-xl border border-slate-800 bg-slate-950/70 px-4 py-3">
-                                <div class="text-slate-500 text-[10px] uppercase tracking-[0.24em]">Current stage</div>
-                                <div id="statusStageMirror" class="text-cyan-300 font-semibold mt-1">{{ status.stage }}</div>
-                            </div>
-                            <div class="rounded-xl border border-slate-800 bg-slate-950/70 px-4 py-3">
-                                <div class="text-slate-500 text-[10px] uppercase tracking-[0.24em]">Progress</div>
-                                <div id="statusPercentMirror" class="text-white font-semibold mt-1">{{ status.percent }}%</div>
-                            </div>
-                            <div class="rounded-xl border border-slate-800 bg-slate-950/70 px-4 py-3">
-                                <div class="text-slate-500 text-[10px] uppercase tracking-[0.24em]">Estimated time remaining</div>
-                                <div id="statusEtaMirror" class="text-white font-semibold mt-1">{{ status.eta_seconds if status.eta_seconds is not none else 'Calculating...' }}</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="glass rounded-2xl p-5 border border-slate-800/80">
-                        <h2 class="text-lg font-bold text-white mb-3">Analysis Logs</h2>
-                        <div id="logsPanel" class="max-h-[24rem] overflow-y-auto rounded-2xl border border-slate-800 bg-slate-950/80 p-4 text-xs font-mono text-slate-300 space-y-2">
-                            {% for line in status.logs %}
-                            <div class="log-line pb-2">{{ line }}</div>
-                            {% endfor %}
-                        </div>
-                    </div>
-
-                    <div id="failureBox" class="hidden glass rounded-2xl p-5 border border-rose-900/70">
-                        <h2 class="text-lg font-bold text-rose-300">Analysis failed</h2>
-                        <p id="failureReason" class="text-sm text-slate-300 mt-2"></p>
-                        <div class="mt-4">
-                            <a id="retryButton" href="/analysis-retry/{{ job_id }}" class="inline-flex items-center rounded-xl bg-rose-500 px-4 py-2 text-sm font-bold text-white transition hover:bg-rose-400">Retry Analysis</a>
-                        </div>
-                    </div>
-
-                    <div id="completeBox" class="hidden glass rounded-2xl p-5 border border-emerald-900/70">
-                        <h2 class="text-lg font-bold text-emerald-300">Analysis complete</h2>
-                        <p class="text-sm text-slate-300 mt-2">Verified results are ready. Redirecting to the dashboard now.</p>
-                    </div>
-                </div>
-            </div>
+    <!-- Top Card / Header -->
+    <div class="card mb-6 animate-fade">
+      <div class="flex justify-between items-center flex-wrap gap-5">
+        <div>
+          <span class="text-xs uppercase tracking-wider text-accent font-semibold">Live Analysis Pipeline</span>
+          <h1 class="mt-2">Analyzing {{ status.original_filename or status.filename }}</h1>
+          <p class="text-sm text-secondary mt-2">The dashboard will open automatically when all analysis stages complete.</p>
         </div>
+        <div class="flex gap-4">
+          <div class="stat-block">
+            <span class="stat-label">Current Stage</span>
+            <div id="currentStage" class="stat-value text-accent">{{ status.stage }}</div>
+          </div>
+          <div class="stat-block">
+            <span class="stat-label">ETA</span>
+            <div id="etaText" class="stat-value">{{ status.eta_seconds if status.eta_seconds is not none else 'Calculating...' }}</div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <script>
-        const jobId = {{ job_id|tojson }};
-        const analysisStages = [
-            'Detecting File Type...',
-            'Extracting Metadata...',
-            'Calculating Hashes...',
-            'Running Malware Analysis...',
-            'Running YARA Scan...',
-            'Extracting Indicators of Compromise (IOC)...',
-            'Running Memory Analysis (if applicable)...',
-            'Building Attack Timeline...',
-            'Generating Report...',
-            'Finalizing Results...'
-        ];
+    <!-- Main Layout Grid -->
+    <div class="analyzing-grid animate-fade">
 
-        const progressBar = document.getElementById('progressBar');
-        const percentText = document.getElementById('percentText');
-        const currentStage = document.getElementById('currentStage');
-        const etaText = document.getElementById('etaText');
-        const statusText = document.getElementById('statusText');
-        const analysisIdText = document.getElementById('analysisIdText');
-        const statusStageMirror = document.getElementById('statusStageMirror');
-        const statusPercentMirror = document.getElementById('statusPercentMirror');
-        const statusEtaMirror = document.getElementById('statusEtaMirror');
-        const logsPanel = document.getElementById('logsPanel');
-        const failureBox = document.getElementById('failureBox');
-        const failureReason = document.getElementById('failureReason');
-        const completeBox = document.getElementById('completeBox');
-        const stageNodes = Array.from(document.querySelectorAll('.stage-item'));
+      <!-- LEFT COLUMN -->
+      <div class="flex flex-col gap-6">
+        
+        <!-- Progress Card -->
+        <div class="card mb-6">
+          <div class="flex justify-between items-center mb-4">
+            <div>
+              <h3>Analysis Progress</h3>
+              <p class="text-xs text-secondary mt-1">Detection, extraction, memory inspection, and report construction are tracked in real time.</p>
+            </div>
+            <div class="flex flex-col items-end">
+              <div id="percentText" class="font-black text-accent text-3xl" style="font-size: var(--text-3xl);">{{ status.percent }}%</div>
+              <span class="text-xs uppercase tracking-wider text-muted font-semibold mt-1">completed</span>
+            </div>
+          </div>
+          
+          <div class="progress-track mb-6">
+            <div id="progressBar" class="progress-fill" style="width: {{ status.percent }}%"></div>
+          </div>
 
-        let lastLogCount = {{ status.logs|length }};
-        let transitionStarted = false;
+          <div class="grid grid-3 gap-4">
+            <div class="stat-block">
+              <span class="stat-label">File</span>
+              <div class="stat-value text-sm break-all" style="font-size: var(--text-sm);">{{ status.original_filename or status.filename }}</div>
+            </div>
+            <div class="stat-block">
+              <span class="stat-label">Status</span>
+              <div id="statusText" class="stat-value text-sm text-accent" style="font-size: var(--text-sm);">{{ status.state|title }}</div>
+            </div>
+            <div class="stat-block">
+              <span class="stat-label">Analysis ID</span>
+              <div id="analysisIdText" class="stat-value text-sm break-all" style="font-size: var(--text-sm);">{{ status.analysis_id or 'Pending...' }}</div>
+            </div>
+          </div>
+        </div>
 
-        function formatEta(seconds) {
-            if (seconds === null || seconds === undefined) {
-                return 'Calculating...';
-            }
-            if (seconds <= 0) {
-                return 'Less than a minute';
-            }
-            const minutes = Math.floor(seconds / 60);
-            const remainder = seconds % 60;
-            if (minutes > 0) {
-                return `${minutes}m ${remainder}s`;
-            }
-            return `${remainder}s`;
+        <!-- Stages Card -->
+        <div class="card">
+          <h3 class="mb-4">Analysis Stages</h3>
+          <div id="stageList" class="stage-list">
+            {% set stages = [
+                'Detecting File Type...',
+                'Extracting Metadata...',
+                'Calculating Hashes...',
+                'Running Malware Analysis...',
+                'Running YARA Scan...',
+                'Extracting Indicators of Compromise (IOC)...',
+                'Running Memory Analysis (if applicable)...',
+                'Building Attack Timeline...',
+                'Generating Report...',
+                'Finalizing Results...'
+            ] %}
+            {% for stage in stages %}
+            <div class="stage-item" data-stage="{{ stage }}">
+              <div class="flex items-center gap-3">
+                <span class="stage-icon-container">
+                  <i data-lucide="circle" class="lucide-sm text-muted"></i>
+                </span>
+                <span>{{ stage }}</span>
+              </div>
+              <span class="stage-status">waiting</span>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="flex flex-col gap-6">
+
+        <!-- Realtime Status Mirror Card -->
+        <div class="card mb-6">
+          <div class="flex justify-between items-center mb-4">
+            <h3>Realtime Status</h3>
+            <div class="flex items-center gap-2 text-xs text-secondary">
+              <span class="status-dot status-dot-live"></span>
+              Live
+            </div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div class="stat-block">
+              <span class="stat-label">Current Stage</span>
+              <div id="statusStageMirror" class="stat-value text-accent text-sm" style="font-size: var(--text-sm);">{{ status.stage }}</div>
+            </div>
+            <div class="stat-block mt-3">
+              <span class="stat-label">Progress</span>
+              <div id="statusPercentMirror" class="stat-value text-sm" style="font-size: var(--text-sm);">{{ status.percent }}%</div>
+            </div>
+            <div class="stat-block mt-3">
+              <span class="stat-label">Estimated time remaining</span>
+              <div id="statusEtaMirror" class="stat-value text-sm" style="font-size: var(--text-sm);">{{ status.eta_seconds if status.eta_seconds is not none else 'Calculating...' }}</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Logs Card -->
+        <div class="card mb-6">
+          <h3 class="mb-4">Analysis Logs</h3>
+          <div id="logsPanel" class="log-panel">
+            {% for line in status.logs %}
+            <div class="log-line">{{ line }}</div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <!-- Failure Box -->
+        <div id="failureBox" class="alert-box alert-box-danger hidden mb-6">
+          <h3 class="text-danger mb-2">Analysis Failed</h3>
+          <p id="failureReason" class="text-sm text-secondary mb-4"></p>
+          <a id="retryButton" href="/analysis-retry/{{ job_id }}" class="btn btn-danger">
+            <i data-lucide="refresh-cw" class="lucide-sm"></i>
+            Retry Analysis
+          </a>
+        </div>
+
+        <!-- Success Box -->
+        <div id="completeBox" class="alert-box alert-box-success hidden mb-6">
+          <h3 class="text-safe mb-2">Analysis Complete</h3>
+          <p class="text-sm text-secondary">Verified results are ready. Redirecting to dashboard.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script>
+    (function() {
+      'use strict';
+
+      const jobId = {{ job_id|tojson }};
+      const analysisStages = [
+        'Detecting File Type...',
+        'Extracting Metadata...',
+        'Calculating Hashes...',
+        'Running Malware Analysis...',
+        'Running YARA Scan...',
+        'Extracting Indicators of Compromise (IOC)...',
+        'Running Memory Analysis (if applicable)...',
+        'Building Attack Timeline...',
+        'Generating Report...',
+        'Finalizing Results...'
+      ];
+
+      const progressBar = document.getElementById('progressBar');
+      const percentText = document.getElementById('percentText');
+      const currentStage = document.getElementById('currentStage');
+      const etaText = document.getElementById('etaText');
+      const statusText = document.getElementById('statusText');
+      const analysisIdText = document.getElementById('analysisIdText');
+      const statusStageMirror = document.getElementById('statusStageMirror');
+      const statusPercentMirror = document.getElementById('statusPercentMirror');
+      const statusEtaMirror = document.getElementById('statusEtaMirror');
+      const logsPanel = document.getElementById('logsPanel');
+      const failureBox = document.getElementById('failureBox');
+      const failureReason = document.getElementById('failureReason');
+      const completeBox = document.getElementById('completeBox');
+      const stageNodes = Array.from(document.querySelectorAll('.stage-item'));
+
+      let lastLogCount = {{ status.logs|length }};
+      let transitionStarted = false;
+
+      function formatEta(seconds) {
+        if (seconds === null || seconds === undefined) {
+          return 'Calculating...';
+        }
+        if (seconds <= 0) {
+          return 'Less than a minute';
+        }
+        const minutes = Math.floor(seconds / 60);
+        const remainder = seconds % 60;
+        if (minutes > 0) {
+          return `${minutes}m ${remainder}s`;
+        }
+        return `${remainder}s`;
+      }
+
+      function appendLogs(logs) {
+        if (!Array.isArray(logs) || logs.length <= lastLogCount) {
+          return;
+        }
+        for (let i = lastLogCount; i < logs.length; i++) {
+          const entry = document.createElement('div');
+          entry.className = 'log-line';
+          entry.textContent = logs[i];
+          logsPanel.appendChild(entry);
+        }
+        lastLogCount = logs.length;
+        logsPanel.scrollTop = logsPanel.scrollHeight;
+      }
+
+      function paintStages(stage) {
+        const index = analysisStages.indexOf(stage);
+        stageNodes.forEach((node, nodeIndex) => {
+          node.className = 'stage-item';
+          const iconContainer = node.querySelector('.stage-icon-container');
+          const label = node.querySelector('.stage-status');
+          
+          let iconName = 'circle';
+          let iconClass = 'lucide-sm text-muted';
+          
+          if (index === -1) {
+            node.classList.add('waiting');
+            label.textContent = 'waiting';
+          } else if (nodeIndex < index) {
+            node.classList.add('complete');
+            label.textContent = 'done';
+            iconName = 'check-circle';
+            iconClass = 'lucide-sm text-safe';
+          } else if (nodeIndex === index) {
+            node.classList.add('active');
+            label.textContent = 'running';
+            iconName = 'loader';
+            iconClass = 'lucide-sm text-accent animate-spin';
+          } else {
+            node.classList.add('waiting');
+            label.textContent = 'waiting';
+          }
+          
+          iconContainer.innerHTML = `<i data-lucide="${iconName}" class="${iconClass}"></i>`;
+        });
+        lucide.createIcons();
+      }
+
+      function applyStatus(status) {
+        const percent = Math.max(0, Math.min(100, status.percent || 0));
+        const stage = status.stage || 'Running';
+        const eta = status.eta_seconds;
+
+        progressBar.style.width = `${percent}%`;
+        percentText.textContent = `${percent}%`;
+        currentStage.textContent = stage;
+        statusStageMirror.textContent = stage;
+        statusPercentMirror.textContent = `${percent}%`;
+        etaText.textContent = formatEta(eta);
+        statusEtaMirror.textContent = formatEta(eta);
+        statusText.textContent = (status.state || 'running').toUpperCase();
+        if (status.analysis_id) {
+          analysisIdText.textContent = status.analysis_id;
+        }
+        paintStages(stage);
+        appendLogs(status.logs || []);
+
+        if (status.state === 'failed') {
+          failureReason.textContent = status.error || 'The analysis engine returned an unknown error.';
+          failureBox.classList.remove('hidden');
+          completeBox.classList.add('hidden');
+          return;
         }
 
-        function appendLogs(logs) {
-            if (!Array.isArray(logs) || logs.length <= lastLogCount) {
-                return;
-            }
-            for (let i = lastLogCount; i < logs.length; i++) {
-                const entry = document.createElement('div');
-                entry.className = 'log-line pb-2';
-                entry.textContent = logs[i];
-                logsPanel.appendChild(entry);
-            }
-            lastLogCount = logs.length;
-            logsPanel.scrollTop = logsPanel.scrollHeight;
+        if (status.state === 'complete' && status.analysis_id && !transitionStarted) {
+          transitionStarted = true;
+          completeBox.classList.remove('hidden');
+          setTimeout(function() {
+            window.location.href = `/dashboard/${status.analysis_id}`;
+          }, 1200);
         }
+      }
 
-        function paintStages(stage) {
-            const index = analysisStages.indexOf(stage);
-            stageNodes.forEach((node, nodeIndex) => {
-                node.classList.remove('active', 'complete');
-                const label = node.querySelector('span:last-child');
-                if (index === -1) {
-                    label.textContent = 'waiting';
-                    return;
-                }
-                if (nodeIndex < index) {
-                    node.classList.add('complete');
-                    label.textContent = 'done';
-                } else if (nodeIndex === index) {
-                    node.classList.add('active');
-                    label.textContent = 'running';
-                } else {
-                    label.textContent = 'waiting';
-                }
-            });
+      async function pollStatus() {
+        try {
+          const response = await fetch(`/analysis-status/${jobId}`, { cache: 'no-store' });
+          if (!response.ok) {
+            throw new Error(`Status request failed (${response.status})`);
+          }
+          const data = await response.json();
+          applyStatus(data);
+        } catch (error) {
+          failureReason.textContent = error.message;
+          failureBox.classList.remove('hidden');
         }
+      }
 
-        function applyStatus(status) {
-            const percent = Math.max(0, Math.min(100, status.percent || 0));
-            const stage = status.stage || 'Running';
-            const eta = status.eta_seconds;
-
-            progressBar.style.width = `${percent}%`;
-            percentText.textContent = `${percent}%`;
-            currentStage.textContent = stage;
-            statusStageMirror.textContent = stage;
-            statusPercentMirror.textContent = `${percent}%`;
-            etaText.textContent = formatEta(eta);
-            statusEtaMirror.textContent = formatEta(eta);
-            statusText.textContent = (status.state || 'running').toUpperCase();
-            if (status.analysis_id) {
-                analysisIdText.textContent = status.analysis_id;
-            }
-            paintStages(stage);
-            appendLogs(status.logs || []);
-
-            if (status.state === 'failed') {
-                failureReason.textContent = status.error || 'The analysis engine returned an unknown error.';
-                failureBox.classList.remove('hidden');
-                completeBox.classList.add('hidden');
-                return;
-            }
-
-            if (status.state === 'complete' && status.analysis_id && !transitionStarted) {
-                transitionStarted = true;
-                completeBox.classList.remove('hidden');
-                setTimeout(() => {
-                    window.location.href = `/dashboard/${status.analysis_id}`;
-                }, 1200);
-            }
-        }
-
-        async function pollStatus() {
-            try {
-                const response = await fetch(`/analysis-status/${jobId}`, { cache: 'no-store' });
-                if (!response.ok) {
-                    throw new Error(`Status request failed (${response.status})`);
-                }
-                const data = await response.json();
-                applyStatus(data);
-            } catch (error) {
-                failureReason.textContent = error.message;
-                failureBox.classList.remove('hidden');
-            }
-        }
-
+      document.addEventListener('DOMContentLoaded', function() {
         paintStages({{ status.stage|tojson }});
         applyStatus({{ status|tojson }});
         setInterval(pollStatus, 1000);
-    </script>
+      });
+
+    })();
+  </script>
 </body>
 </html>
