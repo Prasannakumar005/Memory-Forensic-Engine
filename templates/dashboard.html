@@ -1,501 +1,613 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>⚡ Advanced 3D Cyber Forensics Virtual Strategic Dashboard</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
-    <style>
-        /* 🌌 GLOBAL CYBERPUNK THEME */
-        body {
-            background: radial-gradient(circle at center, #070b14 0%, #010205 100%);
-            color: #38bdf8;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0; padding: 0;
-            display: flex; height: 100vh;
-            overflow: hidden; perspective: 1200px;
-        }
-
-        /* 💾 MATRIX STREAMING BACKGROUND */
-        canvas#matrixBackground {
-            position: absolute; top: 0; left: 0;
-            width: 100%; height: 100%;
-            z-index: 1; opacity: 0.12; pointer-events: none;
-        }
-
-        /* 🛸 FUTURISTIC SIDEBAR NODE (SCROLL FIXED) */
-        .sidebar-3d {
-            width: 360px; background: rgba(8, 12, 24, 0.92);
-            border-right: 2px solid #0ea5e9; padding: 25px;
-            box-shadow: 10px 0 40px rgba(14, 165, 233, 0.3);
-            display: flex; flex-direction: column; gap: 20px;
-            backdrop-filter: blur(25px); z-index: 10;
-            overflow-y: auto; max-height: 100vh; box-sizing: border-box;
-        }
-
-        /* 🎨 Custom Cyber Scrollbar */
-        .sidebar-3d::-webkit-scrollbar { width: 5px; }
-        .sidebar-3d::-webkit-scrollbar-track { background: rgba(8, 12, 24, 0.5); }
-        .sidebar-3d::-webkit-scrollbar-thumb { background: #0ea5e9; border-radius: 4px; }
-
-        .sidebar-header { border-bottom: 2px solid #1e293b; padding-bottom: 15px; text-align: center; }
-
-        /* 📊 THE INNOVATIVE GLOWING PIE CHART WRAPPER */
-        .chart-window {
-            background: linear-gradient(145deg, rgba(15, 23, 42, 0.9) 0%, rgba(2, 6, 12, 1) 100%);
-            border: 2px solid #38bdf8; border-radius: 24px; padding: 25px;
-            box-shadow: 0 0 35px rgba(56, 189, 248, 0.3), inset 0 0 20px rgba(56, 189, 248, 0.1);
-            position: relative; transform-style: preserve-3d;
-        }
-
-        .chart-title {
-            font-size: 14px; text-align: center; color: #fff;
-            letter-spacing: 2px; margin-bottom: 20px;
-            text-transform: uppercase; text-shadow: 0 0 10px #38bdf8;
-        }
-
-        /* 🎯 NEON CIRCLE LEGENDS */
-        .custom-legend { display: flex; flex-direction: column; gap: 12px; margin-top: 25px; }
-        .legend-node { display: flex; align-items: center; font-size: 13px; color: #94a3b8; font-weight: 500; }
-        .legend-circle { width: 12px; height: 12px; border-radius: 50%; margin-right: 15px; box-shadow: 0 0 12px currentColor; }
-        .clr-clean { background-color: #10b981; color: #10b981; }
-        .clr-suspicious { background-color: #fbbf24; color: #fbbf24; }
-        .clr-malicious { background-color: #ef4444; color: #ef4444; }
-        .percentage-chip { margin-left: auto; background: rgba(56, 189, 248, 0.1); padding: 2px 8px; border-radius: 6px; color: #38bdf8; font-family: monospace; font-weight: bold; }
-
-        /* 🚀 MAIN STRATEGIC INTERFACE */
-        .main-panel { flex-grow: 1; padding: 35px; overflow-y: auto; display: flex; flex-direction: column; z-index: 5; }
-        header { display: flex; justify-content: space-between; align-items: center; background: rgba(10, 15, 30, 0.6); padding: 22px; border-radius: 16px; border: 1px solid #1e293b; margin-bottom: 35px; box-shadow: 0 5px 25px rgba(0,0,0,0.4); backdrop-filter: blur(15px); }
-        .cyber-btn { background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%); color: white; padding: 12px 28px; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; box-shadow: 0 0 20px rgba(14, 165, 233, 0.4); transition: 0.3s; text-decoration: none; text-transform: uppercase; font-size: 12px; }
-        .cyber-btn:hover { box-shadow: 0 0 35px #38bdf8; transform: translateY(-3px); }
-
-        .hero-panel { background: linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(2, 6, 23, 0.86)); border: 1px solid #1e293b; border-radius: 18px; padding: 18px 20px; margin-bottom: 24px; box-shadow: 0 12px 30px rgba(0,0,0,0.28); backdrop-filter: blur(15px); }
-        .hero-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; }
-        .hero-title { margin: 0; color: #fff; font-size: 22px; letter-spacing: 0.5px; }
-        .hero-subtitle { margin: 4px 0 0 0; color: #94a3b8; font-size: 12px; }
-        .meta-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
-        .meta-chip { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 999px; background: rgba(15, 23, 42, 0.92); border: 1px solid #334155; color: #e2e8f0; font-size: 11px; }
-        .meta-chip strong { color: #fff; }
-        .meta-chip.good { border-color: rgba(16, 185, 129, 0.35); color: #86efac; }
-        .meta-chip.warn { border-color: rgba(251, 191, 36, 0.35); color: #fde68a; }
-        .meta-chip.bad { border-color: rgba(239, 68, 68, 0.35); color: #fca5a5; }
-
-        .action-bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 18px; }
-        .search-box { flex: 1 1 280px; min-width: 240px; background: rgba(15, 23, 42, 0.82); border: 1px solid #334155; color: #fff; border-radius: 10px; padding: 12px 14px; outline: none; }
-        .search-box:focus { border-color: #38bdf8; box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.18); }
-        .filter-group { display: flex; flex-wrap: wrap; gap: 8px; }
-        .filter-btn { background: rgba(15, 23, 42, 0.82); border: 1px solid #334155; color: #cbd5e1; padding: 10px 14px; border-radius: 999px; cursor: pointer; font-size: 11px; font-weight: 700; transition: 0.25s; }
-        .filter-btn:hover, .filter-btn.active { background: #0ea5e9; color: #fff; border-color: #38bdf8; }
-
-        .inspector-shell { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 18px; align-items: start; margin-bottom: 24px; }
-        .inspector-panel { position: sticky; top: 18px; background: linear-gradient(180deg, rgba(15, 23, 42, 0.95), rgba(2, 6, 23, 0.94)); border: 1px solid #334155; border-radius: 18px; padding: 16px; box-shadow: 0 16px 30px rgba(0,0,0,0.28); backdrop-filter: blur(14px); }
-        .inspector-panel h3 { margin: 0 0 10px 0; color: #fff; font-size: 16px; }
-        .inspector-line { color: #cbd5e1; font-size: 12px; margin: 0 0 8px 0; }
-        .inspector-line strong { color: #fff; }
-        .inspector-evidence { margin-top: 12px; padding: 10px; border-radius: 10px; background: rgba(15, 23, 42, 0.7); color: #94a3b8; font-size: 11px; line-height: 1.5; border: 1px solid #334155; max-height: 180px; overflow: auto; }
-        .inspector-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
-        .inspector-tag { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; padding: 4px 8px; border-radius: 999px; border: 1px solid #334155; color: #cbd5e1; }
-        .inspector-empty { color: #64748b; font-size: 12px; }
-
-        .selectable-card { cursor: pointer; }
-        .selectable-card.is-selected { border-color: #38bdf8; box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.45), 0 18px 42px rgba(56, 189, 248, 0.16); transform: translateY(-2px); }
-        .card-muted { opacity: 0.24; filter: grayscale(0.6); transform: scale(0.98); }
-        .list-empty { grid-column: 1 / -1; color: #94a3b8; font-size: 13px; padding: 18px; border: 1px dashed #334155; border-radius: 14px; text-align: center; background: rgba(15, 23, 42, 0.55); }
-
-        /* 🌳 INNOVATIVE TABS SYSTEM */
-        .tabs-container { display: flex; gap: 15px; margin-bottom: 30px; }
-        .tab-trigger { background: rgba(15, 23, 42, 0.8); border: 1px solid #334155; color: #94a3b8; padding: 14px 28px; border-radius: 10px; cursor: pointer; font-weight: bold; transition: 0.4s; }
-        .tab-trigger.active { background: #0ea5e9; color: #fff; box-shadow: 0 0 25px rgba(14, 165, 233, 0.5); border-color: #38bdf8; }
-
-        /* 👁️ DISPLAY FIXES FOR DIRECT PAGE JUMP BUG */
-        .content-node { display: none; }
-        .content-node.active { display: block !important; animation: slideUp 0.5s ease-out; }
-
-        /* 📦 DYNAMIC CARDS GRID */
-        .grid-layout { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 25px; }
-        .node-card { background: rgba(15, 23, 42, 0.7); border: 1px solid #1e293b; border-radius: 18px; padding: 25px; position: relative; transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); backdrop-filter: blur(12px); box-shadow: 0 10px 20px rgba(0,0,0,0.3); }
-        .node-card:hover { transform: scale(1.03) rotateX(5deg); border-color: #38bdf8; box-shadow: 0 15px 40px rgba(56, 189, 248, 0.2); }
-
-        .gauge-track { background: #1e293b; width: 100%; height: 10px; border-radius: 5px; margin: 20px 0 8px 0; overflow: hidden; }
-        .gauge-fill { height: 100%; border-radius: 5px; width: 0%; transition: width 1.5s cubic-bezier(0.1, 0, 0, 1); }
-
-        .status-badge { position: absolute; top: 20px; right: 20px; padding: 5px 12px; border-radius: 6px; font-size: 11px; font-weight: 800; text-transform: uppercase; }
-        .bg-safe { background: #064e3b; color: #34d399; }
-        .bg-alert { background: #7f1d1d; color: #f87171; animation: pulseGlow 1.5s infinite; }
-
-        @keyframes pulseGlow { 0% { box-shadow: 0 0 5px #ef4444; } 100% { box-shadow: 0 0 20px #ef4444; } }
-        @keyframes slideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
-        .info-panel { background: rgba(15, 23, 42, 0.6); border: 1px solid #334155; padding: 18px; border-radius: 12px; font-size: 12px; color: #94a3b8; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Memory Forensic Engine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/main.css">
 </head>
 <body>
+  <div class="dashboard-layout">
 
-    <canvas id="matrixBackground"></canvas>
+    <!-- ============================================================
+         SIDEBAR
+         ============================================================ -->
+    <aside class="sidebar">
 
-    <div class="sidebar-3d">
-        <div class="sidebar-header">
-            <h2 style="color: #fff; margin: 0; font-size: 20px; letter-spacing: 2px;">⚡ THREAT INTEL</h2>
-            <p style="font-size: 10px; color: #64748b; margin-top: 5px;">VERIFIED FORENSIC NODE #09</p>
+      <!-- Sidebar Header -->
+      <div>
+        <div class="flex items-center gap-3 mb-2">
+          <i data-lucide="shield-alert" class="text-accent"></i>
+          <h3>Threat Overview</h3>
+        </div>
+        <p class="text-xs text-muted">Evidence distribution</p>
+      </div>
+
+      <!-- Pie Chart Card -->
+      <div class="chart-wrap">
+        <div class="flex justify-center mb-4">
+          <canvas id="forensicPieChart" width="180" height="180"></canvas>
+        </div>
+        <div class="flex flex-col gap-1">
+          <div class="legend-item">
+            <span class="legend-dot legend-dot-safe"></span>
+            <span>Benign</span>
+            <span class="legend-pct" id="pct-clean">0%</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot legend-dot-warn"></span>
+            <span>Suspicious</span>
+            <span class="legend-pct" id="pct-suspicious">0%</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot legend-dot-danger"></span>
+            <span>Malicious</span>
+            <span class="legend-pct" id="pct-malicious">0%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="card card-compact">
+        <h4 class="mb-4">Quick Actions</h4>
+        <div class="flex flex-col gap-3">
+          {% if analysis_id %}
+          <a href="/report/{{ analysis_id }}" class="btn btn-secondary w-full" id="btnViewReport">
+            <i data-lucide="file-text"></i>
+            View Report
+          </a>
+          <a href="/export/{{ analysis_id }}" class="btn btn-primary w-full" id="btnExportPdf">
+            <i data-lucide="download"></i>
+            Export PDF
+          </a>
+          {% else %}
+          <span class="btn btn-secondary btn-disabled w-full" id="btnViewReport">
+            <i data-lucide="file-text"></i>
+            View Report
+          </span>
+          <span class="btn btn-primary btn-disabled w-full" id="btnExportPdf">
+            <i data-lucide="download"></i>
+            Export PDF
+          </span>
+          {% endif %}
+          <a href="/" class="btn btn-ghost w-full mt-3" id="btnUploadNew">
+            <i data-lucide="upload"></i>
+            Upload New
+          </a>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- ============================================================
+         MAIN PANEL
+         ============================================================ -->
+    <main class="main-panel">
+
+      <!-- Header Row -->
+      <div class="card flex justify-between items-center mb-6">
+        <div>
+          <div class="flex items-center gap-3">
+            <i data-lucide="scan" class="text-accent"></i>
+            <h1>Forensic Analysis</h1>
+          </div>
+          <p class="text-sm text-secondary mt-2">Interactive forensic workspace with selectable findings and live evidence inspection.</p>
+        </div>
+        <a href="/" class="btn btn-secondary" id="btnUploadNewTop">
+          <i data-lucide="plus"></i>
+          Upload New File
+        </a>
+      </div>
+
+      <!-- Hero Panel -->
+      <div class="card mb-6">
+        <h2 class="mb-4">
+          {% if analysis and analysis.original_filename %}
+            {{ analysis.original_filename }}
+          {% elif analysis and analysis.filename %}
+            {{ analysis.filename }}
+          {% else %}
+            No analysis loaded
+          {% endif %}
+        </h2>
+        <div class="flex flex-wrap gap-3">
+          {% if analysis %}
+          <span class="chip {% if analysis.malware_present %}chip-danger{% else %}chip-safe{% endif %}">
+            <i data-lucide="{% if analysis.malware_present %}alert-triangle{% else %}check-circle{% endif %}" class="lucide-sm"></i>
+            Malware: {% if analysis.malware_present %}Present{% else %}None{% endif %}
+          </span>
+          <span class="chip {% if analysis.threat_active %}chip-warn{% else %}chip-safe{% endif %}">
+            <i data-lucide="{% if analysis.threat_active %}zap{% else %}shield-check{% endif %}" class="lucide-sm"></i>
+            Threat: {% if analysis.threat_active %}Active{% else %}Inactive{% endif %}
+          </span>
+          <span class="chip">
+            <i data-lucide="gauge" class="lucide-sm"></i>
+            Severity: {{ analysis.severity|default('N/A') }}
+          </span>
+          <span class="chip">
+            <i data-lucide="activity" class="lucide-sm"></i>
+            Risk Score: {{ analysis.risk_score|default('N/A') }}
+          </span>
+          <span class="chip">
+            <i data-lucide="file-type" class="lucide-sm"></i>
+            Type: {{ analysis.file_type.detected if analysis.file_type else 'Unknown' }}
+          </span>
+          {% else %}
+          <span class="chip">No data available</span>
+          {% endif %}
+        </div>
+      </div>
+
+      <!-- Action Bar -->
+      <div class="flex gap-4 items-center mb-6">
+        <input type="text" id="searchBox" class="input flex-1" placeholder="Search processes, IOCs, or timeline...">
+        <div class="filter-group" id="filterGroup">
+          <button class="filter-pill active" data-filter="all">All</button>
+          <button class="filter-pill" data-filter="clean">Clean</button>
+          <button class="filter-pill" data-filter="suspicious">Suspicious</button>
+          <button class="filter-pill" data-filter="ioc">IOC</button>
+          <button class="filter-pill" data-filter="timeline">Timeline</button>
+        </div>
+      </div>
+
+      <!-- Inspector Shell -->
+      <div class="inspector-shell">
+
+        <!-- LEFT: Tabs + Content -->
+        <div>
+          <!-- Tab Group -->
+          <div class="tab-group">
+            <button class="tab-btn active" id="tabProcesses" onclick="switchNode(event, 'nodeSnapshot')">
+              <i data-lucide="cpu"></i>
+              Processes
+            </button>
+            <button class="tab-btn" id="tabIoc" onclick="switchNode(event, 'nodeIoc')">
+              <i data-lucide="target"></i>
+              IOC Indicators
+            </button>
+            <button class="tab-btn" id="tabTimeline" onclick="switchNode(event, 'nodeTimeline')">
+              <i data-lucide="clock"></i>
+              Timeline
+            </button>
+          </div>
+
+          <!-- Tab Content: Processes -->
+          <div class="tab-content active" id="nodeSnapshot">
+            <div class="grid grid-auto gap-4" id="processGrid">
+              {% if processes %}
+                {% for proc in processes %}
+                <div class="card card-interactive selectable-card"
+                     tabindex="0"
+                     data-name="{{ proc.name }}"
+                     data-pid="{{ proc.pid }}"
+                     data-ppid="{{ proc.ppid }}"
+                     data-status="{{ proc.status }}"
+                     data-evidence="{{ proc.evidence|join('|||') }}"
+                     data-type="process"
+                     onclick="selectCard(this)">
+                  <div class="flex justify-between items-start mb-3">
+                    <h3>{{ proc.name }}</h3>
+                    <span class="badge {% if proc.status == 'Suspicious' %}badge-warn{% else %}badge-safe{% endif %}">
+                      {{ proc.status }}
+                    </span>
+                  </div>
+                  <p class="font-mono text-muted text-xs mb-3">PID {{ proc.pid }} / PPID {{ proc.ppid }}</p>
+                  <div class="flex items-center gap-2 mb-1">
+                    <span class="text-xs text-secondary">Risk Level:</span>
+                    <span class="text-xs font-semibold {% if proc.status == 'Suspicious' %}text-warn{% else %}text-safe{% endif %}">
+                      {% if proc.status == 'Suspicious' %}Elevated{% else %}Low{% endif %}
+                    </span>
+                  </div>
+                  <div class="gauge-track">
+                    <div class="gauge-fill {% if proc.status == 'Suspicious' %}gauge-fill-warn{% else %}gauge-fill-safe{% endif %}"
+                         style="width: {% if proc.status == 'Suspicious' %}55%{% else %}6%{% endif %}"></div>
+                  </div>
+                  {% if proc.evidence %}
+                  <div class="mt-3" style="background: var(--bg-input); border-radius: var(--radius-sm); padding: var(--sp-2) var(--sp-3);">
+                    <p class="text-xs text-secondary">{{ proc.evidence[0]|truncate(80) }}</p>
+                  </div>
+                  {% endif %}
+                </div>
+                {% endfor %}
+              {% else %}
+                <div class="empty-state">No processes found in this analysis.</div>
+              {% endif %}
+            </div>
+          </div>
+
+          <!-- Tab Content: IOC Indicators -->
+          <div class="tab-content" id="nodeIoc">
+            <div class="grid grid-auto gap-4" id="iocGrid">
+              {% if iocs %}
+                {% for ioc in iocs %}
+                <div class="card card-interactive selectable-card"
+                     tabindex="0"
+                     data-name="{{ ioc.value }}"
+                     data-type="ioc"
+                     data-ioc-type="{{ ioc.type }}"
+                     data-description="{{ ioc.description }}"
+                     data-status="IOC"
+                     data-evidence="{{ ioc.description }}"
+                     onclick="selectCard(this)"
+                     style="border-top: 3px solid var(--accent);">
+                  <h4 class="uppercase text-accent tracking-wide mb-3">{{ ioc.type }}</h4>
+                  <div style="background: var(--bg-input); border-radius: var(--radius-sm); padding: var(--sp-2) var(--sp-3);" class="mb-3">
+                    <p class="font-mono text-sm break-all">{{ ioc.value }}</p>
+                  </div>
+                  <p class="text-secondary text-sm">{{ ioc.description }}</p>
+                </div>
+                {% endfor %}
+              {% else %}
+                <div class="empty-state">No IOC indicators detected.</div>
+              {% endif %}
+            </div>
+          </div>
+
+          <!-- Tab Content: Timeline -->
+          <div class="tab-content" id="nodeTimeline">
+            <div class="grid grid-auto gap-4" id="timelineGrid">
+              {% if timeline %}
+                {% for event in timeline %}
+                <div class="card card-interactive selectable-card"
+                     tabindex="0"
+                     data-name="{{ event.event_type }}"
+                     data-type="timeline"
+                     data-timestamp="{{ event.timestamp }}"
+                     data-description="{{ event.description }}"
+                     data-status="Timeline"
+                     data-evidence="{{ event.evidence|join('|||') if event.evidence is iterable and event.evidence is not string else event.evidence }}"
+                     onclick="selectCard(this)"
+                     style="border-left: 3px solid var(--warn);">
+                  <div class="flex items-center gap-2 text-muted text-xs mb-2">
+                    <i data-lucide="clock" class="lucide-sm"></i>
+                    <span class="font-mono">{{ event.timestamp }}</span>
+                  </div>
+                  <h4 class="mb-2">{{ event.event_type }}</h4>
+                  <p class="text-secondary text-sm mb-3">{{ event.description }}</p>
+                  {% if event.evidence %}
+                  <span class="chip chip-warn">
+                    <i data-lucide="alert-circle" class="lucide-sm"></i>
+                    {% if event.evidence is iterable and event.evidence is not string %}
+                      {{ event.evidence[0]|truncate(50) }}
+                    {% else %}
+                      {{ event.evidence|truncate(50) }}
+                    {% endif %}
+                  </span>
+                  {% endif %}
+                </div>
+                {% endfor %}
+              {% else %}
+                <div class="empty-state">No timeline events recorded.</div>
+              {% endif %}
+            </div>
+          </div>
+
         </div>
 
-        <div class="chart-window">
-            <h4 class="chart-title">Evidence Balance Spectrum</h4>
-            <div style="position: relative; width: 200px; height: 200px; margin: 0 auto;">
-                <canvas id="forensicPieChart"></canvas>
+        <!-- RIGHT: Evidence Inspector -->
+        <div class="inspector-panel card card-compact sticky">
+          <div class="flex items-center gap-3 mb-4">
+            <i data-lucide="search" class="text-accent"></i>
+            <h3>Evidence Inspector</h3>
+          </div>
+
+          <p id="inspectorEmpty" class="text-sm text-muted">Select an item to inspect its evidence.</p>
+
+          <div id="inspectorBody" class="hidden">
+            <div class="flex flex-col gap-3">
+              <div>
+                <span class="text-xs text-muted uppercase tracking-wide">Name</span>
+                <p id="inspectorName" class="font-semibold mt-1"></p>
+              </div>
+              <hr class="divider">
+              <div>
+                <span class="text-xs text-muted uppercase tracking-wide">Type</span>
+                <p id="inspectorType" class="text-sm text-secondary mt-1"></p>
+              </div>
+              <hr class="divider">
+              <div>
+                <span class="text-xs text-muted uppercase tracking-wide" id="inspectorMetaLabel">PID</span>
+                <p id="inspectorPid" class="font-mono text-sm mt-1"></p>
+              </div>
+              <hr class="divider">
+              <div>
+                <span class="text-xs text-muted uppercase tracking-wide">Status</span>
+                <p id="inspectorStatus" class="font-semibold mt-1"></p>
+              </div>
+              <hr class="divider">
+              <div>
+                <span class="text-xs text-muted uppercase tracking-wide">Tags</span>
+                <div id="inspectorTags" class="flex flex-wrap gap-2 mt-2"></div>
+              </div>
+              <hr class="divider">
+              <div>
+                <span class="text-xs text-muted uppercase tracking-wide">Evidence</span>
+                <div id="inspectorEvidence" class="inspector-evidence"></div>
+              </div>
             </div>
-            <div class="custom-legend">
-                <div class="legend-node">
-                    <span class="legend-circle clr-clean"></span><span>Benign Evidence</span>
-                    <span class="percentage-chip" id="pct-clean">0%</span>
-                </div>
-                <div class="legend-node">
-                    <span class="legend-circle clr-suspicious"></span><span>Suspicious Activity</span>
-                    <span class="percentage-chip" id="pct-suspicious">0%</span>
-                </div>
-                <div class="legend-node">
-                    <span class="legend-circle clr-malicious"></span><span>Malicious Evidence</span>
-                    <span class="percentage-chip" id="pct-malicious">0%</span>
-                </div>
-            </div>
+          </div>
         </div>
 
-        <div class="info-panel">
-            <h4 style="margin: 0 0 10px 0; color: #fff;"><i class="fas fa-network-wired"></i> Subsystem Channels</h4>
-            <p>🟢 Global Intel Node: <span style="color:#10b981;">SYNCED</span></p>
-            <p>🟢 Behavioral Engine: <span style="color:#10b981;">ACTIVE</span></p>
-            <p>🟢 Structural Scan: <span style="color:#10b981;">STABLE</span></p>
-        </div>
-    </div>
+      </div>
+      <!-- /inspector-shell -->
 
-    <div class="main-panel">
-        <header>
-            <div>
-                <h1 style="margin: 0; font-size: 28px; color: #fff; text-shadow: 0 0 15px #0ea5e9;">🔬 ADVANCED ANALYTICS NODE</h1>
-                <p style="margin: 5px 0 0 0; color: #64748b; font-size: 12px;">Multi-Engine Layered Forensic Framework</p>
-            </div>
-            <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end;">
-                {% if analysis_id %}
-                <a href="/report/{{ analysis_id }}" class="cyber-btn"><i class="fas fa-file-alt"></i> View Report</a>
-                <a href="/export/{{ analysis_id }}" class="cyber-btn"><i class="fas fa-file-download"></i> Export Artifacts</a>
-                {% else %}
-                <span class="cyber-btn" style="opacity:0.5; cursor:not-allowed;"><i class="fas fa-file-alt"></i> View Report</span>
-                <span class="cyber-btn" style="opacity:0.5; cursor:not-allowed;"><i class="fas fa-file-download"></i> Export Artifacts</span>
-                {% endif %}
-            </div>
-        </header>
+    </main>
 
-        <div class="hero-panel">
-            <div class="hero-top">
-                <div>
-                    <h2 class="hero-title">{{ analysis.original_filename if analysis and analysis.original_filename else analysis.filename if analysis else 'No analysis loaded' }}</h2>
-                    <p class="hero-subtitle">Interactive forensic workspace with selectable findings and live evidence inspection.</p>
-                </div>
-                <div class="meta-row">
-                    <span class="meta-chip {% if analysis and analysis.malware_present %}bad{% else %}good{% endif %}"><strong>Malware</strong> {{ 'Present' if analysis and analysis.malware_present else 'No evidence found.' }}</span>
-                    <span class="meta-chip {% if analysis and analysis.threat_active %}warn{% else %}good{% endif %}"><strong>Threat</strong> {{ 'Active' if analysis and analysis.threat_active else 'No evidence found.' }}</span>
-                    <span class="meta-chip"><strong>Severity</strong> {{ analysis.severity if analysis else 'No evidence found.' }}</span>
-                    <span class="meta-chip"><strong>Risk</strong> {{ analysis.risk_score if analysis else 0 }}</span>
-                    <span class="meta-chip"><strong>Type</strong> {{ analysis.file_type.detected if analysis else 'Unknown' }}</span>
-                </div>
-            </div>
-        </div>
+  </div>
+  <!-- /dashboard-layout -->
 
-        <div class="action-bar">
-            <input id="searchBox" class="search-box" type="text" placeholder="Search processes, IOCs, or timeline evidence...">
-            <div class="filter-group" id="filterGroup">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="clean">Clean</button>
-                <button class="filter-btn" data-filter="suspicious">Suspicious</button>
-                <button class="filter-btn" data-filter="ioc">IOC</button>
-                <button class="filter-btn" data-filter="timeline">Timeline</button>
-            </div>
-        </div>
+  <!-- ============================================================
+       SCRIPTS
+       ============================================================ -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script>
+    (function() {
+      'use strict';
 
-        <div class="inspector-shell">
-            <div>
-                <div class="tabs-container">
-                    <button class="tab-trigger active" onclick="switchNode(event, 'nodeSnapshot')">🌳 Memory Snapshot</button>
-                    <button class="tab-trigger" onclick="switchNode(event, 'nodeIoc')">🎯 IOC Artifacts</button>
-                    <button class="tab-trigger" onclick="switchNode(event, 'nodeTimeline')">🛡️ Attack Timeline</button>
-                </div>
+      /* -----------------------------------------------------------
+         DATA
+         ----------------------------------------------------------- */
+      var cleanCount      = {{ clean_count|default(0) }};
+      var suspiciousCount = {{ suspicious_count|default(0) }};
+      var maliciousCount  = {{ malicious_count|default(0) }};
 
-                <div id="nodeSnapshot" class="content-node active">
-                    <div class="grid-layout" id="processGrid">
-                        {% for proc in processes %}
-                        <div class="node-card process-node selectable-card" tabindex="0"
-                             data-name="{{ proc['name'] }}"
-                             data-pid="{{ proc['pid'] }}"
-                             data-ppid="{{ proc['ppid'] }}"
-                             data-status="{{ proc.get('status', 'Unknown') }}"
-                             data-evidence="{{ (proc.get('evidence') or ['No evidence found.']) | join(' || ') }}"
-                             onclick="selectCard(this)"
-                             onkeydown="if(event.key==='Enter' || event.key===' ') { event.preventDefault(); selectCard(this); }">
-                            <span class="status-badge {% if proc.get('status') == 'Suspicious' %}bg-alert{% else %}bg-safe{% endif %} node-status">{{ proc.get('status', 'Unknown') }}</span>
-                            <h3 style="color: #fff; margin: 0 0 8px 0; font-size: 18px;">📄 {{ proc['name'] }}</h3>
-                            <p style="font-size: 11px; color: #64748b; margin: 0; font-family: 'Courier New', Courier, monospace;">
-                                PID: {{ proc['pid'] }} | PPID: {{ proc['ppid'] }}
-                            </p>
-                            <div style="margin-top: 20px; font-size: 12px; display:flex; justify-content:space-between;">
-                                <span>Threat Density:</span>
-                                <strong class="severity-label" style="color: {% if proc.get('status') == 'Suspicious' %}#fbbf24{% else %}#34d399{% endif %};">{% if proc.get('status') == 'Suspicious' %}ELEVATED RISK{% else %}SECURE BASELINE{% endif %}</strong>
-                            </div>
-                            <div class="gauge-track">
-                                <div class="gauge-fill severity-bar" style="width: {% if proc.get('status') == 'Suspicious' %}55%{% else %}6%{% endif %}; background: {% if proc.get('status') == 'Suspicious' %}#f59e0b{% else %}#10b981{% endif %};"></div>
-                            </div>
-                            <div style="font-size: 10px; color: #8b5cf6; margin-top: 10px; background: rgba(0,0,0,0.3); padding: 5px; border-radius: 4px;">
-                                {% if proc.get('evidence') %}
-                                    {% for item in proc.get('evidence', []) %}{{ item }}{% if not loop.last %}<br>{% endif %}{% endfor %}
-                                {% else %}
-                                    No evidence found.
-                                {% endif %}
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div>
+      /* -----------------------------------------------------------
+         PIE CHART
+         ----------------------------------------------------------- */
+      var total = cleanCount + suspiciousCount + maliciousCount;
+      var ctx   = document.getElementById('forensicPieChart').getContext('2d');
 
-                <div id="nodeIoc" class="content-node">
-                    <div class="grid-layout" id="iocGrid">
-                        {% for ioc in iocs %}
-                        <div class="node-card selectable-card" tabindex="0"
-                             data-name="{{ ioc['type'] }}"
-                             data-category="ioc"
-                             data-evidence="{{ ioc['description'] }}"
-                             onclick="selectCard(this)"
-                             onkeydown="if(event.key==='Enter' || event.key===' ') { event.preventDefault(); selectCard(this); }"
-                             style="border-top: 4px solid #3b82f6;">
-                            <h4 style="color: #38bdf8; margin: 0; text-transform: uppercase;">Node: {{ ioc['type'] }}</h4>
-                            <p style="color: #fff; font-size: 14px; word-break: break-all; font-family: monospace; background: #070a13; padding: 10px; border-radius: 8px; margin: 15px 0;">
-                                {{ ioc['value'] }}
-                            </p>
-                            <p style="color: #94a3b8; font-size: 12px; margin: 0;">{{ ioc['description'] }}</p>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div>
-
-                <div id="nodeTimeline" class="content-node">
-                    <div class="grid-layout" id="timelineGrid">
-                        {% for event in timeline %}
-                        <div class="node-card selectable-card" tabindex="0"
-                             data-name="{{ event['event_type'] }}"
-                             data-category="timeline"
-                             data-evidence="{{ event.get('evidence', 'No evidence found.') }}"
-                             onclick="selectCard(this)"
-                             onkeydown="if(event.key==='Enter' || event.key===' ') { event.preventDefault(); selectCard(this); }"
-                             style="border-left: 5px solid #fbbf24;">
-                            <span style="color: #64748b; font-size: 11px;"><i class="far fa-clock"></i> {{ event['timestamp'] }}</span>
-                            <h4 style="color: #fbbf24; margin: 10px 0;">Breach: {{ event['event_type'] }}</h4>
-                            <p style="color: #e2e8f0; font-size: 13px; margin-bottom: 15px;">{{ event['description'] }}</p>
-                            <div style="background: rgba(239, 68, 68, 0.1); display: inline-block; padding: 4px 10px; border-radius: 5px; font-size: 11px; color: #f87171; font-weight: bold; border: 1px solid #7f1d1d;">
-                                {{ event.get('evidence', 'No evidence found.') }}
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-
-            <aside class="inspector-panel" id="inspectorPanel">
-                <h3>Live Inspector</h3>
-                <p class="inspector-empty" id="inspectorEmpty">Select a process, IOC, or timeline item to inspect its collected evidence.</p>
-                <div id="inspectorBody" style="display:none;">
-                    <p class="inspector-line"><strong id="inspectorName"></strong></p>
-                    <p class="inspector-line">Type: <strong id="inspectorType"></strong></p>
-                    <p class="inspector-line">PID: <strong id="inspectorPid"></strong></p>
-                    <p class="inspector-line">Status: <strong id="inspectorStatus"></strong></p>
-                    <div class="inspector-tags" id="inspectorTags"></div>
-                    <div class="inspector-evidence" id="inspectorEvidence"></div>
-                </div>
-            </aside>
-        </div>
-    </div>
-
-    <script>
-        // 🔮 1. MATRIX BACKGROUND ANIMATION
-        const canvas = document.getElementById('matrixBackground');
-        const ctx = canvas.getContext('2d');
-        canvas.width = window.innerWidth; canvas.height = window.innerHeight;
-        const alphabet = "01XØ§☣️⚡01"; const fontSize = 14;
-        const columns = canvas.width / fontSize;
-        const drops = Array(Math.floor(columns)).fill(1);
-
-        function drawMatrix() {
-            ctx.fillStyle = "rgba(0, 0, 0, 0.05)"; ctx.fillRect(0, 0, canvas.width, canvas.height);
-            ctx.fillStyle = "#0ea5e9"; ctx.font = fontSize + "px monospace";
-            drops.forEach((y, i) => {
-                const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
-                ctx.fillText(text, i * fontSize, y * fontSize);
-                if (y * fontSize > canvas.height && Math.random() > 0.975) drops[i] = 0;
-                drops[i]++;
-            });
+      new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: ['Benign', 'Suspicious', 'Malicious'],
+          datasets: [{
+            data: [cleanCount, suspiciousCount, maliciousCount],
+            backgroundColor: ['#34d399', '#fbbf24', '#f87171'],
+            borderColor: '#0c1120',
+            borderWidth: 2,
+            hoverOffset: 6
+          }]
+        },
+        options: {
+          responsive: false,
+          maintainAspectRatio: true,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: '#111827',
+              titleColor: '#f1f5f9',
+              bodyColor: '#94a3b8',
+              borderColor: '#1e293b',
+              borderWidth: 1,
+              cornerRadius: 8,
+              padding: 10
+            }
+          }
         }
-        setInterval(drawMatrix, 50);
+      });
 
-        // 📊 2. PIE CHART ENGINE
-        const cleanCount = parseInt("{{ clean_count }}") || 0;
-        const suspCount = parseInt("{{ suspicious_count }}") || 0;
-        const malCount = parseInt("{{ malicious_count }}") || 0;
-        const total = cleanCount + suspCount + malCount;
+      /* -----------------------------------------------------------
+         LEGEND PERCENTAGES
+         ----------------------------------------------------------- */
+      function pct(val) {
+        if (total === 0) return '0%';
+        return (val / total * 100).toFixed(1) + '%';
+      }
+      document.getElementById('pct-clean').textContent      = pct(cleanCount);
+      document.getElementById('pct-suspicious').textContent  = pct(suspiciousCount);
+      document.getElementById('pct-malicious').textContent   = pct(maliciousCount);
 
-        if(total > 0) {
-            document.getElementById('pct-clean').textContent = ((cleanCount/total)*100).toFixed(1) + '%';
-            document.getElementById('pct-suspicious').textContent = ((suspCount/total)*100).toFixed(1) + '%';
-            document.getElementById('pct-malicious').textContent = ((malCount/total)*100).toFixed(1) + '%';
+      /* -----------------------------------------------------------
+         CARD SELECTION
+         ----------------------------------------------------------- */
+      var currentCard = null;
+
+      window.selectCard = function(card) {
+        if (currentCard) {
+          currentCard.classList.remove('is-selected');
+        }
+        card.classList.add('is-selected');
+        currentCard = card;
+        updateInspector(card);
+      };
+
+      /* -----------------------------------------------------------
+         INSPECTOR UPDATE
+         ----------------------------------------------------------- */
+      function updateInspector(card) {
+        var emptyEl   = document.getElementById('inspectorEmpty');
+        var bodyEl    = document.getElementById('inspectorBody');
+        var nameEl    = document.getElementById('inspectorName');
+        var typeEl    = document.getElementById('inspectorType');
+        var pidEl     = document.getElementById('inspectorPid');
+        var statusEl  = document.getElementById('inspectorStatus');
+        var tagsEl    = document.getElementById('inspectorTags');
+        var evidEl    = document.getElementById('inspectorEvidence');
+        var metaLabelEl = document.getElementById('inspectorMetaLabel');
+
+        emptyEl.classList.add('hidden');
+        bodyEl.classList.remove('hidden');
+
+        var cardType  = card.getAttribute('data-type') || 'unknown';
+        var name      = card.getAttribute('data-name') || '-';
+        var status    = card.getAttribute('data-status') || '-';
+        var evidStr   = card.getAttribute('data-evidence') || '';
+
+        nameEl.textContent = name;
+        typeEl.textContent = cardType.charAt(0).toUpperCase() + cardType.slice(1);
+
+        /* PID/Meta line */
+        if (cardType === 'process') {
+          metaLabelEl.textContent = 'PID / PPID';
+          pidEl.textContent = 'PID ' + (card.getAttribute('data-pid') || '-') +
+                              ' / PPID ' + (card.getAttribute('data-ppid') || '-');
+          pidEl.parentElement.classList.remove('hidden');
+        } else if (cardType === 'ioc') {
+          metaLabelEl.textContent = 'IOC Type';
+          pidEl.textContent = card.getAttribute('data-ioc-type') || '-';
+          pidEl.parentElement.classList.remove('hidden');
+        } else if (cardType === 'timeline') {
+          metaLabelEl.textContent = 'Timestamp';
+          pidEl.textContent = card.getAttribute('data-timestamp') || '-';
+          pidEl.parentElement.classList.remove('hidden');
+        } else {
+          pidEl.parentElement.classList.add('hidden');
         }
 
-        const pieCtx = document.getElementById('forensicPieChart').getContext('2d');
-        new Chart(pieCtx, {
-            type: 'pie',
-            data: {
-                datasets: [{
-                    data: [cleanCount, suspCount, malCount],
-                    backgroundColor: ['rgba(16, 185, 129, 0.9)', 'rgba(251, 191, 36, 0.9)', 'rgba(239, 68, 68, 0.9)'],
-                    borderColor: '#020617', borderWidth: 3, hoverOffset: 15
-                }]
-            },
-            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+        /* Status with color */
+        statusEl.textContent = status;
+        statusEl.className = 'font-semibold mt-1';
+        if (status === 'Suspicious') {
+          statusEl.classList.add('text-warn');
+        } else if (status === 'Clean') {
+          statusEl.classList.add('text-safe');
+        } else if (status === 'IOC') {
+          statusEl.classList.add('text-accent');
+        } else {
+          statusEl.classList.add('text-secondary');
+        }
+
+        /* Tags */
+        tagsEl.innerHTML = '';
+        var tagLabels = [cardType, status];
+        if (cardType === 'ioc') {
+          tagLabels.push(card.getAttribute('data-ioc-type') || '');
+        }
+        tagLabels.forEach(function(label) {
+          if (!label) return;
+          var tag = document.createElement('span');
+          tag.className = 'inspector-tag';
+          tag.textContent = label;
+          tagsEl.appendChild(tag);
         });
 
-        const searchBox = document.getElementById('searchBox');
-        const filterGroup = document.getElementById('filterGroup');
-        const inspectorEmpty = document.getElementById('inspectorEmpty');
-        const inspectorBody = document.getElementById('inspectorBody');
-        const inspectorName = document.getElementById('inspectorName');
-        const inspectorType = document.getElementById('inspectorType');
-        const inspectorPid = document.getElementById('inspectorPid');
-        const inspectorStatus = document.getElementById('inspectorStatus');
-        const inspectorEvidence = document.getElementById('inspectorEvidence');
-        const inspectorTags = document.getElementById('inspectorTags');
-        const cards = document.querySelectorAll('.selectable-card');
-        let activeFilter = 'all';
-
-        function normalize(value) {
-            return (value || '').toString().toLowerCase().trim();
+        /* Evidence */
+        evidEl.innerHTML = '';
+        if (evidStr) {
+          var items = evidStr.split('|||');
+          items.forEach(function(item) {
+            var line = document.createElement('div');
+            line.textContent = item.trim();
+            line.style.paddingBottom = '4px';
+            line.style.marginBottom  = '4px';
+            line.style.borderBottom  = '1px solid rgba(30,41,59,0.5)';
+            evidEl.appendChild(line);
+          });
+        } else {
+          evidEl.textContent = 'No evidence data available.';
         }
+      }
 
-        function updateInspector(card) {
-            if (!card) {
-                inspectorBody.style.display = 'none';
-                inspectorEmpty.style.display = 'block';
-                return;
-            }
+      /* -----------------------------------------------------------
+         TAB SWITCHING
+         ----------------------------------------------------------- */
+      window.switchNode = function(evt, nodeId) {
+        /* Hide all tab contents */
+        var contents = document.querySelectorAll('.tab-content');
+        contents.forEach(function(el) { el.classList.remove('active'); });
 
-            inspectorEmpty.style.display = 'none';
-            inspectorBody.style.display = 'block';
-            inspectorName.textContent = card.getAttribute('data-name') || 'No evidence found.';
-            inspectorType.textContent = card.getAttribute('data-category') || 'process';
-            inspectorPid.textContent = card.getAttribute('data-pid') || 'n/a';
-            inspectorStatus.textContent = card.getAttribute('data-status') || 'n/a';
-            inspectorEvidence.textContent = card.getAttribute('data-evidence') || 'No evidence found.';
+        /* Deactivate all tab buttons */
+        var btns = document.querySelectorAll('.tab-btn');
+        btns.forEach(function(el) { el.classList.remove('active'); });
 
-            const status = normalize(card.getAttribute('data-status'));
-            const category = normalize(card.getAttribute('data-category')) || (card.classList.contains('process-node') ? 'process' : 'artifact');
-            const tags = [
-                category,
-                status || 'unknown',
-                card.classList.contains('process-node') ? 'memory' : 'artifact',
-            ];
-            inspectorTags.innerHTML = tags.map(tag => `<span class="inspector-tag">${tag}</span>`).join('');
-        }
+        /* Activate target */
+        document.getElementById(nodeId).classList.add('active');
+        evt.currentTarget.classList.add('active');
 
-        function selectCard(card) {
-            document.querySelectorAll('.selectable-card').forEach(item => item.classList.remove('is-selected'));
-            card.classList.add('is-selected');
-            updateInspector(card);
-        }
+        /* Re-apply filters */
+        applyFilters();
 
-        function applyFilters() {
-            const query = normalize(searchBox.value);
-            const filter = activeFilter;
-            const currentNode = document.querySelector('.content-node.active');
-            const visibleCards = currentNode ? currentNode.querySelectorAll('.selectable-card') : [];
+        /* Auto-select first visible card of the newly active tab */
+        autoSelectFirst();
+      };
 
-            let firstVisible = null;
-            visibleCards.forEach(card => {
-                const name = normalize(card.getAttribute('data-name'));
-                const evidence = normalize(card.getAttribute('data-evidence'));
-                const status = normalize(card.getAttribute('data-status'));
-                const category = normalize(card.getAttribute('data-category'));
+      /* -----------------------------------------------------------
+         SEARCH & FILTER
+         ----------------------------------------------------------- */
+      var searchBox   = document.getElementById('searchBox');
+      var filterGroup = document.getElementById('filterGroup');
 
-                const matchesSearch = !query || [name, evidence, status, category].some(value => value.includes(query));
-                const matchesFilter = filter === 'all' || status === filter || category === filter;
-                const visible = matchesSearch && matchesFilter;
+      searchBox.addEventListener('input', function() {
+        applyFilters();
+      });
 
-                card.style.display = visible ? '' : 'none';
-                card.classList.toggle('card-muted', !visible);
-                if (visible && !firstVisible) {
-                    firstVisible = card;
-                }
-            });
+      filterGroup.addEventListener('click', function(e) {
+        var pill = e.target.closest('.filter-pill');
+        if (!pill) return;
 
-            const emptyState = currentNode ? currentNode.querySelector('.list-empty') : null;
-            if (emptyState) {
-                emptyState.style.display = visibleCards.length && firstVisible ? 'none' : 'block';
-            }
-
-            const selectedVisible = currentNode ? Array.from(visibleCards).find(card => card.classList.contains('is-selected') && card.style.display !== 'none') : null;
-            if (selectedVisible) {
-                updateInspector(selectedVisible);
-            } else if (firstVisible) {
-                document.querySelectorAll('.selectable-card').forEach(card => card.classList.remove('is-selected'));
-                firstVisible.classList.add('is-selected');
-                updateInspector(firstVisible);
-            } else {
-                updateInspector(null);
-            }
-        }
-
-        searchBox.addEventListener('input', applyFilters);
-        filterGroup.addEventListener('click', (event) => {
-            const button = event.target.closest('.filter-btn');
-            if (!button) return;
-            activeFilter = button.getAttribute('data-filter');
-            filterGroup.querySelectorAll('.filter-btn').forEach(item => item.classList.remove('active'));
-            button.classList.add('active');
-            applyFilters();
+        filterGroup.querySelectorAll('.filter-pill').forEach(function(p) {
+          p.classList.remove('active');
         });
+        pill.classList.add('active');
+        applyFilters();
+      });
 
-        document.querySelectorAll('.content-node').forEach(node => {
-            if (!node.querySelector('.list-empty')) {
-                const empty = document.createElement('div');
-                empty.className = 'list-empty';
-                empty.textContent = 'No matching evidence found.';
-                empty.style.display = 'none';
-                node.appendChild(empty);
-            }
+      function applyFilters() {
+        var query  = searchBox.value.toLowerCase().trim();
+        var active = filterGroup.querySelector('.filter-pill.active');
+        var filter = active ? active.getAttribute('data-filter') : 'all';
+
+        /* Find the currently visible tab content */
+        var visibleTab = document.querySelector('.tab-content.active');
+        if (!visibleTab) return;
+
+        var cards = visibleTab.querySelectorAll('.selectable-card');
+        cards.forEach(function(card) {
+          var name      = (card.getAttribute('data-name') || '').toLowerCase();
+          var status    = (card.getAttribute('data-status') || '').toLowerCase();
+          var cardType  = (card.getAttribute('data-type') || '').toLowerCase();
+          var evidence  = (card.getAttribute('data-evidence') || '').toLowerCase();
+          var desc      = (card.getAttribute('data-description') || '').toLowerCase();
+
+          var searchText = name + ' ' + status + ' ' + cardType + ' ' + evidence + ' ' + desc;
+
+          /* Search match */
+          var matchesSearch = !query || searchText.indexOf(query) !== -1;
+
+          /* Filter match */
+          var matchesFilter = true;
+          if (filter === 'clean') {
+            matchesFilter = status === 'clean';
+          } else if (filter === 'suspicious') {
+            matchesFilter = status === 'suspicious';
+          } else if (filter === 'ioc') {
+            matchesFilter = cardType === 'ioc';
+          } else if (filter === 'timeline') {
+            matchesFilter = cardType === 'timeline';
+          }
+
+          if (matchesSearch && matchesFilter) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
         });
+      }
 
-        if (cards.length > 0) {
-            selectCard(cards[0]);
+      /* -----------------------------------------------------------
+         AUTO-SELECT FIRST CARD
+         ----------------------------------------------------------- */
+      function autoSelectFirst() {
+        var visibleTab = document.querySelector('.tab-content.active');
+        if (!visibleTab) return;
+        var first = visibleTab.querySelector('.selectable-card:not(.hidden)');
+        if (first) {
+          selectCard(first);
         }
+      }
 
-        // 🌳 4. TAB SWITCHING LOGIC (RE-ENGINEERED TO PREVENT AUTOPAGE-JUMP)
-        function switchNode(evt, nodeId) {
-            // 1. மறைத்து வைக்கவும்
-            const contents = document.querySelectorAll(".content-node");
-            contents.forEach(c => {
-                c.classList.remove("active");
-                c.style.display = "none"; 
-            });
-            
-            // 2. பட்டன்களை டீ-ஆக்டிவேட் செய்யவும்
-            const triggers = document.querySelectorAll(".tab-trigger");
-            triggers.forEach(t => t.classList.remove("active"));
-            
-            // 3. தேர்ந்தெடுத்ததை மட்டும் காட்டவும்
-            const targetNode = document.getElementById(nodeId);
-            targetNode.classList.add("active");
-            targetNode.style.display = "block";
-            
-            // 4. பட்டனை ஹைலைட் செய்யவும்
-            evt.currentTarget.classList.add("active");
+      /* -----------------------------------------------------------
+         INIT
+         ----------------------------------------------------------- */
+      lucide.createIcons();
+      autoSelectFirst();
 
-            document.querySelectorAll('.selectable-card').forEach(card => card.classList.remove('is-selected'));
-
-            applyFilters();
-        }
-    </script>
+    })();
+  </script>
 </body>
 </html>
